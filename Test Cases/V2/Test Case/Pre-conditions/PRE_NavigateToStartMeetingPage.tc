@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to meeting's Start Meeting page.</description>
+   <name>PRE_NavigateToStartMeetingPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f4d3ff3-10cc-46fe-844c-2dd9eb733f1d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>28323db6-573d-4195-8769-1eb9a7bb09c4</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@class=\'detailscontainer__block item\']/h4[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>b3da64d2-3b35-4dd5-8493-63871ee0e10a</id>
+      <masked>false</masked>
+      <name>meetingRecord_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@class=\'detailscontainer__block item\']/h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]//div[@class=\'item\']//button[.=\'Go to meeting\']'</defaultValue>
+      <description></description>
+      <id>d0a27f11-f9b1-4443-915b-cdc74cdf5d48</id>
+      <masked>false</masked>
+      <name>meetingGoToMeeting_Obj</name>
+   </variable>
+</TestCaseEntity>

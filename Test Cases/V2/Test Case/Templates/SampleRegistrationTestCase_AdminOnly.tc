@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SampleRegistrationTestCase_AdminOnly</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37893203-1aef-4e32-8eef-5204b5af20f8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5ec4fe98-7808-49a5-92a4-a5fef599d669</id>
+      <masked>false</masked>
+      <name>admin_email_prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7786d1b1-2a68-4f9c-9d0b-42135b5b1510</id>
+      <masked>false</masked>
+      <name>admin_email_domain</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bba958c6-e021-45cb-9875-d1c5cc5bedf3</id>
+      <masked>false</masked>
+      <name>randomTextLength</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>30db71e5-5fcf-4a55-86a2-c35702bac632</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b54776a1-ad62-4185-856f-36dfa7e7f22d</id>
+      <masked>false</masked>
+      <name>admin_fname</name>
+   </variable>
+</TestCaseEntity>

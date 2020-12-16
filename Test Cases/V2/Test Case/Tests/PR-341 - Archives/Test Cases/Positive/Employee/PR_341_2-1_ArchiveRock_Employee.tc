@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR_341_2-1_ArchiveRock_Employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6821335-9478-4a1e-b2e7-50191f9be767</testCaseGuid>
+   <variable>
+      <defaultValue>'jeff+075@mytractiontools.com'</defaultValue>
+      <description></description>
+      <id>2152fbfd-f1c0-43ea-8b05-ed931fe0585d</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Skyline69A*'</defaultValue>
+      <description></description>
+      <id>335e4902-63e0-42e8-ab17-3e335e28a040</id>
+      <masked>false</masked>
+      <name>passWord</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>43f054d3-86e2-43c7-8a73-8493200da762</id>
+      <masked>false</masked>
+      <name>meetingRowPosition</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id=\'root\']/div/div[2]/div/div/div/div[2]/div/div[%s]/div[3]/button/i'</defaultValue>
+      <description></description>
+      <id>984fc20b-c9a9-4380-8ae1-0d2437cc2e3d</id>
+      <masked>false</masked>
+      <name>editMeetingMenu_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'QA Edit Meeting Automation Rock Test'</defaultValue>
+      <description></description>
+      <id>92270749-4496-4fe9-b60d-fd7b6ace9ce1</id>
+      <masked>false</masked>
+      <name>rockName</name>
+   </variable>
+   <variable>
+      <defaultValue>'30'</defaultValue>
+      <description></description>
+      <id>21ef5280-9752-4379-b02c-6149fc38b211</id>
+      <masked>false</masked>
+      <name>dueDateDay</name>
+   </variable>
+   <variable>
+      <defaultValue>'Milestone 1'</defaultValue>
+      <description></description>
+      <id>7130a71f-1224-477b-9621-0f490a729617</id>
+      <masked>false</masked>
+      <name>milestoneName</name>
+   </variable>
+   <variable>
+      <defaultValue>'30'</defaultValue>
+      <description></description>
+      <id>6cc307e9-5ffc-4609-a62b-21c3e03418e4</id>
+      <masked>false</masked>
+      <name>milestoneDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin User'</defaultValue>
+      <description></description>
+      <id>888e6f46-dbc0-4f0a-ad81-49c5f40435e0</id>
+      <masked>false</masked>
+      <name>ownerSelected</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'createRock\']//div[@role=\'listbox\'][@class=\'visible menu transition\']/div[@role=\'option\'][contains(@class,\'item\')]/span[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>5f2d62c3-9d7b-49a0-9ac3-46125a3e8c44</id>
+      <masked>false</masked>
+      <name>owner_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'Rocks\']/ancestor::div[contains(@class,\'CardStyles\')]/div[2]//div[@data-test-id=\'rock.title\'][contains(@class,\'TextBodyStyles-sc\') and text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>052b1334-2506-4521-8f14-9cc75260bd46</id>
+      <masked>false</masked>
+      <name>verifyRocks_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'Rocks\']/ancestor::div[contains(@class,\'CardStyles\')]/div[2]//div[contains(@class,\'milestoneListItem__name\')]/span[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>ec1d4325-cbf0-450c-98f9-e982e0448600</id>
+      <masked>false</masked>
+      <name>verifyMilestone_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'(//*[normalize-space(text()) and normalize-space(.)=\'June 2020\'])[1]/following::div[%s]'</defaultValue>
+      <description></description>
+      <id>a3d91990-1144-4650-8db0-b3d8cefe9f2e</id>
+      <masked>false</masked>
+      <name>milestoneDate_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'(//*[normalize-space(text()) and normalize-space(.)=\'September 2020\'])[1]/following::div[%s]'</defaultValue>
+      <description></description>
+      <id>aacbd207-09f8-47e7-bf1d-0e4e93cb0ac5</id>
+      <masked>false</masked>
+      <name>rockDate_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sample Notes'</defaultValue>
+      <description></description>
+      <id>5b0161cc-0bcb-4e03-9bd3-7ba22aba3fc3</id>
+      <masked>false</masked>
+      <name>Notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'Updated QA Edit Meeting Automation Rock Test'</defaultValue>
+      <description></description>
+      <id>725c7986-0778-47b1-bbfb-414ce855b0dc</id>
+      <masked>false</masked>
+      <name>editRockName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'editRock\']//div[@role=\'listbox\'][@class=\'visible menu transition\']/div[@role=\'option\'][@class=\'item\']/span[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>43895789-0580-42aa-90e7-6c20cc911ff4</id>
+      <masked>false</masked>
+      <name>editOwner_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'Supervisor User'</defaultValue>
+      <description></description>
+      <id>e875a917-4edb-4120-a8fb-c48e8226a3a4</id>
+      <masked>false</masked>
+      <name>editOwner</name>
+   </variable>
+   <variable>
+      <defaultValue>'Updated Milestone'</defaultValue>
+      <description></description>
+      <id>64b537f7-5cab-4d18-bff7-586551dc1fe6</id>
+      <masked>false</masked>
+      <name>editMilestoneName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]/div[@class=\'listcontainer__options\']/button'</defaultValue>
+      <description></description>
+      <id>a6f0b748-701c-4421-86a5-2eb40836bafa</id>
+      <masked>false</masked>
+      <name>meetingOptions_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'SP Meeting Admin'</defaultValue>
+      <description></description>
+      <id>912d0bbc-7a85-4c77-97c3-d8dbb6cda2cb</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+</TestCaseEntity>

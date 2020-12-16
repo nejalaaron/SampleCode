@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-09-14T20:40:46</date>
+  <millis>1600087246872</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/V2/Tests/PR-341 - Archives/PR-341_TestSuite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">PR-341_TestSuite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/V2/Tests/PR-341 - Archives/PR-341_TestSuite</property>
+  <property name="stopImmediately">false</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:46</date>
+  <millis>1600087246884</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Aaron-PC - host.docker.internal</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">Aaron-PC - host.docker.internal</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:46</date>
+  <millis>1600087246884</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:46</date>
+  <millis>1600087246884</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.48</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.1.48</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:46</date>
+  <millis>1600087246885</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.6.6.205</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">7.6.6.205</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247162</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_4_CreateTodo_AllTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_4_CreateTodo_AllTestCase</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_4_CreateTodo_AllTestCase</property>
+  <property name="source">C:\Users\Aaron-PC\git\TractionTools\Test Cases\V2\Test Case\Tests\PR-341 - Archives\Test Cases\Positive\TT_341_4_CreateTodo_AllTestCase.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247222</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>admin_email_prefix = tractiontools.user001+ta</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247222</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>admin_email_domain = gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247223</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>randomTextLength = 5</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247223</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>supervisor_email_prefix = tractiontools.user001+ts</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247223</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>supervisor_email_domain = gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247223</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>supervisor_positionTitle = QA Manager</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247223</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>employee_email_prefix = tractiontools.user001+te</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247223</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>employee_email_domain = gmail.com</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247224</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>employee_positionTitle = Quality Assurance</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247224</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>lastname = User</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247224</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>admin_fname = Admin</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247224</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>supervisor_fname = Supervisor</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247224</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>employee_fname = Employee</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247225</millis>
+  <sequence>20</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>meetingName = Meeting Admin</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247225</millis>
+  <sequence>21</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>meetingNameE = Meeting Employee</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247225</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>meetingNameS = Meeting Supervisor</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247225</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>meetingAcronym = CL10</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247225</millis>
+  <sequence>24</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>meetingDescription = L10 Meeting</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247225</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>videoConference = https://yourvideoconference.com/sample</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247225</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>meetingType = Leadership</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247233</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) dropdownOptions_obj = //div[@id=&amp;apos;CREATE_MEETING_L10&amp;apos;]//span[text()=&amp;apos;%s&amp;apos;]/parent::div[@role=&amp;apos;option&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247233</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>dayOfMeeting = Monday</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247233</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>meetingTime = 12:00</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247240</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) meetingRecord_obj = //div[@class=&amp;apos;detailscontainer__block item&amp;apos;]/h4[text()=&amp;apos;%s&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247249</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) firstname = </message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247255</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) userOptionObj = //span[text()=&amp;apos;%s&amp;apos;]/parent::div[@role=&amp;apos;option&amp;apos;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247260</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) permissionDropObj = //div[@role=&amp;apos;alert&amp;apos; and text()=&amp;apos;%s&amp;apos;]/ancestor::div[@class=&amp;apos;editAttendees__item&amp;apos;]//button[contains(@aria-label,&amp;apos;assign&amp;apos;)]/parent::div</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247265</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) permissionDropOptObj_MA = //div[@role=&amp;apos;alert&amp;apos; and text()=&amp;apos;%s&amp;apos;]/ancestor::div[@class=&amp;apos;editAttendees__item&amp;apos;]//span[text()=&amp;apos;Meeting Admin&amp;apos;]/parent::div</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247271</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) permissionDropOptObj_FE = //div[@role=&amp;apos;alert&amp;apos; and text()=&amp;apos;%s&amp;apos;]/ancestor::div[@class=&amp;apos;editAttendees__item&amp;apos;]//span[text()=&amp;apos;Full editor&amp;apos;]/parent::div</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247277</millis>
+  <sequence>36</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) permissionDropOptObj_BE = //div[@role=&amp;apos;alert&amp;apos; and text()=&amp;apos;%s&amp;apos;]/ancestor::div[@class=&amp;apos;editAttendees__item&amp;apos;]//span[text()=&amp;apos;Basic editor&amp;apos;]/parent::div</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247284</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) meetingOptions_obj = //h4[text()=&amp;apos;%s&amp;apos;]/ancestor::div[contains(@class,&amp;apos;ListContainer&amp;apos;)]/div[@class=&amp;apos;listcontainer__options&amp;apos;]/button</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247291</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>(Default) permission = </message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247578</millis>
+  <sequence>39</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase(findTestCase(&amp;quot;V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers&amp;quot;), [&amp;quot;admin_fname&amp;quot;:admin_fname, &amp;quot;lastname&amp;quot;:lastname, &amp;quot;phonenumber&amp;quot;:&amp;quot;9999999999&amp;quot;, &amp;quot;company&amp;quot;:&amp;quot;Traction Tools&amp;quot;, &amp;quot;password&amp;quot;:password, ... ], STOP_ON_FAILURE)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247751</millis>
+  <sequence>42</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers</property>
+  <property name="source">C:\Users\Aaron-PC\git\TractionTools\Test Cases\V2\Test Case\Pre-conditions\PRE_RegisterAndActivateTTUsers.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247765</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>admin_fname = Admin</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247765</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>lastname = User</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247766</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>phonenumber = 9999999999</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247766</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>company = Traction Tools</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247766</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>password = Qwer123!</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247767</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>admin_email_prefix = tractiontools.user001+ta</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247767</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>admin_email_domain = gmail.com</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247767</millis>
+  <sequence>51</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>randomTextLength = 5</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247767</millis>
+  <sequence>52</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>supervisor_fname = Supervisor</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247767</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>employee_fname = Employee</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247767</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>supervisor_email_prefix = tractiontools.user001+ts</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247768</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>supervisor_email_domain = gmail.com</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247768</millis>
+  <sequence>56</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>supervisor_positionTitle = QA Manager</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247768</millis>
+  <sequence>57</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>employee_email_prefix = tractiontools.user001+te</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247768</millis>
+  <sequence>58</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>employee_email_domain = gmail.com</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247768</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>employee_positionTitle = Quality Assurance</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247924</millis>
+  <sequence>60</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(admin_email_prefix, admin_email_domain, randomTextLength)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247944</millis>
+  <sequence>61</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Successfully generated a random email: tractiontools.user001+ta5xnovc@gmail.com</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247945</millis>
+  <sequence>62</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(admin_email_prefix, admin_email_domain, randomTextLength)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247945</millis>
+  <sequence>63</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : supervisor_email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(supervisor_email_prefix, supervisor_email_domain, randomTextLength)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247946</millis>
+  <sequence>64</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Successfully generated a random email: tractiontools.user001+ts56bzq0@gmail.com</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247946</millis>
+  <sequence>65</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : supervisor_email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(supervisor_email_prefix, supervisor_email_domain, randomTextLength)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247946</millis>
+  <sequence>66</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : employee_email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(employee_email_prefix, employee_email_domain, randomTextLength)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247946</millis>
+  <sequence>67</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Successfully generated a random email: tractiontools.user001+te5vaqbn@gmail.com</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247947</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : employee_email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(employee_email_prefix, employee_email_domain, randomTextLength)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:47</date>
+  <millis>1600087247947</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : adminDetails = tt_CustomKeywords.CustomKeywords.RegisterUserViaAPIAndGenerateActivateURL(email, admin_fname, lastname, phonenumber, company, &amp;quot;__JSON__{\&amp;quot;howDidYouHearAboutUs\&amp;quot;:\&amp;quot;Facebook\&amp;quot;,\&amp;quot;implementer\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;existingTractionToolsClient\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;other\&amp;quot;:\&amp;quot;\&amp;quot;}&amp;quot;, &amp;quot;__JSON__{\&amp;quot;timeZone\&amp;quot;:\&amp;quot;America/Guatemala\&amp;quot;,\&amp;quot;brandColor\&amp;quot;:\&amp;quot;#023047\&amp;quot;,\&amp;quot;q1Start\&amp;quot;:null,\&amp;quot;q1End\&amp;quot;:null,\&amp;quot;q2Start\&amp;quot;:null,\&amp;quot;q2End\&amp;quot;:null,\&amp;quot;q3Start\&amp;quot;:null,\&amp;quot;q3End\&amp;quot;:null,\&amp;quot;q4Start\&amp;quot;:null,\&amp;quot;q4End\&amp;quot;:null,\&amp;quot;quarterDatesSetsRocks\&amp;quot;:false,\&amp;quot;exportUsers\&amp;quot;:false,\&amp;quot;exportRocks\&amp;quot;:false,\&amp;quot;exportRocksIncludesMilestones\&amp;quot;:false,\&amp;quot;exportScorecards\&amp;quot;:false,\&amp;quot;exportTodos\&amp;quot;:false,\&amp;quot;exportTodosIncludesNotes\&amp;quot;:false,\&amp;quot;exportPeopleHeadlines\&amp;quot;:false,\&amp;quot;exportPeopleHeadlinesIncludesNotes\&amp;quot;:false,\&amp;quot;exportIssues\&amp;quot;:false,\&amp;quot;exportIssuesIncludesNotes\&amp;quot;:false,\&amp;quot;exportContextAwareTodos\&amp;quot;:false,\&amp;quot;dateFormat\&amp;quot;:\&amp;quot;MM/DD/YYYY\&amp;quot;,\&amp;quot;timeFormat\&amp;quot;:\&amp;quot;h:mma\&amp;quot;,\&amp;quot;numberFormat\&amp;quot;:\&amp;quot;-1,000.99\&amp;quot;,\&amp;quot;supervisorsArchiveRestoreUsers\&amp;quot;:false,\&amp;quot;supervisorsEditPositions\&amp;quot;:false,\&amp;quot;milestonesAvailableToAll\&amp;quot;:false,\&amp;quot;customMeetingTemplatesEnabled\&amp;quot;:false,\&amp;quot;receiveTodoReminders\&amp;quot;:false,\&amp;quot;todoReminderTime\&amp;quot;:\&amp;quot;13:00\&amp;quot;,\&amp;quot;todoReminderTimeZone\&amp;quot;:\&amp;quot;America/Guatemala\&amp;quot;,\&amp;quot;todoReminderFrequency\&amp;quot;:\&amp;quot;DAILY\&amp;quot;,\&amp;quot;vtoMeetingId\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;vtoDisplayMode\&amp;quot;:\&amp;quot;ALL\&amp;quot;,\&amp;quot;coreValues\&amp;quot;:[{\&amp;quot;id\&amp;quot;:\&amp;quot;1\&amp;quot;,\&amp;quot;text\&amp;quot;:\&amp;quot;\&amp;quot;},{\&amp;quot;id\&amp;quot;:\&amp;quot;2\&amp;quot;,\&amp;quot;text\&amp;quot;:\&amp;quot;\&amp;quot;},{\&amp;quot;id\&amp;quot;:\&amp;quot;3\&amp;quot;,\&amp;quot;text\&amp;quot;:\&amp;quot;\&amp;quot;}]}&amp;quot;, password, V2Url)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250469</millis>
+  <sequence>70</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmaster.tt-devs.com/activate?activationKey=c0a37829-749e-4e32-b6fd-91773ac9d808&amp;amp;userId=98ba4650-ea0b-501f-92e2-5a50f768c5cc&amp;amp;orgId=5cba4650-e8d6-755e-b6d8-4e66f572d4d3&amp;amp;email=tractiontools.user001+ta5xnovc@gmail.com&amp;amp;teamsId=06ba4650-e907-2168-2464-c117c99bbbfe&amp;amp;meetingsId=ccba4650-e8fa-8d76-7e8a-9e601ed10f24&amp;amp;adminsId=98ba4650-ea7d-b35e-e44d-436989f1e48c&amp;amp;usersId=34ba4650-e913-799a-0102-8e1bf72c773f&amp;amp;supervisorsId=48ba4650-e8ee-0dda-7292-833d42123d48&amp;amp;accountabilityChartId=a4ba4650-e91f-2899-0443-9dca980969a8&amp;amp;isCreator=1</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250472</millis>
+  <sequence>71</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : adminDetails = tt_CustomKeywords.CustomKeywords.RegisterUserViaAPIAndGenerateActivateURL(email, admin_fname, lastname, phonenumber, company, &amp;quot;__JSON__{\&amp;quot;howDidYouHearAboutUs\&amp;quot;:\&amp;quot;Facebook\&amp;quot;,\&amp;quot;implementer\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;existingTractionToolsClient\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;other\&amp;quot;:\&amp;quot;\&amp;quot;}&amp;quot;, &amp;quot;__JSON__{\&amp;quot;timeZone\&amp;quot;:\&amp;quot;America/Guatemala\&amp;quot;,\&amp;quot;brandColor\&amp;quot;:\&amp;quot;#023047\&amp;quot;,\&amp;quot;q1Start\&amp;quot;:null,\&amp;quot;q1End\&amp;quot;:null,\&amp;quot;q2Start\&amp;quot;:null,\&amp;quot;q2End\&amp;quot;:null,\&amp;quot;q3Start\&amp;quot;:null,\&amp;quot;q3End\&amp;quot;:null,\&amp;quot;q4Start\&amp;quot;:null,\&amp;quot;q4End\&amp;quot;:null,\&amp;quot;quarterDatesSetsRocks\&amp;quot;:false,\&amp;quot;exportUsers\&amp;quot;:false,\&amp;quot;exportRocks\&amp;quot;:false,\&amp;quot;exportRocksIncludesMilestones\&amp;quot;:false,\&amp;quot;exportScorecards\&amp;quot;:false,\&amp;quot;exportTodos\&amp;quot;:false,\&amp;quot;exportTodosIncludesNotes\&amp;quot;:false,\&amp;quot;exportPeopleHeadlines\&amp;quot;:false,\&amp;quot;exportPeopleHeadlinesIncludesNotes\&amp;quot;:false,\&amp;quot;exportIssues\&amp;quot;:false,\&amp;quot;exportIssuesIncludesNotes\&amp;quot;:false,\&amp;quot;exportContextAwareTodos\&amp;quot;:false,\&amp;quot;dateFormat\&amp;quot;:\&amp;quot;MM/DD/YYYY\&amp;quot;,\&amp;quot;timeFormat\&amp;quot;:\&amp;quot;h:mma\&amp;quot;,\&amp;quot;numberFormat\&amp;quot;:\&amp;quot;-1,000.99\&amp;quot;,\&amp;quot;supervisorsArchiveRestoreUsers\&amp;quot;:false,\&amp;quot;supervisorsEditPositions\&amp;quot;:false,\&amp;quot;milestonesAvailableToAll\&amp;quot;:false,\&amp;quot;customMeetingTemplatesEnabled\&amp;quot;:false,\&amp;quot;receiveTodoReminders\&amp;quot;:false,\&amp;quot;todoReminderTime\&amp;quot;:\&amp;quot;13:00\&amp;quot;,\&amp;quot;todoReminderTimeZone\&amp;quot;:\&amp;quot;America/Guatemala\&amp;quot;,\&amp;quot;todoReminderFrequency\&amp;quot;:\&amp;quot;DAILY\&amp;quot;,\&amp;quot;vtoMeetingId\&amp;quot;:\&amp;quot;\&amp;quot;,\&amp;quot;vtoDisplayMode\&amp;quot;:\&amp;quot;ALL\&amp;quot;,\&amp;quot;coreValues\&amp;quot;:[{\&amp;quot;id\&amp;quot;:\&amp;quot;1\&amp;quot;,\&amp;quot;text\&amp;quot;:\&amp;quot;\&amp;quot;},{\&amp;quot;id\&amp;quot;:\&amp;quot;2\&amp;quot;,\&amp;quot;text\&amp;quot;:\&amp;quot;\&amp;quot;},{\&amp;quot;id\&amp;quot;:\&amp;quot;3\&amp;quot;,\&amp;quot;text\&amp;quot;:\&amp;quot;\&amp;quot;}]}&amp;quot;, password, V2Url)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250472</millis>
+  <sequence>72</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : activationURL = adminDetails[0]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">35</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250473</millis>
+  <sequence>73</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : activationURL = adminDetails[0]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250473</millis>
+  <sequence>74</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : orgID = adminDetails[1]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">37</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250473</millis>
+  <sequence>75</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : orgID = adminDetails[1]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250473</millis>
+  <sequence>76</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(&amp;quot;URL: &amp;quot; + activationURL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">39</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250474</millis>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(&amp;quot;URL: &amp;quot; + activationURL)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250474</millis>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : out.println(&amp;quot;orgID: &amp;quot; + orgID)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">41</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250474</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : out.println(&amp;quot;orgID: &amp;quot; + orgID)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250474</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : supervisorUser_name = supervisor_fname + &amp;quot; &amp;quot; + lastname</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">44</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250475</millis>
+  <sequence>81</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : supervisorUser_name = supervisor_fname + &amp;quot; &amp;quot; + lastname</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250475</millis>
+  <sequence>82</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">46</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250592</millis>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:50</date>
+  <millis>1600087250613</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:54</date>
+  <millis>1600087254362</millis>
+  <sequence>88</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>sessionId = e8545c91fc7c8eabdb7a33afd90401d8</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="sessionId">e8545c91fc7c8eabdb7a33afd90401d8</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:54</date>
+  <millis>1600087254374</millis>
+  <sequence>89</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>browser = Chrome 85.0.4183.102</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="browser">Chrome 85.0.4183.102</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:54</date>
+  <millis>1600087254374</millis>
+  <sequence>90</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>platform = Windows 10</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:54</date>
+  <millis>1600087254375</millis>
+  <sequence>91</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>seleniumVersion = 3.141.59</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="seleniumVersion">3.141.59</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:54</date>
+  <millis>1600087254375</millis>
+  <sequence>92</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&amp;quot;&amp;quot;, isApplyToDesiredCapabilities=true }</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="proxyInformation">ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }</property>
+</record>
+<record>
+  <date>2020-09-14T20:40:54</date>
+  <millis>1600087254381</millis>
+  <sequence>93</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:54</date>
+  <millis>1600087254382</millis>
+  <sequence>94</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser(&amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-09-14T20:40:54</date>
+  <millis>1600087254382</millis>
+  <sequence>95</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : maximizeWindow()</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">48</property>
+  <property name="stepIndex">11</property>
+</record>

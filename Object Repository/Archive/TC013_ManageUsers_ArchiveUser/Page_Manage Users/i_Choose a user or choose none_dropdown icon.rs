@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Choose a user or choose none_dropdown icon</name>
+   <tag></tag>
+   <elementGuidId>7ee5c2dd-0940-420b-b8b4-49ef855e99ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/div/div/div/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;dimmable dimmed blurring scrolling&quot;]/div[@class=&quot;ui page modals dimmer transition visible active&quot;]/div[@class=&quot;ui mini scrolling modal transition visible active sc-gZMcBi jUQwqT&quot;]/div[@class=&quot;sc-tilXH gbNxLU content&quot;]/div[@class=&quot;sc-hEsumM hVrUjP&quot;]/div[@class=&quot;sc-iwsKbI kYHZMT FormControl&quot;]/div[@class=&quot;FormControl__input&quot;]/div[@class=&quot;sc-htoDjs bsIPzp&quot;]/div[@class=&quot;ui fluid search selection dropdown&quot;]/i[@class=&quot;dropdown icon&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/i</value>
+   </webElementXpaths>
+</WebElementEntity>

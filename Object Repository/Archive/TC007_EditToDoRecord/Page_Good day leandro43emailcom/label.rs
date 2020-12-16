@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label</name>
+   <tag></tag>
+   <elementGuidId>c8a9969b-7655-43f8-98ba-4e92b1907469</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/table/tbody/tr/td/div/span[2]/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-tilXH bSCGCl&quot;]/div[@class=&quot;row no-gutters&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;sc-hEsumM ljxlgS&quot;]/div[@class=&quot;sc-cIShpX ikdcfe&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;sc-jAaTju eGHZyj Widget&quot;]/div[@class=&quot;sc-iRbamj blSEcj Widget__block&quot;]/div[@class=&quot;sc-jlyJG kiYHZU Widget__content&quot;]/table[1]/tbody[1]/tr[@class=&quot;sc-cmTdod kHxQNt&quot;]/td[@class=&quot;sc-btzYZH sc-lhVmIH kwuWnf DataTable__cell-action&quot;]/div[1]/span[2]/div[@class=&quot;ui checkbox sc-iELTvK fmBQFH&quot;]/label[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/table/tbody/tr/td/div/span[2]/div/label</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+   </webElementXpaths>
+</WebElementEntity>

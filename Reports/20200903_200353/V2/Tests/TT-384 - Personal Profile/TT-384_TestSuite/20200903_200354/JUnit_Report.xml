@@ -1,0 +1,1213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TT-384_TestSuite" time="121.593" tests="1" failures="1" errors="0">
+   <testsuite name="TT-384_TestSuite" tests="1" failures="1" errors="0" time="121.593" timestamp="2020-09-03 20:03:57" hostname="Aaron-PC - DESKTOP-O0IP7CU.mshome.net" id="Test Suites/V2/Tests/TT-384 - Personal Profile/TT-384_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aaron-PC\\git\\TractionTools\\Reports\\20200903_200353\\V2\\Tests\\TT-384 - Personal Profile\\TT-384_TestSuite\\20200903_200354"/>
+         <property name="logFiles" value="C:\\Users\\Aaron-PC\\git\\TractionTools\\Reports\\20200903_200353\\V2\\Tests\\TT-384 - Personal Profile\\TT-384_TestSuite\\20200903_200354\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Aaron-PC\\git\\TractionTools\\Reports\\20200903_200353\\V2\\Tests\\TT-384 - Personal Profile\\TT-384_TestSuite\\20200903_200354\\1599134757908.png"/>
+         <property name="hostName" value="Aaron-PC - DESKTOP-O0IP7CU.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.83"/>
+         <property name="hostAddress" value="172.18.84.113"/>
+         <property name="sessionId" value="3cac060c30dc69879d29ee2c1199c268"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/V2/Test Case/Tests/TT-384 - Personal Profile/Positive/TT_384_4_EmailPreferences_AllTestCase" time="120.383" classname="Test Cases/V2/Test Case/Tests/TT-384 - Personal Profile/Positive/TT_384_4_EmailPreferences_AllTestCase" status="FAILED">
+         <failure type="FAILED" message="Test Cases/V2/Test Case/Tests/TT-384 - Personal Profile/Positive/TT_384_4_EmailPreferences_AllTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_384_4_EmailPreferences_AllTestCase.run(TT_384_4_EmailPreferences_AllTestCase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599134634624.run(TempTestSuite1599134634624.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at PRE_RegisterAndActivateTTUsers.run(PRE_RegisterAndActivateTTUsers:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_ChangeUserPermissionViaManageUser.run(PRE_ChangeUserPermissionViaManageUser:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 36 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 51 more
+"/>
+         <system-out><![CDATA[2020-09-03 20:03:57 - [TEST_CASE][FAILED] - Test Cases/V2/Test Case/Tests/TT-384 - Personal Profile/Positive/TT_384_4_EmailPreferences_AllTestCase: Test Cases/V2/Test Case/Tests/TT-384 - Personal Profile/Positive/TT_384_4_EmailPreferences_AllTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_384_4_EmailPreferences_AllTestCase.run(TT_384_4_EmailPreferences_AllTestCase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599134634624.run(TempTestSuite1599134634624.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at PRE_RegisterAndActivateTTUsers.run(PRE_RegisterAndActivateTTUsers:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_ChangeUserPermissionViaManageUser.run(PRE_ChangeUserPermissionViaManageUser:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 36 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 51 more
+
+
+2020-09-03 20:03:58 - [TEST_STEP][FAILED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers"), ["admin_fname":admin_fname, "lastname":lastname, "phonenumber":"9999999999", "company":"Traction Tools", "password":password, ... ], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_384_4_EmailPreferences_AllTestCase.run(TT_384_4_EmailPreferences_AllTestCase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599134634624.run(TempTestSuite1599134634624.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at PRE_RegisterAndActivateTTUsers.run(PRE_RegisterAndActivateTTUsers:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_ChangeUserPermissionViaManageUser.run(PRE_ChangeUserPermissionViaManageUser:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 36 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 51 more
+)
+
+2020-09-03 20:03:58 - [TEST_CASE][FAILED] - Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers: Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at PRE_RegisterAndActivateTTUsers.run(PRE_RegisterAndActivateTTUsers:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_384_4_EmailPreferences_AllTestCase.run(TT_384_4_EmailPreferences_AllTestCase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599134634624.run(TempTestSuite1599134634624.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_ChangeUserPermissionViaManageUser.run(PRE_ChangeUserPermissionViaManageUser:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 36 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 51 more
+
+
+2020-09-03 20:03:58 - [TEST_STEP][PASSED] - email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(admin_email_prefix, admin_email_domain, randomTextLength): Successfully generated a random email: tractiontools.user001+ta5urv4i@gmail.com
+
+2020-09-03 20:03:58 - [MESSAGE][PASSED] - Successfully generated a random email: tractiontools.user001+ta5urv4i@gmail.com
+
+2020-09-03 20:03:58 - [TEST_STEP][PASSED] - supervisor_email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(supervisor_email_prefix, supervisor_email_domain, randomTextLength): Successfully generated a random email: tractiontools.user001+ts5gkpho@gmail.com
+
+2020-09-03 20:03:58 - [MESSAGE][PASSED] - Successfully generated a random email: tractiontools.user001+ts5gkpho@gmail.com
+
+2020-09-03 20:03:58 - [TEST_STEP][PASSED] - employee_email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(employee_email_prefix, employee_email_domain, randomTextLength): Successfully generated a random email: tractiontools.user001+te5s94da@gmail.com
+
+2020-09-03 20:03:58 - [MESSAGE][PASSED] - Successfully generated a random email: tractiontools.user001+te5s94da@gmail.com
+
+2020-09-03 20:03:58 - [TEST_STEP][PASSED] - adminDetails = tt_CustomKeywords.CustomKeywords.RegisterUserViaAPIAndGenerateActivateURL(email, admin_fname, lastname, phonenumber, company, "__JSON__{\"howDidYouHearAboutUs\":\"Facebook\",\"implementer\":\"\",\"existingTractionToolsClient\":\"\",\"other\":\"\"}", "__JSON__{\"timeZone\":\"America/Guatemala\",\"brandColor\":\"#023047\",\"q1Start\":null,\"q1End\":null,\"q2Start\":null,\"q2End\":null,\"q3Start\":null,\"q3End\":null,\"q4Start\":null,\"q4End\":null,\"quarterDatesSetsRocks\":false,\"exportUsers\":false,\"exportRocks\":false,\"exportRocksIncludesMilestones\":false,\"exportScorecards\":false,\"exportTodos\":false,\"exportTodosIncludesNotes\":false,\"exportPeopleHeadlines\":false,\"exportPeopleHeadlinesIncludesNotes\":false,\"exportIssues\":false,\"exportIssuesIncludesNotes\":false,\"exportContextAwareTodos\":false,\"dateFormat\":\"MM/DD/YYYY\",\"timeFormat\":\"h:mma\",\"numberFormat\":\"-1,000.99\",\"supervisorsArchiveRestoreUsers\":false,\"supervisorsEditPositions\":false,\"milestonesAvailableToAll\":false,\"customMeetingTemplatesEnabled\":false,\"receiveTodoReminders\":false,\"todoReminderTime\":\"13:00\",\"todoReminderTimeZone\":\"America/Guatemala\",\"todoReminderFrequency\":\"DAILY\",\"vtoMeetingId\":\"\",\"vtoDisplayMode\":\"ALL\",\"coreValues\":[{\"id\":\"1\",\"text\":\"\"},{\"id\":\"2\",\"text\":\"\"},{\"id\":\"3\",\"text\":\"\"}]}", password, V2Url): SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmasterweb-staging.azurewebsites.net/activate?activationKey=20fbe226-14c2-4e69-8fca-7f070806c549&userId=b71a7c70-0360-48b8-8331-a7d958f243b3&orgId=43b79c8b-ed30-472a-ac3b-940af595c21d&email=tractiontools.user001+ta5urv4i@gmail.com&teamsId=d8081b7a-857e-427f-98dd-b665b69f26b2&meetingsId=ac450c4c-f423-4551-ab4f-afcc40f51824&adminsId=b2a60869-357b-42e1-9bf4-986d307c4c09&usersId=7cb54e98-31b2-4b3e-805c-6f6f74ac041f&supervisorsId=055fd08e-4b1c-4e26-b007-a5596d929aa1&accountabilityChartId=a3d8bd71-a75f-4d39-8985-ae4098259232&isCreator=1
+
+2020-09-03 20:04:18 - [MESSAGE][PASSED] - SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmasterweb-staging.azurewebsites.net/activate?activationKey=20fbe226-14c2-4e69-8fca-7f070806c549&userId=b71a7c70-0360-48b8-8331-a7d958f243b3&orgId=43b79c8b-ed30-472a-ac3b-940af595c21d&email=tractiontools.user001+ta5urv4i@gmail.com&teamsId=d8081b7a-857e-427f-98dd-b665b69f26b2&meetingsId=ac450c4c-f423-4551-ab4f-afcc40f51824&adminsId=b2a60869-357b-42e1-9bf4-986d307c4c09&usersId=7cb54e98-31b2-4b3e-805c-6f6f74ac041f&supervisorsId=055fd08e-4b1c-4e26-b007-a5596d929aa1&accountabilityChartId=a3d8bd71-a75f-4d39-8985-ae4098259232&isCreator=1
+
+2020-09-03 20:04:18 - [TEST_STEP][PASSED] - activationURL = adminDetails[0]: null
+
+2020-09-03 20:04:18 - [TEST_STEP][PASSED] - orgID = adminDetails[1]: null
+
+2020-09-03 20:04:18 - [TEST_STEP][PASSED] - out.println("URL: " + activationURL): null
+
+2020-09-03 20:04:18 - [TEST_STEP][PASSED] - out.println("orgID: " + orgID): null
+
+2020-09-03 20:04:18 - [TEST_STEP][PASSED] - supervisorUser_name = supervisor_fname + " " + lastname: null
+
+2020-09-03 20:04:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-03 20:04:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-03 20:04:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-03 20:04:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-03 20:04:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-03 20:04:24 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-03 20:04:24 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ActivateNewUser"), ["activationURL":activationURL, "email":email, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-03 20:04:24 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser
+
+2020-09-03 20:04:24 - [TEST_STEP][PASSED] - navigateToUrl(activationURL): Navigate to 'https://meetingmasterweb-staging.azurewebsites.net/activate?activationKey=20fbe226-14c2-4e69-8fca-7f070806c549&userId=b71a7c70-0360-48b8-8331-a7d958f243b3&orgId=43b79c8b-ed30-472a-ac3b-940af595c21d&email=tractiontools.user001+ta5urv4i@gmail.com&teamsId=d8081b7a-857e-427f-98dd-b665b69f26b2&meetingsId=ac450c4c-f423-4551-ab4f-afcc40f51824&adminsId=b2a60869-357b-42e1-9bf4-986d307c4c09&usersId=7cb54e98-31b2-4b3e-805c-6f6f74ac041f&supervisorsId=055fd08e-4b1c-4e26-b007-a5596d929aa1&accountabilityChartId=a3d8bd71-a75f-4d39-8985-ae4098259232&isCreator=1' successfully
+
+2020-09-03 20:04:25 - [MESSAGE][PASSED] - Navigate to 'https://meetingmasterweb-staging.azurewebsites.net/activate?activationKey=20fbe226-14c2-4e69-8fca-7f070806c549&userId=b71a7c70-0360-48b8-8331-a7d958f243b3&orgId=43b79c8b-ed30-472a-ac3b-940af595c21d&email=tractiontools.user001+ta5urv4i@gmail.com&teamsId=d8081b7a-857e-427f-98dd-b665b69f26b2&meetingsId=ac450c4c-f423-4551-ab4f-afcc40f51824&adminsId=b2a60869-357b-42e1-9bf4-986d307c4c09&usersId=7cb54e98-31b2-4b3e-805c-6f6f74ac041f&supervisorsId=055fd08e-4b1c-4e26-b007-a5596d929aa1&accountabilityChartId=a3d8bd71-a75f-4d39-8985-ae4098259232&isCreator=1' successfully
+
+2020-09-03 20:04:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/ActivationPage/input_Email_email"), DefaultTimeout): Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-03 20:04:34 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-03 20:04:34 - [TEST_STEP][PASSED] - actual_email = getAttribute(findTestObject("Object Repository/V2/Commons/ActivationPage/input_Email_email"), "value"): Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+ta5urv4i@gmail.com'
+
+2020-09-03 20:04:34 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+ta5urv4i@gmail.com'
+
+2020-09-03 20:04:34 - [TEST_STEP][PASSED] - verifyMatch(actual_email, email, false): Actual text 'tractiontools.user001+ta5urv4i@gmail.com' and expected text 'tractiontools.user001+ta5urv4i@gmail.com' are matched 
+
+2020-09-03 20:04:34 - [MESSAGE][PASSED] - Actual text 'tractiontools.user001+ta5urv4i@gmail.com' and expected text 'tractiontools.user001+ta5urv4i@gmail.com' are matched 
+
+2020-09-03 20:04:34 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ActivationPage/input_password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-03 20:04:35 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-03 20:04:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/V2/Commons/ActivationPage/input__passwordRepeat"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-03 20:04:35 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-03 20:04:35 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/ActivationPage/input_termsandconditions")): Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-03 20:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-03 20:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ActivationPage/div_Create account")): Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-03 20:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-03 20:04:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-03 20:04:52 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-03 20:04:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), 0): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-03 20:04:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-03 20:04:52 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-03 20:04:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-03 20:04:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup' successfully
+
+2020-09-03 20:04:52 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup: Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup
+
+2020-09-03 20:04:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmCompanyInfoHeader_h1"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmCompanyInfoHeader_h1' is visible
+
+2020-09-03 20:04:53 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmCompanyInfoHeader_h1' is visible
+
+2020-09-03 20:04:53 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-03 20:04:53 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-03 20:04:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-03 20:04:54 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-03 20:04:54 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-03 20:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-03 20:04:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-03 20:04:56 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-03 20:04:56 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-03 20:04:56 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-03 20:04:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup' successfully
+
+2020-09-03 20:04:56 - [TEST_STEP][PASSED] - supervisor_activationURL = tt_CustomKeywords.CustomKeywords.RegisterAndActivateSupervisorUserViaAPI(V2Url, orgID, supervisor_email, password, email, password, supervisor_fname, lastname): SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmasterweb-staging.azurewebsites.net/activate?activationKey=eabdfd70-2db7-4912-b86e-05ee982cf515&userId=7df758e2-ef16-44be-8f83-f896ee1c4e35&orgId=43b79c8b-ed30-472a-ac3b-940af595c21d&email=tractiontools.user001+ts5gkpho@gmail.com&isCreator=0
+
+2020-09-03 20:05:02 - [MESSAGE][PASSED] - SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmasterweb-staging.azurewebsites.net/activate?activationKey=eabdfd70-2db7-4912-b86e-05ee982cf515&userId=7df758e2-ef16-44be-8f83-f896ee1c4e35&orgId=43b79c8b-ed30-472a-ac3b-940af595c21d&email=tractiontools.user001+ts5gkpho@gmail.com&isCreator=0
+
+2020-09-03 20:05:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser"), ["showMenuItemsPath":"//div[@class='usercard__detail_container']/div[text()='%s']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']", "user_email":supervisor_email, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' successfully
+
+2020-09-03 20:05:02 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser
+
+2020-09-03 20:05:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/span_Company Settings")): Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-03 20:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-03 20:05:03 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/a_Manage Users")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Manage Users' is clicked on
+
+2020-09-03 20:05:03 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Manage Users' is clicked on
+
+2020-09-03 20:05:03 - [TEST_STEP][PASSED] - showMenuItemsObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(showMenuItemsPath, user_email, "xpath"): Successfully created new dynamic object: //div[@class='usercard__detail_container']/div[text()='tractiontools.user001+ts5gkpho@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']
+
+2020-09-03 20:05:03 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@class='usercard__detail_container']/div[text()='tractiontools.user001+ts5gkpho@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']
+
+2020-09-03 20:05:03 - [TEST_STEP][PASSED] - click(showMenuItemsObj): Object: '' is clicked on
+
+2020-09-03 20:05:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-03 20:05:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_Edit user")): Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Edit user' is clicked on
+
+2020-09-03 20:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Edit user' is clicked on
+
+2020-09-03 20:05:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/ManageUsersPage/div_PositionTitle"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/div_PositionTitle' is present
+
+2020-09-03 20:05:06 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/div_PositionTitle' is present
+
+2020-09-03 20:05:06 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ManageUsersPage/position_title_input"), position_title): Text 'QA Manager' is set on object 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-03 20:05:06 - [MESSAGE][PASSED] - Text 'QA Manager' is set on object 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-03 20:05:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("V2/Commons/ManageUsersPage/position_title_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-03 20:05:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-03 20:05:07 - [TEST_STEP][PASSED] - if (permissionValue == "Employee"): null
+
+2020-09-03 20:05:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_User type"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/div_User type' is present
+
+2020-09-03 20:05:07 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/div_User type' is present
+
+2020-09-03 20:05:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/input__orgRole")): Object: 'Object Repository/V2/Commons/ManageUsersPage/input__orgRole' is clicked on
+
+2020-09-03 20:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/input__orgRole' is clicked on
+
+2020-09-03 20:05:07 - [TEST_STEP][PASSED] - roleOptionObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(roleOption, permissionValue, "xpath"): Successfully created new dynamic object: //span[text()='Supervisor']/parent::div[@role='option']
+
+2020-09-03 20:05:07 - [MESSAGE][PASSED] - Successfully created new dynamic object: //span[text()='Supervisor']/parent::div[@role='option']
+
+2020-09-03 20:05:07 - [TEST_STEP][PASSED] - click(roleOptionObj): Object: '' is clicked on
+
+2020-09-03 20:05:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-03 20:05:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_Save")): Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Save' is clicked on
+
+2020-09-03 20:05:08 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Save' is clicked on
+
+2020-09-03 20:05:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/ManageUsersPage/h3_User Saved"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-03 20:05:19 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-03 20:05:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/V2/Commons/ManageUsersPage/h3_User Saved")): Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-03 20:05:19 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-03 20:05:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' successfully
+
+2020-09-03 20:05:19 - [TEST_STEP][PASSED] - employee_activationURL = tt_CustomKeywords.CustomKeywords.RegisterAndActivateSupervisorUserViaAPI(V2Url, orgID, employee_email, password, email, password, employee_fname, lastname): SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmasterweb-staging.azurewebsites.net/activate?activationKey=050edf43-c194-491b-85d6-0ffa19c7155f&userId=9f69fd80-4c22-446b-a762-b30a0c052401&orgId=43b79c8b-ed30-472a-ac3b-940af595c21d&email=tractiontools.user001+te5s94da@gmail.com&isCreator=0
+
+2020-09-03 20:05:25 - [MESSAGE][PASSED] - SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmasterweb-staging.azurewebsites.net/activate?activationKey=050edf43-c194-491b-85d6-0ffa19c7155f&userId=9f69fd80-4c22-446b-a762-b30a0c052401&orgId=43b79c8b-ed30-472a-ac3b-940af595c21d&email=tractiontools.user001+te5s94da@gmail.com&isCreator=0
+
+2020-09-03 20:05:25 - [TEST_STEP][FAILED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser"), ["showMenuItemsPath":"//div[@class='usercard__detail_container']/div[text()='%s']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']", "user_email":employee_email, ... ], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at PRE_RegisterAndActivateTTUsers.run(PRE_RegisterAndActivateTTUsers:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_384_4_EmailPreferences_AllTestCase.run(TT_384_4_EmailPreferences_AllTestCase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599134634624.run(TempTestSuite1599134634624.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_ChangeUserPermissionViaManageUser.run(PRE_ChangeUserPermissionViaManageUser:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 36 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 51 more
+)
+
+2020-09-03 20:05:25 - [TEST_CASE][FAILED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_ChangeUserPermissionViaManageUser.run(PRE_ChangeUserPermissionViaManageUser:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at PRE_RegisterAndActivateTTUsers.run(PRE_RegisterAndActivateTTUsers:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_384_4_EmailPreferences_AllTestCase.run(TT_384_4_EmailPreferences_AllTestCase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599134634624.run(TempTestSuite1599134634624.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 51 more
+
+
+2020-09-03 20:05:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/span_Company Settings")): Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-03 20:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-03 20:05:26 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/a_Manage Users")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Manage Users' is clicked on
+
+2020-09-03 20:05:26 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Manage Users' is clicked on
+
+2020-09-03 20:05:26 - [TEST_STEP][PASSED] - showMenuItemsObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(showMenuItemsPath, user_email, "xpath"): Successfully created new dynamic object: //div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']
+
+2020-09-03 20:05:26 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']
+
+2020-09-03 20:05:26 - [TEST_STEP][FAILED] - click(showMenuItemsObj): Unable to click on object '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_ChangeUserPermissionViaManageUser.run(PRE_ChangeUserPermissionViaManageUser:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at PRE_RegisterAndActivateTTUsers.run(PRE_RegisterAndActivateTTUsers:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_384_4_EmailPreferences_AllTestCase.run(TT_384_4_EmailPreferences_AllTestCase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599134634624.run(TempTestSuite1599134634624.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1597862872640.run(Script1597862872640.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1597923029052.run(Script1597923029052.groovy:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1598576174210.run(Script1598576174210.groovy:22)
+	... 13 more
+)
+
+2020-09-03 20:05:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-09-03 20:05:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id ''. Try using Self-healing.
+
+2020-09-03 20:05:57 - [MESSAGE][WARNING] - [SELF-HEALING] Index: 0, Size: 0
+
+2020-09-03 20:05:57 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2020-09-03 20:05:58 - [MESSAGE][FAILED] - Unable to click on object '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_ChangeUserPermissionViaManageUser.run(PRE_ChangeUserPermissionViaManageUser:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at PRE_RegisterAndActivateTTUsers.run(PRE_RegisterAndActivateTTUsers:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_384_4_EmailPreferences_AllTestCase.run(TT_384_4_EmailPreferences_AllTestCase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599134634624.run(TempTestSuite1599134634624.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1597862872640.run(Script1597862872640.groovy:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1597923029052.run(Script1597923029052.groovy:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1598576174210.run(Script1598576174210.groovy:22)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Aaron-PC\\git\\TractionTools\\Reports\\20200903_200353\\V2\\Tests\\TT-384 - Personal Profile\\TT-384_TestSuite\\20200903_200354\\1599134757908.png]]
+
+2020-09-03 20:05:58 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at PRE_RegisterAndActivateTTUsers.run(PRE_RegisterAndActivateTTUsers:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_384_4_EmailPreferences_AllTestCase.run(TT_384_4_EmailPreferences_AllTestCase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599134634624.run(TempTestSuite1599134634624.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_ChangeUserPermissionViaManageUser.run(PRE_ChangeUserPermissionViaManageUser:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 36 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 51 more
+)
+
+2020-09-03 20:05:58 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_384_4_EmailPreferences_AllTestCase.run(TT_384_4_EmailPreferences_AllTestCase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599134634624.run(TempTestSuite1599134634624.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at PRE_RegisterAndActivateTTUsers.run(PRE_RegisterAndActivateTTUsers:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_ChangeUserPermissionViaManageUser.run(PRE_ChangeUserPermissionViaManageUser:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 36 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 51 more
+)]]></system-out>
+         <system-err><![CDATA[2020-09-03 20:03:57 - [TEST_CASE][FAILED] - Test Cases/V2/Test Case/Tests/TT-384 - Personal Profile/Positive/TT_384_4_EmailPreferences_AllTestCase: Test Cases/V2/Test Case/Tests/TT-384 - Personal Profile/Positive/TT_384_4_EmailPreferences_AllTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_384_4_EmailPreferences_AllTestCase.run(TT_384_4_EmailPreferences_AllTestCase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599134634624.run(TempTestSuite1599134634624.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at PRE_RegisterAndActivateTTUsers.run(PRE_RegisterAndActivateTTUsers:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_ChangeUserPermissionViaManageUser.run(PRE_ChangeUserPermissionViaManageUser:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 36 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 51 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-03 20:03:57 - [TEST_SUITE][FAILED] - TT-384_TestSuite: Test Cases/V2/Test Case/Tests/TT-384 - Personal Profile/Positive/TT_384_4_EmailPreferences_AllTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_384_4_EmailPreferences_AllTestCase.run(TT_384_4_EmailPreferences_AllTestCase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599134634624.run(TempTestSuite1599134634624.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at PRE_RegisterAndActivateTTUsers.run(PRE_RegisterAndActivateTTUsers:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_ChangeUserPermissionViaManageUser.run(PRE_ChangeUserPermissionViaManageUser:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 36 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 51 more]]></system-out>
+      <system-err><![CDATA[2020-09-03 20:03:57 - [TEST_SUITE][FAILED] - TT-384_TestSuite: Test Cases/V2/Test Case/Tests/TT-384 - Personal Profile/Positive/TT_384_4_EmailPreferences_AllTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_384_4_EmailPreferences_AllTestCase.run(TT_384_4_EmailPreferences_AllTestCase:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1599134634624.run(TempTestSuite1599134634624.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at PRE_RegisterAndActivateTTUsers.run(PRE_RegisterAndActivateTTUsers:71)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_ChangeUserPermissionViaManageUser.run(PRE_ChangeUserPermissionViaManageUser:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 36 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: '' located by '//div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5s94da@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 51 more]]></system-err>
+   </testsuite>
+</testsuites>

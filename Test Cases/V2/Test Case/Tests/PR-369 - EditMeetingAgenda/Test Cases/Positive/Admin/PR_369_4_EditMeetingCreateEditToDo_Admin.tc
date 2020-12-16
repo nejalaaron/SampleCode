@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR_369_4_EditMeetingCreateEditToDo_Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>261150c2-2e4f-4f91-89a8-48cce6d89a59</testCaseGuid>
+   <variable>
+      <defaultValue>'jeff+075@mytractiontools.com'</defaultValue>
+      <description></description>
+      <id>9ba1f38d-e680-49a2-893c-04dc754fabcd</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Skyline69A*'</defaultValue>
+      <description></description>
+      <id>0988f1c2-3514-4bd9-8517-ddb2b368b47d</id>
+      <masked>false</masked>
+      <name>passWord</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description>Row position of the Meeting that will be selected</description>
+      <id>ef37baf0-1f37-4ad2-94d2-718f3b9f3c16</id>
+      <masked>false</masked>
+      <name>meetingRowPosition</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id=\'root\']/div/div[2]/div/div/div/div[2]/div/div[%s]/div[3]/button/i'</defaultValue>
+      <description></description>
+      <id>de5024e3-a0bb-4f7d-9d03-60f79c17ff9c</id>
+      <masked>false</masked>
+      <name>editMeetingMenu_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'QA Edit Meeting Automation ToDo Test'</defaultValue>
+      <description></description>
+      <id>3f1f27e8-4d75-4c05-b783-e317930000d8</id>
+      <masked>false</masked>
+      <name>toDoName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin User'</defaultValue>
+      <description></description>
+      <id>1578d410-4ad3-4419-b4cb-9cef20ebe823</id>
+      <masked>false</masked>
+      <name>accountableOwner</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'createTodo\']//div[@role=\'listbox\'][@class=\'visible menu transition\']/div[@role=\'option\'][contains(@class,\'item\')]/span[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>36926a8d-3698-488c-8bdf-1fa8102c20f8</id>
+      <masked>false</masked>
+      <name>accountableOwner_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'30'</defaultValue>
+      <description></description>
+      <id>ad6f4822-2f61-4cae-893b-8e968d5335c8</id>
+      <masked>false</masked>
+      <name>dueDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'(//*[normalize-space(text()) and normalize-space(.)=\'July 2020\'])[1]/following::div[%s]'</defaultValue>
+      <description></description>
+      <id>6719602b-7e20-46d0-9015-1b1c8b5e54ac</id>
+      <masked>false</masked>
+      <name>dueDate_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sample Notes'</defaultValue>
+      <description></description>
+      <id>9d793d8b-9fa1-462e-ad11-2fd5f559572b</id>
+      <masked>false</masked>
+      <name>Notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'To-Dos\']/ancestor::div[contains(@class,\'CardStyles\')]//button/div[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>b29e4f0f-bc91-449f-b0a9-6f8e485696f0</id>
+      <masked>false</masked>
+      <name>verifyToDo_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'Updated QA Edit Meeting Automation ToDo Test'</defaultValue>
+      <description></description>
+      <id>24a3dab9-c87e-441a-97c3-7cdbbb037d7d</id>
+      <masked>false</masked>
+      <name>editToDoName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Supervisor User'</defaultValue>
+      <description></description>
+      <id>3e02e391-690e-4ea0-8345-6e9bdd13eba1</id>
+      <masked>false</masked>
+      <name>editAccountableOwner</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>f542b203-0778-4e64-b0c3-7b3837b0ce0f</id>
+      <masked>false</masked>
+      <name>editDueDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'editTodo\']//div[@role=\'listbox\'][@class=\'visible menu transition\']/div[@role=\'option\'][contains(@class,\'item\')]/span[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>962e6089-678d-4681-bd0e-bb0b35538aa7</id>
+      <masked>false</masked>
+      <name>editaccountableOwner_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]/div[@class=\'listcontainer__options\']/button'</defaultValue>
+      <description></description>
+      <id>2df16837-8e4f-4a0d-8793-b636b33b03e5</id>
+      <masked>false</masked>
+      <name>meetingOptions_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'SP Meeting Admin'</defaultValue>
+      <description></description>
+      <id>c79f3936-159b-4852-b9cd-b3c4834f8cf8</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>'(//div[@data-test-id=\'todo.title\']/child::input[@aria-label=\'To-Do Title\'])[2]'</defaultValue>
+      <description></description>
+      <id>8c9c2dbd-6cef-4e3b-b202-8f59cc1d3483</id>
+      <masked>false</masked>
+      <name>toDoText_Obj</name>
+   </variable>
+</TestCaseEntity>

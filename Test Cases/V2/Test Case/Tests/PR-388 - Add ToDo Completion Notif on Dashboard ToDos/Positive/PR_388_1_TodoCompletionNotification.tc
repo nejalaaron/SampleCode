@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR_388_1_TodoCompletionNotification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1e2b7c0-2ea4-45ac-a491-a7dd1954b163</testCaseGuid>
+   <variable>
+      <defaultValue>'//div[contains(@class,\'TextBodyStyles\') and text()=\'%s\']/ancestor::div[@data-test-id=\'todo\']//label[@data-test-id=\'todo.done\']/div'</defaultValue>
+      <description></description>
+      <id>b7ea194f-afc0-4ea6-92f9-8eb5474f98c3</id>
+      <masked>false</masked>
+      <name>todoCheckbox</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>29a7d336-489d-499b-a6e9-a5c1bc9caad4</id>
+      <masked>false</masked>
+      <name>todoName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>898b80fa-432a-4747-ba54-e27a116ccc42</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0e664118-5b5d-47ad-8329-16ebac89c5d5</id>
+      <masked>false</masked>
+      <name>passWord</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e09e2799-a722-4ff6-b283-37bd992e6824</id>
+      <masked>false</masked>
+      <name>day</name>
+   </variable>
+   <variable>
+      <defaultValue>'(//*[normalize-space(text()) and normalize-space(.)=\'July 2020\'])[1]/following::div[%s]'</defaultValue>
+      <description></description>
+      <id>9d2bb6a1-8015-44c7-8f02-016499705db9</id>
+      <masked>false</masked>
+      <name>date_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'To-Dos\']/ancestor::div[contains(@class,\'CardStyles\')]/div[2]//div[contains(@class,\'TextBodyStyles\') and text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>c338a83c-3344-41c6-94d9-3c486272ebb0</id>
+      <masked>false</masked>
+      <name>todoVerify_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d80b221f-c832-4027-a3fc-95a6a35badac</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id=\'root\']//h2[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>86226dd2-c53f-49bf-8091-d36af92753a1</id>
+      <masked>false</masked>
+      <name>meetingNameWorkspace_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'%s\']/ancestor::div[contains(@class,\'_StyledDiv2-sc\')]//button//div[text()=\'Open workspace\']'</defaultValue>
+      <description></description>
+      <id>cf195bda-e183-490b-9ddf-8503717f4966</id>
+      <masked>false</masked>
+      <name>workSpace</name>
+   </variable>
+</TestCaseEntity>

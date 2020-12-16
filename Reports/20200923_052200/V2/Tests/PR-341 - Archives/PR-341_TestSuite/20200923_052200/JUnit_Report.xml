@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PR-341_TestSuite" time="136.884" tests="1" failures="1" errors="0">
+   <testsuite name="PR-341_TestSuite" tests="1" failures="1" errors="0" time="136.884" timestamp="2020-09-23 05:22:01" hostname="Aaron-PC - host.docker.internal" id="Test Suites/V2/Tests/PR-341 - Archives/PR-341_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aaron-PC\\git\\TractionTools\\Reports\\20200923_052200\\V2\\Tests\\PR-341 - Archives\\PR-341_TestSuite\\20200923_052200"/>
+         <property name="logFiles" value="C:\\Users\\Aaron-PC\\git\\TractionTools\\Reports\\20200923_052200\\V2\\Tests\\PR-341 - Archives\\PR-341_TestSuite\\20200923_052200\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Aaron-PC\\git\\TractionTools\\Reports\\20200923_052200\\V2\\Tests\\PR-341 - Archives\\PR-341_TestSuite\\20200923_052200\\1600809857093.png"/>
+         <property name="hostName" value="Aaron-PC - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.1.48"/>
+         <property name="sessionId" value="824dd6ac8c2b032a1f8dbcdc48f46a45"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase" time="135.656" classname="Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase" status="FAILED">
+         <failure type="FAILED" message="Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_341_2_ArchiveRock_AllTestCase.run(TT_341_2_ArchiveRock_AllTestCase:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600809720156.run(TempTestSuite1600809720156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_CreateL10Meeting.run(PRE_CreateL10Meeting:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;tooltip_Listener&quot;>...&lt;/div> is not clickable at point (1743, 88). Other element would receive the click: &lt;div class=&quot;notifier__right&quot;>...&lt;/div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-O0IP7CU', ip: '192.168.1.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Aaron-PC\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 824dd6ac8c2b032a1f8dbcdc48f46a45
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+"/>
+         <system-out><![CDATA[2020-09-23 05:22:01 - [TEST_CASE][FAILED] - Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase: Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_341_2_ArchiveRock_AllTestCase.run(TT_341_2_ArchiveRock_AllTestCase:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600809720156.run(TempTestSuite1600809720156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_CreateL10Meeting.run(PRE_CreateL10Meeting:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="tooltip_Listener">...</div> is not clickable at point (1743, 88). Other element would receive the click: <div class="notifier__right">...</div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-O0IP7CU', ip: '192.168.1.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Aaron-PC\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 824dd6ac8c2b032a1f8dbcdc48f46a45
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2020-09-23 05:22:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers"), ["admin_fname":admin_fname, "lastname":lastname, "phonenumber":"9999999999", "company":"Traction Tools", "password":password, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers' successfully
+
+2020-09-23 05:22:02 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers: Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers
+
+2020-09-23 05:22:02 - [TEST_STEP][PASSED] - email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(admin_email_prefix, admin_email_domain, randomTextLength): Successfully generated a random email: tractiontools.user001+ta5gcxy3@gmail.com
+
+2020-09-23 05:22:02 - [MESSAGE][PASSED] - Successfully generated a random email: tractiontools.user001+ta5gcxy3@gmail.com
+
+2020-09-23 05:22:02 - [TEST_STEP][PASSED] - supervisor_email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(supervisor_email_prefix, supervisor_email_domain, randomTextLength): Successfully generated a random email: tractiontools.user001+ts5ud0is@gmail.com
+
+2020-09-23 05:22:02 - [MESSAGE][PASSED] - Successfully generated a random email: tractiontools.user001+ts5ud0is@gmail.com
+
+2020-09-23 05:22:02 - [TEST_STEP][PASSED] - employee_email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(employee_email_prefix, employee_email_domain, randomTextLength): Successfully generated a random email: tractiontools.user001+te5oetm8@gmail.com
+
+2020-09-23 05:22:02 - [MESSAGE][PASSED] - Successfully generated a random email: tractiontools.user001+te5oetm8@gmail.com
+
+2020-09-23 05:22:02 - [TEST_STEP][PASSED] - adminDetails = tt_CustomKeywords.CustomKeywords.RegisterUserViaAPIAndGenerateActivateURL(email, admin_fname, lastname, phonenumber, company, "__JSON__{\"howDidYouHearAboutUs\":\"Facebook\",\"implementer\":\"\",\"existingTractionToolsClient\":\"\",\"other\":\"\"}", "__JSON__{\"timeZone\":\"America/Guatemala\",\"brandColor\":\"#023047\",\"q1Start\":null,\"q1End\":null,\"q2Start\":null,\"q2End\":null,\"q3Start\":null,\"q3End\":null,\"q4Start\":null,\"q4End\":null,\"quarterDatesSetsRocks\":false,\"exportUsers\":false,\"exportRocks\":false,\"exportRocksIncludesMilestones\":false,\"exportScorecards\":false,\"exportTodos\":false,\"exportTodosIncludesNotes\":false,\"exportPeopleHeadlines\":false,\"exportPeopleHeadlinesIncludesNotes\":false,\"exportIssues\":false,\"exportIssuesIncludesNotes\":false,\"exportContextAwareTodos\":false,\"dateFormat\":\"MM/DD/YYYY\",\"timeFormat\":\"h:mma\",\"numberFormat\":\"-1,000.99\",\"supervisorsArchiveRestoreUsers\":false,\"supervisorsEditPositions\":false,\"milestonesAvailableToAll\":false,\"customMeetingTemplatesEnabled\":false,\"receiveTodoReminders\":false,\"todoReminderTime\":\"13:00\",\"todoReminderTimeZone\":\"America/Guatemala\",\"todoReminderFrequency\":\"DAILY\",\"vtoMeetingId\":\"\",\"vtoDisplayMode\":\"ALL\",\"coreValues\":[{\"id\":\"1\",\"text\":\"\"},{\"id\":\"2\",\"text\":\"\"},{\"id\":\"3\",\"text\":\"\"}]}", password, V2Url): SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmaster.dev02.tt-devs.com/activate?activationKey=5b0790f3-84b3-4aa6-b6be-579c1c83f23d&userId=9aba5bd8-f1e2-41d8-c059-24f6f9436037&orgId=d2ba5bd8-f0a5-4b67-e59d-b9facbc9d8df&email=tractiontools.user001+ta5gcxy3@gmail.com&teamsId=3eba5bd8-f0df-19d0-0251-458aa9bf56d0&meetingsId=7aba5bd8-f0d0-6f9a-ef26-e38bc6f8bc97&adminsId=56ba5bd8-f268-231f-935e-b7a8c7413033&usersId=d8ba5bd8-f0ee-36bd-cdc4-024b5bc039b2&supervisorsId=78ba5bd8-f0c1-7767-128f-66d2a5da2a53&accountabilityChartId=34ba5bd8-f0fd-2bae-e690-f86c788f7d28&isCreator=1
+
+2020-09-23 05:22:04 - [MESSAGE][PASSED] - SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmaster.dev02.tt-devs.com/activate?activationKey=5b0790f3-84b3-4aa6-b6be-579c1c83f23d&userId=9aba5bd8-f1e2-41d8-c059-24f6f9436037&orgId=d2ba5bd8-f0a5-4b67-e59d-b9facbc9d8df&email=tractiontools.user001+ta5gcxy3@gmail.com&teamsId=3eba5bd8-f0df-19d0-0251-458aa9bf56d0&meetingsId=7aba5bd8-f0d0-6f9a-ef26-e38bc6f8bc97&adminsId=56ba5bd8-f268-231f-935e-b7a8c7413033&usersId=d8ba5bd8-f0ee-36bd-cdc4-024b5bc039b2&supervisorsId=78ba5bd8-f0c1-7767-128f-66d2a5da2a53&accountabilityChartId=34ba5bd8-f0fd-2bae-e690-f86c788f7d28&isCreator=1
+
+2020-09-23 05:22:04 - [TEST_STEP][PASSED] - activationURL = adminDetails[0]: null
+
+2020-09-23 05:22:04 - [TEST_STEP][PASSED] - orgID = adminDetails[1]: null
+
+2020-09-23 05:22:04 - [TEST_STEP][PASSED] - out.println("URL: " + activationURL): null
+
+2020-09-23 05:22:04 - [TEST_STEP][PASSED] - out.println("orgID: " + orgID): null
+
+2020-09-23 05:22:04 - [TEST_STEP][PASSED] - supervisorUser_name = supervisor_fname + " " + lastname: null
+
+2020-09-23 05:22:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-23 05:22:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 05:22:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 05:22:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 05:22:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-23 05:22:10 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 05:22:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ActivateNewUser"), ["activationURL":activationURL, "email":email, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-23 05:22:10 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser
+
+2020-09-23 05:22:10 - [TEST_STEP][PASSED] - navigateToUrl(activationURL): Navigate to 'https://meetingmaster.dev02.tt-devs.com/activate?activationKey=5b0790f3-84b3-4aa6-b6be-579c1c83f23d&userId=9aba5bd8-f1e2-41d8-c059-24f6f9436037&orgId=d2ba5bd8-f0a5-4b67-e59d-b9facbc9d8df&email=tractiontools.user001+ta5gcxy3@gmail.com&teamsId=3eba5bd8-f0df-19d0-0251-458aa9bf56d0&meetingsId=7aba5bd8-f0d0-6f9a-ef26-e38bc6f8bc97&adminsId=56ba5bd8-f268-231f-935e-b7a8c7413033&usersId=d8ba5bd8-f0ee-36bd-cdc4-024b5bc039b2&supervisorsId=78ba5bd8-f0c1-7767-128f-66d2a5da2a53&accountabilityChartId=34ba5bd8-f0fd-2bae-e690-f86c788f7d28&isCreator=1' successfully
+
+2020-09-23 05:22:12 - [MESSAGE][PASSED] - Navigate to 'https://meetingmaster.dev02.tt-devs.com/activate?activationKey=5b0790f3-84b3-4aa6-b6be-579c1c83f23d&userId=9aba5bd8-f1e2-41d8-c059-24f6f9436037&orgId=d2ba5bd8-f0a5-4b67-e59d-b9facbc9d8df&email=tractiontools.user001+ta5gcxy3@gmail.com&teamsId=3eba5bd8-f0df-19d0-0251-458aa9bf56d0&meetingsId=7aba5bd8-f0d0-6f9a-ef26-e38bc6f8bc97&adminsId=56ba5bd8-f268-231f-935e-b7a8c7413033&usersId=d8ba5bd8-f0ee-36bd-cdc4-024b5bc039b2&supervisorsId=78ba5bd8-f0c1-7767-128f-66d2a5da2a53&accountabilityChartId=34ba5bd8-f0fd-2bae-e690-f86c788f7d28&isCreator=1' successfully
+
+2020-09-23 05:22:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/ActivationPage/input_Email_email"), DefaultTimeout): Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-23 05:22:20 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-23 05:22:20 - [TEST_STEP][PASSED] - actual_email = getAttribute(findTestObject("Object Repository/V2/Commons/ActivationPage/input_Email_email"), "value"): Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+ta5gcxy3@gmail.com'
+
+2020-09-23 05:22:20 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+ta5gcxy3@gmail.com'
+
+2020-09-23 05:22:20 - [TEST_STEP][PASSED] - verifyMatch(actual_email, email, false): Actual text 'tractiontools.user001+ta5gcxy3@gmail.com' and expected text 'tractiontools.user001+ta5gcxy3@gmail.com' are matched 
+
+2020-09-23 05:22:20 - [MESSAGE][PASSED] - Actual text 'tractiontools.user001+ta5gcxy3@gmail.com' and expected text 'tractiontools.user001+ta5gcxy3@gmail.com' are matched 
+
+2020-09-23 05:22:20 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ActivationPage/input_password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-23 05:22:21 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-23 05:22:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/V2/Commons/ActivationPage/input__passwordRepeat"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-23 05:22:22 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-23 05:22:22 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/ActivationPage/input_termsandconditions")): Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-23 05:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-23 05:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ActivationPage/div_Create account")): Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-23 05:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-23 05:22:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 05:22:29 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 05:22:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), 0): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 05:22:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 05:22:29 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 05:22:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-23 05:22:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup' successfully
+
+2020-09-23 05:22:29 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup: Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup
+
+2020-09-23 05:22:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmCompanyInfoHeader_h1"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmCompanyInfoHeader_h1' is visible
+
+2020-09-23 05:22:30 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmCompanyInfoHeader_h1' is visible
+
+2020-09-23 05:22:30 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 05:22:30 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 05:22:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-23 05:22:31 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-23 05:22:31 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 05:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 05:22:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-23 05:22:32 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-23 05:22:32 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-23 05:22:32 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-23 05:22:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup' successfully
+
+2020-09-23 05:22:32 - [TEST_STEP][PASSED] - supervisor_activationURL = tt_CustomKeywords.CustomKeywords.RegisterAndActivateSupervisorUserViaAPI(V2Url, orgID, supervisor_email, password, email, password, supervisor_fname, lastname): SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmaster.dev02.tt-devs.com/activate?activationKey=e4cff523-add6-41ae-b606-48f4f74c21be&userId=1aba5bd9-2b27-0720-bbf6-3318dc65bf57&orgId=d2ba5bd8-f0a5-4b67-e59d-b9facbc9d8df&email=tractiontools.user001+ts5ud0is@gmail.com&isCreator=0
+
+2020-09-23 05:22:34 - [MESSAGE][PASSED] - SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmaster.dev02.tt-devs.com/activate?activationKey=e4cff523-add6-41ae-b606-48f4f74c21be&userId=1aba5bd9-2b27-0720-bbf6-3318dc65bf57&orgId=d2ba5bd8-f0a5-4b67-e59d-b9facbc9d8df&email=tractiontools.user001+ts5ud0is@gmail.com&isCreator=0
+
+2020-09-23 05:22:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser"), ["showMenuItemsPath":"//div[@class='usercard__detail_container']/div[text()='%s']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']", "user_email":supervisor_email, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' successfully
+
+2020-09-23 05:22:34 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser
+
+2020-09-23 05:22:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/span_Company Settings")): Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-23 05:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-23 05:22:34 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/a_Manage Users")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Manage Users' is clicked on
+
+2020-09-23 05:22:35 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Manage Users' is clicked on
+
+2020-09-23 05:22:35 - [TEST_STEP][PASSED] - showMenuItemsObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(showMenuItemsPath, user_email, "xpath"): Successfully created new dynamic object: //div[@class='usercard__detail_container']/div[text()='tractiontools.user001+ts5ud0is@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']
+
+2020-09-23 05:22:35 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@class='usercard__detail_container']/div[text()='tractiontools.user001+ts5ud0is@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']
+
+2020-09-23 05:22:35 - [TEST_STEP][PASSED] - click(showMenuItemsObj): Object: '' is clicked on
+
+2020-09-23 05:22:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 05:22:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_Edit user")): Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Edit user' is clicked on
+
+2020-09-23 05:22:36 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Edit user' is clicked on
+
+2020-09-23 05:22:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/ManageUsersPage/div_PositionTitle"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/div_PositionTitle' is present
+
+2020-09-23 05:22:37 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/div_PositionTitle' is present
+
+2020-09-23 05:22:37 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ManageUsersPage/position_title_input"), position_title): Text 'QA Manager' is set on object 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 05:22:37 - [MESSAGE][PASSED] - Text 'QA Manager' is set on object 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 05:22:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("V2/Commons/ManageUsersPage/position_title_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 05:22:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 05:22:38 - [TEST_STEP][PASSED] - if (permissionValue == "Employee"): null
+
+2020-09-23 05:22:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_User type"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/div_User type' is present
+
+2020-09-23 05:22:38 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/div_User type' is present
+
+2020-09-23 05:22:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/input__orgRole")): Object: 'Object Repository/V2/Commons/ManageUsersPage/input__orgRole' is clicked on
+
+2020-09-23 05:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/input__orgRole' is clicked on
+
+2020-09-23 05:22:38 - [TEST_STEP][PASSED] - roleOptionObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(roleOption, permissionValue, "xpath"): Successfully created new dynamic object: //span[text()='Supervisor']/parent::div[@role='option']
+
+2020-09-23 05:22:38 - [MESSAGE][PASSED] - Successfully created new dynamic object: //span[text()='Supervisor']/parent::div[@role='option']
+
+2020-09-23 05:22:38 - [TEST_STEP][PASSED] - click(roleOptionObj): Object: '' is clicked on
+
+2020-09-23 05:22:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 05:22:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_Save")): Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Save' is clicked on
+
+2020-09-23 05:22:39 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Save' is clicked on
+
+2020-09-23 05:22:39 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/ManageUsersPage/h3_User Saved"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 05:22:42 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 05:22:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/V2/Commons/ManageUsersPage/h3_User Saved")): Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 05:22:42 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 05:22:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' successfully
+
+2020-09-23 05:22:42 - [TEST_STEP][PASSED] - employee_activationURL = tt_CustomKeywords.CustomKeywords.RegisterAndActivateSupervisorUserViaAPI(V2Url, orgID, employee_email, password, email, password, employee_fname, lastname): SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmaster.dev02.tt-devs.com/activate?activationKey=50fbf9a8-7965-478e-a659-dcf9603a9fd9&userId=8aba5bd9-3e8d-33e9-11e8-d92c33e6a33d&orgId=d2ba5bd8-f0a5-4b67-e59d-b9facbc9d8df&email=tractiontools.user001+te5oetm8@gmail.com&isCreator=0
+
+2020-09-23 05:22:44 - [MESSAGE][PASSED] - SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmaster.dev02.tt-devs.com/activate?activationKey=50fbf9a8-7965-478e-a659-dcf9603a9fd9&userId=8aba5bd9-3e8d-33e9-11e8-d92c33e6a33d&orgId=d2ba5bd8-f0a5-4b67-e59d-b9facbc9d8df&email=tractiontools.user001+te5oetm8@gmail.com&isCreator=0
+
+2020-09-23 05:22:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser"), ["showMenuItemsPath":"//div[@class='usercard__detail_container']/div[text()='%s']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']", "user_email":employee_email, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' successfully
+
+2020-09-23 05:22:44 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser
+
+2020-09-23 05:22:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/span_Company Settings")): Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-23 05:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-23 05:22:44 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/a_Manage Users")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Manage Users' is clicked on
+
+2020-09-23 05:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Manage Users' is clicked on
+
+2020-09-23 05:22:44 - [TEST_STEP][PASSED] - showMenuItemsObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(showMenuItemsPath, user_email, "xpath"): Successfully created new dynamic object: //div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5oetm8@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']
+
+2020-09-23 05:22:44 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5oetm8@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']
+
+2020-09-23 05:22:44 - [TEST_STEP][PASSED] - click(showMenuItemsObj): Object: '' is clicked on
+
+2020-09-23 05:22:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 05:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_Edit user")): Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Edit user' is clicked on
+
+2020-09-23 05:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Edit user' is clicked on
+
+2020-09-23 05:22:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/ManageUsersPage/div_PositionTitle"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/div_PositionTitle' is present
+
+2020-09-23 05:22:46 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/div_PositionTitle' is present
+
+2020-09-23 05:22:46 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ManageUsersPage/position_title_input"), position_title): Text 'Quality Assurance' is set on object 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 05:22:46 - [MESSAGE][PASSED] - Text 'Quality Assurance' is set on object 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 05:22:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("V2/Commons/ManageUsersPage/position_title_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 05:22:47 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 05:22:47 - [TEST_STEP][PASSED] - if (permissionValue == "Employee"): Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input'
+
+2020-09-23 05:22:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/ManageUsersPage/supervisor_input"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input' is present
+
+2020-09-23 05:22:48 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input' is present
+
+2020-09-23 05:22:48 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ManageUsersPage/supervisor_input"), user_supervisorName): Text 'Supervisor User' is set on object 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input'
+
+2020-09-23 05:22:48 - [MESSAGE][PASSED] - Text 'Supervisor User' is set on object 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input'
+
+2020-09-23 05:22:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("V2/Commons/ManageUsersPage/supervisor_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input'
+
+2020-09-23 05:22:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input'
+
+2020-09-23 05:22:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_User type"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/div_User type' is present
+
+2020-09-23 05:22:49 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/div_User type' is present
+
+2020-09-23 05:22:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/input__orgRole")): Object: 'Object Repository/V2/Commons/ManageUsersPage/input__orgRole' is clicked on
+
+2020-09-23 05:22:49 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/input__orgRole' is clicked on
+
+2020-09-23 05:22:49 - [TEST_STEP][PASSED] - roleOptionObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(roleOption, permissionValue, "xpath"): Successfully created new dynamic object: //span[text()='Employee']/parent::div[@role='option']
+
+2020-09-23 05:22:49 - [MESSAGE][PASSED] - Successfully created new dynamic object: //span[text()='Employee']/parent::div[@role='option']
+
+2020-09-23 05:22:49 - [TEST_STEP][PASSED] - click(roleOptionObj): Object: '' is clicked on
+
+2020-09-23 05:22:50 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 05:22:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_Save")): Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Save' is clicked on
+
+2020-09-23 05:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Save' is clicked on
+
+2020-09-23 05:22:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/ManageUsersPage/h3_User Saved"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 05:22:54 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 05:22:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/V2/Commons/ManageUsersPage/h3_User Saved")): Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 05:22:54 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 05:22:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' successfully
+
+2020-09-23 05:22:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ActivateNewUser"), ["activationURL":supervisor_activationURL, "email":supervisor_email, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-23 05:22:54 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser
+
+2020-09-23 05:22:54 - [TEST_STEP][PASSED] - navigateToUrl(activationURL): Navigate to 'https://meetingmaster.dev02.tt-devs.com/activate?activationKey=e4cff523-add6-41ae-b606-48f4f74c21be&userId=1aba5bd9-2b27-0720-bbf6-3318dc65bf57&orgId=d2ba5bd8-f0a5-4b67-e59d-b9facbc9d8df&email=tractiontools.user001+ts5ud0is@gmail.com&isCreator=0' successfully
+
+2020-09-23 05:22:56 - [MESSAGE][PASSED] - Navigate to 'https://meetingmaster.dev02.tt-devs.com/activate?activationKey=e4cff523-add6-41ae-b606-48f4f74c21be&userId=1aba5bd9-2b27-0720-bbf6-3318dc65bf57&orgId=d2ba5bd8-f0a5-4b67-e59d-b9facbc9d8df&email=tractiontools.user001+ts5ud0is@gmail.com&isCreator=0' successfully
+
+2020-09-23 05:22:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/ActivationPage/input_Email_email"), DefaultTimeout): Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-23 05:22:57 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-23 05:22:57 - [TEST_STEP][PASSED] - actual_email = getAttribute(findTestObject("Object Repository/V2/Commons/ActivationPage/input_Email_email"), "value"): Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+ts5ud0is@gmail.com'
+
+2020-09-23 05:22:57 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+ts5ud0is@gmail.com'
+
+2020-09-23 05:22:57 - [TEST_STEP][PASSED] - verifyMatch(actual_email, email, false): Actual text 'tractiontools.user001+ts5ud0is@gmail.com' and expected text 'tractiontools.user001+ts5ud0is@gmail.com' are matched 
+
+2020-09-23 05:22:57 - [MESSAGE][PASSED] - Actual text 'tractiontools.user001+ts5ud0is@gmail.com' and expected text 'tractiontools.user001+ts5ud0is@gmail.com' are matched 
+
+2020-09-23 05:22:57 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ActivationPage/input_password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-23 05:22:58 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-23 05:22:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/V2/Commons/ActivationPage/input__passwordRepeat"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-23 05:22:59 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-23 05:22:59 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/ActivationPage/input_termsandconditions")): Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-23 05:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-23 05:22:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ActivationPage/div_Create account")): Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-23 05:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-23 05:23:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 05:23:03 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 05:23:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), 0): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 05:23:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 05:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 05:23:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-23 05:23:04 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup' successfully
+
+2020-09-23 05:23:04 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup: Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup
+
+2020-09-23 05:23:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-23 05:23:04 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-23 05:23:04 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 05:23:04 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 05:23:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-23 05:23:05 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-23 05:23:05 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-23 05:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-23 05:23:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup' successfully
+
+2020-09-23 05:23:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ActivateNewUser"), ["activationURL":employee_activationURL, "email":employee_email, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-23 05:23:05 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser
+
+2020-09-23 05:23:05 - [TEST_STEP][PASSED] - navigateToUrl(activationURL): Navigate to 'https://meetingmaster.dev02.tt-devs.com/activate?activationKey=50fbf9a8-7965-478e-a659-dcf9603a9fd9&userId=8aba5bd9-3e8d-33e9-11e8-d92c33e6a33d&orgId=d2ba5bd8-f0a5-4b67-e59d-b9facbc9d8df&email=tractiontools.user001+te5oetm8@gmail.com&isCreator=0' successfully
+
+2020-09-23 05:23:07 - [MESSAGE][PASSED] - Navigate to 'https://meetingmaster.dev02.tt-devs.com/activate?activationKey=50fbf9a8-7965-478e-a659-dcf9603a9fd9&userId=8aba5bd9-3e8d-33e9-11e8-d92c33e6a33d&orgId=d2ba5bd8-f0a5-4b67-e59d-b9facbc9d8df&email=tractiontools.user001+te5oetm8@gmail.com&isCreator=0' successfully
+
+2020-09-23 05:23:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/ActivationPage/input_Email_email"), DefaultTimeout): Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-23 05:23:08 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-23 05:23:08 - [TEST_STEP][PASSED] - actual_email = getAttribute(findTestObject("Object Repository/V2/Commons/ActivationPage/input_Email_email"), "value"): Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+te5oetm8@gmail.com'
+
+2020-09-23 05:23:08 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+te5oetm8@gmail.com'
+
+2020-09-23 05:23:08 - [TEST_STEP][PASSED] - verifyMatch(actual_email, email, false): Actual text 'tractiontools.user001+te5oetm8@gmail.com' and expected text 'tractiontools.user001+te5oetm8@gmail.com' are matched 
+
+2020-09-23 05:23:08 - [MESSAGE][PASSED] - Actual text 'tractiontools.user001+te5oetm8@gmail.com' and expected text 'tractiontools.user001+te5oetm8@gmail.com' are matched 
+
+2020-09-23 05:23:08 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ActivationPage/input_password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-23 05:23:09 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-23 05:23:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/V2/Commons/ActivationPage/input__passwordRepeat"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-23 05:23:10 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-23 05:23:10 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/ActivationPage/input_termsandconditions")): Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-23 05:23:10 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-23 05:23:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ActivationPage/div_Create account")): Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-23 05:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-23 05:23:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 05:23:15 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 05:23:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), 0): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 05:23:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 05:23:15 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 05:23:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-23 05:23:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup' successfully
+
+2020-09-23 05:23:15 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup: Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup
+
+2020-09-23 05:23:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-23 05:23:15 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-23 05:23:15 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 05:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 05:23:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-23 05:23:16 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-23 05:23:16 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-23 05:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-23 05:23:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup' successfully
+
+2020-09-23 05:23:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers' successfully
+
+2020-09-23 05:23:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-09-23 05:23:17 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-23 05:23:17 - [TEST_STEP][PASSED] - path = System.getProperty("user.dir"): null
+
+2020-09-23 05:23:17 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", getChromeDriverPath()): null
+
+2020-09-23 05:23:17 - [TEST_STEP][PASSED] - driver1 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2020-09-23 05:23:21 - [TEST_STEP][PASSED] - changeWebDriver(driver1): null
+
+2020-09-23 05:23:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-23 05:23:23 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 05:23:23 - [TEST_STEP][PASSED] - navigateToUrl(V2Url): Navigate to 'https://meetingmaster.dev02.tt-devs.com' successfully
+
+2020-09-23 05:23:26 - [MESSAGE][PASSED] - Navigate to 'https://meetingmaster.dev02.tt-devs.com' successfully
+
+2020-09-23 05:23:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication"), ["username":email, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication' successfully
+
+2020-09-23 05:23:26 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication: Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication
+
+2020-09-23 05:23:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/LoginPage/input__username"), DefaultTimeout): Object 'Object Repository/V2/Commons/LoginPage/input__username' is visible
+
+2020-09-23 05:23:35 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/LoginPage/input__username' is visible
+
+2020-09-23 05:23:35 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/LoginPage/input__password"), DefaultTimeout): Object 'Object Repository/V2/Commons/LoginPage/input__password' is visible
+
+2020-09-23 05:23:35 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/LoginPage/input__password' is visible
+
+2020-09-23 05:23:35 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/LoginPage/input__username"), username): Text 'tractiontools.user001+ta5gcxy3@gmail.com' is set on object 'Object Repository/V2/Commons/LoginPage/input__username'
+
+2020-09-23 05:23:35 - [MESSAGE][PASSED] - Text 'tractiontools.user001+ta5gcxy3@gmail.com' is set on object 'Object Repository/V2/Commons/LoginPage/input__username'
+
+2020-09-23 05:23:35 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/LoginPage/input__password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/LoginPage/input__password'
+
+2020-09-23 05:23:36 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/LoginPage/input__password'
+
+2020-09-23 05:23:36 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/LoginPage/div_Login")): Object: 'Object Repository/V2/Commons/LoginPage/div_Login' is clicked on
+
+2020-09-23 05:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/LoginPage/div_Login' is clicked on
+
+2020-09-23 05:23:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 05:23:39 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 05:23:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), STOP_ON_FAILURE): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 05:23:39 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 05:23:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication' successfully
+
+2020-09-23 05:23:39 - [TEST_STEP][PASSED] - driver2 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2020-09-23 05:23:42 - [TEST_STEP][PASSED] - changeWebDriver(driver2): null
+
+2020-09-23 05:23:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-23 05:23:44 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 05:23:44 - [TEST_STEP][PASSED] - navigateToUrl(V2Url): Navigate to 'https://meetingmaster.dev02.tt-devs.com' successfully
+
+2020-09-23 05:23:45 - [MESSAGE][PASSED] - Navigate to 'https://meetingmaster.dev02.tt-devs.com' successfully
+
+2020-09-23 05:23:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication"), ["username":supervisor_email, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication' successfully
+
+2020-09-23 05:23:45 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication: Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication
+
+2020-09-23 05:23:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/LoginPage/input__username"), DefaultTimeout): Object 'Object Repository/V2/Commons/LoginPage/input__username' is visible
+
+2020-09-23 05:23:53 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/LoginPage/input__username' is visible
+
+2020-09-23 05:23:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/LoginPage/input__password"), DefaultTimeout): Object 'Object Repository/V2/Commons/LoginPage/input__password' is visible
+
+2020-09-23 05:23:53 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/LoginPage/input__password' is visible
+
+2020-09-23 05:23:53 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/LoginPage/input__username"), username): Text 'tractiontools.user001+ts5ud0is@gmail.com' is set on object 'Object Repository/V2/Commons/LoginPage/input__username'
+
+2020-09-23 05:23:54 - [MESSAGE][PASSED] - Text 'tractiontools.user001+ts5ud0is@gmail.com' is set on object 'Object Repository/V2/Commons/LoginPage/input__username'
+
+2020-09-23 05:23:54 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/LoginPage/input__password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/LoginPage/input__password'
+
+2020-09-23 05:23:54 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/LoginPage/input__password'
+
+2020-09-23 05:23:54 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/LoginPage/div_Login")): Object: 'Object Repository/V2/Commons/LoginPage/div_Login' is clicked on
+
+2020-09-23 05:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/LoginPage/div_Login' is clicked on
+
+2020-09-23 05:23:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 05:23:57 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 05:23:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), STOP_ON_FAILURE): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 05:23:57 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 05:23:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication' successfully
+
+2020-09-23 05:23:57 - [TEST_STEP][PASSED] - driver3 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2020-09-23 05:24:00 - [TEST_STEP][PASSED] - changeWebDriver(driver3): null
+
+2020-09-23 05:24:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-23 05:24:02 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 05:24:02 - [TEST_STEP][PASSED] - navigateToUrl(V2Url): Navigate to 'https://meetingmaster.dev02.tt-devs.com' successfully
+
+2020-09-23 05:24:03 - [MESSAGE][PASSED] - Navigate to 'https://meetingmaster.dev02.tt-devs.com' successfully
+
+2020-09-23 05:24:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication"), ["username":employee_email, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication' successfully
+
+2020-09-23 05:24:03 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication: Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication
+
+2020-09-23 05:24:03 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/LoginPage/input__username"), DefaultTimeout): Object 'Object Repository/V2/Commons/LoginPage/input__username' is visible
+
+2020-09-23 05:24:11 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/LoginPage/input__username' is visible
+
+2020-09-23 05:24:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/LoginPage/input__password"), DefaultTimeout): Object 'Object Repository/V2/Commons/LoginPage/input__password' is visible
+
+2020-09-23 05:24:11 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/LoginPage/input__password' is visible
+
+2020-09-23 05:24:11 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/LoginPage/input__username"), username): Text 'tractiontools.user001+te5oetm8@gmail.com' is set on object 'Object Repository/V2/Commons/LoginPage/input__username'
+
+2020-09-23 05:24:11 - [MESSAGE][PASSED] - Text 'tractiontools.user001+te5oetm8@gmail.com' is set on object 'Object Repository/V2/Commons/LoginPage/input__username'
+
+2020-09-23 05:24:11 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/LoginPage/input__password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/LoginPage/input__password'
+
+2020-09-23 05:24:11 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/LoginPage/input__password'
+
+2020-09-23 05:24:11 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/LoginPage/div_Login")): Object: 'Object Repository/V2/Commons/LoginPage/div_Login' is clicked on
+
+2020-09-23 05:24:11 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/LoginPage/div_Login' is clicked on
+
+2020-09-23 05:24:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 05:24:14 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 05:24:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), STOP_ON_FAILURE): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 05:24:14 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 05:24:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication' successfully
+
+2020-09-23 05:24:14 - [TEST_STEP][PASSED] - changeWebDriver(driver1): null
+
+2020-09-23 05:24:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_AddMilestone_Rocks"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_AddMilestone_Rocks' successfully
+
+2020-09-23 05:24:14 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_AddMilestone_Rocks: Test Cases/V2/Test Case/Pre-conditions/PRE_AddMilestone_Rocks
+
+2020-09-23 05:24:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/span_Company Settings")): Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-23 05:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-23 05:24:14 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/a_Advance Settings")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Advance Settings' is clicked on
+
+2020-09-23 05:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Advance Settings' is clicked on
+
+2020-09-23 05:24:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/AdvanceSettingsPage/Add_Milestone_Toggle"), DefaultTimeout): Object 'Object Repository/V2/Commons/AdvanceSettingsPage/Add_Milestone_Toggle' is visible
+
+2020-09-23 05:24:15 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/AdvanceSettingsPage/Add_Milestone_Toggle' is visible
+
+2020-09-23 05:24:15 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/AdvanceSettingsPage/Add_Milestone_Toggle")): Object: 'Object Repository/V2/Commons/AdvanceSettingsPage/Add_Milestone_Toggle' is clicked on
+
+2020-09-23 05:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/AdvanceSettingsPage/Add_Milestone_Toggle' is clicked on
+
+2020-09-23 05:24:15 - [TEST_STEP][PASSED] - A_validateMilestoneChecked = getAttribute(findTestObject("V2/Commons/AdvanceSettingsPage/Verify_Milestone_Toggle"), "checked"): Attribute 'checked' of object 'Object Repository/V2/Commons/AdvanceSettingsPage/Verify_Milestone_Toggle' is: 'true'
+
+2020-09-23 05:24:15 - [MESSAGE][PASSED] - Attribute 'checked' of object 'Object Repository/V2/Commons/AdvanceSettingsPage/Verify_Milestone_Toggle' is: 'true'
+
+2020-09-23 05:24:15 - [TEST_STEP][PASSED] - verifyMatch(A_validateMilestoneChecked, "true", false): Actual text 'true' and expected text 'true' are matched 
+
+2020-09-23 05:24:15 - [MESSAGE][PASSED] - Actual text 'true' and expected text 'true' are matched 
+
+2020-09-23 05:24:15 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/AdvanceSettingsPage/Save_Rules")): Object: 'Object Repository/V2/Commons/AdvanceSettingsPage/Save_Rules' is clicked on
+
+2020-09-23 05:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/AdvanceSettingsPage/Save_Rules' is clicked on
+
+2020-09-23 05:24:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_AddMilestone_Rocks' successfully
+
+2020-09-23 05:24:15 - [TEST_STEP][FAILED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_CreateL10Meeting"), ["meetingName":meetingName, "meetingAcronym":meetingAcronym, "meetingType":meetingType, "dropdownOptions_obj":"//div[@id='CREATE_MEETING_L10']//span[text()='%s']/parent::div[@role='option']", ... ], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_341_2_ArchiveRock_AllTestCase.run(TT_341_2_ArchiveRock_AllTestCase:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600809720156.run(TempTestSuite1600809720156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_CreateL10Meeting.run(PRE_CreateL10Meeting:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="tooltip_Listener">...</div> is not clickable at point (1743, 88). Other element would receive the click: <div class="notifier__right">...</div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-O0IP7CU', ip: '192.168.1.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Aaron-PC\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 824dd6ac8c2b032a1f8dbcdc48f46a45
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2020-09-23 05:24:15 - [TEST_CASE][FAILED] - Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting: Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_CreateL10Meeting.run(PRE_CreateL10Meeting:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_341_2_ArchiveRock_AllTestCase.run(TT_341_2_ArchiveRock_AllTestCase:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600809720156.run(TempTestSuite1600809720156.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="tooltip_Listener">...</div> is not clickable at point (1743, 88). Other element would receive the click: <div class="notifier__right">...</div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-O0IP7CU', ip: '192.168.1.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Aaron-PC\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 824dd6ac8c2b032a1f8dbcdc48f46a45
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2020-09-23 05:24:15 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 05:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 05:24:15 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/V2/Commons/MeetingListPage/div_Create a meeting")): Unable to click on object 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_CreateL10Meeting.run(PRE_CreateL10Meeting:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_341_2_ArchiveRock_AllTestCase.run(TT_341_2_ArchiveRock_AllTestCase:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600809720156.run(TempTestSuite1600809720156.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="tooltip_Listener">...</div> is not clickable at point (1743, 88). Other element would receive the click: <div class="notifier__right">...</div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-O0IP7CU', ip: '192.168.1.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Aaron-PC\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 824dd6ac8c2b032a1f8dbcdc48f46a45
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1592935057201.run(Script1592935057201.groovy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1600803338696.run(Script1600803338696.groovy:73)
+	... 13 more
+)
+
+2020-09-23 05:24:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_CreateL10Meeting.run(PRE_CreateL10Meeting:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_341_2_ArchiveRock_AllTestCase.run(TT_341_2_ArchiveRock_AllTestCase:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600809720156.run(TempTestSuite1600809720156.groovy:39)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="tooltip_Listener">...</div> is not clickable at point (1743, 88). Other element would receive the click: <div class="notifier__right">...</div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-O0IP7CU', ip: '192.168.1.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Aaron-PC\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 824dd6ac8c2b032a1f8dbcdc48f46a45
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at Script1592935057201.run(Script1592935057201.groovy:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1600803338696.run(Script1600803338696.groovy:73)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Aaron-PC\\git\\TractionTools\\Reports\\20200923_052200\\V2\\Tests\\PR-341 - Archives\\PR-341_TestSuite\\20200923_052200\\1600809857093.png]]
+
+2020-09-23 05:24:17 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_341_2_ArchiveRock_AllTestCase.run(TT_341_2_ArchiveRock_AllTestCase:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600809720156.run(TempTestSuite1600809720156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_CreateL10Meeting.run(PRE_CreateL10Meeting:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="tooltip_Listener">...</div> is not clickable at point (1743, 88). Other element would receive the click: <div class="notifier__right">...</div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-O0IP7CU', ip: '192.168.1.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Aaron-PC\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 824dd6ac8c2b032a1f8dbcdc48f46a45
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)]]></system-out>
+         <system-err><![CDATA[2020-09-23 05:22:01 - [TEST_CASE][FAILED] - Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase: Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_341_2_ArchiveRock_AllTestCase.run(TT_341_2_ArchiveRock_AllTestCase:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600809720156.run(TempTestSuite1600809720156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_CreateL10Meeting.run(PRE_CreateL10Meeting:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="tooltip_Listener">...</div> is not clickable at point (1743, 88). Other element would receive the click: <div class="notifier__right">...</div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-O0IP7CU', ip: '192.168.1.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Aaron-PC\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 824dd6ac8c2b032a1f8dbcdc48f46a45
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-23 05:22:01 - [TEST_SUITE][FAILED] - PR-341_TestSuite: Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_341_2_ArchiveRock_AllTestCase.run(TT_341_2_ArchiveRock_AllTestCase:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600809720156.run(TempTestSuite1600809720156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_CreateL10Meeting.run(PRE_CreateL10Meeting:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="tooltip_Listener">...</div> is not clickable at point (1743, 88). Other element would receive the click: <div class="notifier__right">...</div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-O0IP7CU', ip: '192.168.1.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Aaron-PC\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 824dd6ac8c2b032a1f8dbcdc48f46a45
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-out>
+      <system-err><![CDATA[2020-09-23 05:22:01 - [TEST_SUITE][FAILED] - PR-341_TestSuite: Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TT_341_2_ArchiveRock_AllTestCase.run(TT_341_2_ArchiveRock_AllTestCase:73)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1600809720156.run(TempTestSuite1600809720156.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:76)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$5.call(Unknown Source)
+	at PRE_CreateL10Meeting.run(PRE_CreateL10Meeting:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="tooltip_Listener">...</div> is not clickable at point (1743, 88). Other element would receive the click: <div class="notifier__right">...</div>
+  (Session info: chrome=85.0.4183.102)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-O0IP7CU', ip: '192.168.1.48', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Aaron-PC\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50739}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 824dd6ac8c2b032a1f8dbcdc48f46a45
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:69)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+   </testsuite>
+</testsuites>

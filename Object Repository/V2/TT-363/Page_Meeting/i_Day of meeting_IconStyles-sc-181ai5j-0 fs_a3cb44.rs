@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Day of meeting_IconStyles-sc-181ai5j-0 fs_a3cb44</name>
+   <tag></tag>
+   <elementGuidId>7aef5604-3243-4a63-8977-4a1f1809c6ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[4]/div/div/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>IconStyles-sc-181ai5j-0 fspyWU icon-arrow-keyboard-down naked__icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;LayoutWrappper-tp58ga-0 bOckMl&quot;]/div[@class=&quot;layout__container false&quot;]/div[@class=&quot;layout__content&quot;]/div[@class=&quot;MeetingsWrapper-sc-5wv2fa-3 iXSCWL&quot;]/div[1]/div[@class=&quot;_StyledDiv3-zxhscp-3 iuBgIL&quot;]/div[@class=&quot;_StyledDiv4-zxhscp-4 cDFzpR&quot;]/div[@class=&quot;_StyledDiv9-zxhscp-9 eDLTVm page__filter&quot;]/div[@class=&quot;_StyledDiv10-zxhscp-10 UmcmX page__filterInner&quot;]/div[@class=&quot;_StyledDiv12-zxhscp-12 ksewru page__filterItem&quot;]/div[@class=&quot;FormControlStyles-gjfkdq-0 eJfuPb&quot;]/div[@class=&quot;SelectInputStyles-izktqx-0 fbPMUB&quot;]/button[@class=&quot;BtnIconNakedStyles-sc-1vxkzkz-0 kiYMlA selectInput__rightBtn beforeHack&quot;]/i[@class=&quot;IconStyles-sc-181ai5j-0 fspyWU icon-arrow-keyboard-down naked__icon&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div/div/div/div/div/div[2]/div/div[4]/div/div/button/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/button/i</value>
+   </webElementXpaths>
+</WebElementEntity>

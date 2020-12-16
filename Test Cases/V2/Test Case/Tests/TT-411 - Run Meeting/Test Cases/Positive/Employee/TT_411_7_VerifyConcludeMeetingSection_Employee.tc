@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_411_7_VerifyConcludeMeetingSection_Employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9f6c4772-eb69-4b53-9a68-8891833203ab</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>345b553a-f9b3-4b5c-84c7-997b211b2c9a</id>
+      <masked>false</masked>
+      <name>permission</name>
+   </variable>
+</TestCaseEntity>

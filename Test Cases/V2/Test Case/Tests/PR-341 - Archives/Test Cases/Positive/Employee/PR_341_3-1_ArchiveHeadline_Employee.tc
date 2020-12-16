@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR_341_3-1_ArchiveHeadline_Employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0dee032f-d7dc-4ba1-8901-5b12fbf0e8c5</testCaseGuid>
+   <variable>
+      <defaultValue>'jeff+075@mytractiontools.com'</defaultValue>
+      <description></description>
+      <id>330016e5-5a7b-415e-8c21-5da382e53de0</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Skyline69A*'</defaultValue>
+      <description></description>
+      <id>5df12b5b-3759-4179-9595-da408bddd4cd</id>
+      <masked>false</masked>
+      <name>passWord</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>f3d51818-6849-4055-b40a-9666619912d9</id>
+      <masked>false</masked>
+      <name>meetingRowPosition</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id=\'root\']/div/div[2]/div/div/div/div[2]/div/div[%s]/div[3]/button/i'</defaultValue>
+      <description></description>
+      <id>ba154b06-c40b-4e41-a7a2-f5b80f4c70ae</id>
+      <masked>false</masked>
+      <name>editMeetingMenu_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'QA Automation People Headline Test'</defaultValue>
+      <description></description>
+      <id>49cc5152-4d42-4457-900e-d1ab735e46e1</id>
+      <masked>false</masked>
+      <name>headlineName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin User'</defaultValue>
+      <description></description>
+      <id>5214e782-4202-4128-9d47-48a248594946</id>
+      <masked>false</masked>
+      <name>ownerName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'createPeopleHeadline\']//div[@role=\'listbox\'][@class=\'visible menu transition\']/div[@role=\'option\'][contains(@class,\'item\')]/span[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>7008ac28-4545-4827-b518-51d49752b30a</id>
+      <masked>false</masked>
+      <name>ownerObj</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sample Notes'</defaultValue>
+      <description></description>
+      <id>0399c679-12cf-452c-9121-7a9fa88046e8</id>
+      <masked>false</masked>
+      <name>Notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'People Headlines\']/ancestor::div[contains(@class,\'col\')]//div[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>544ae1b0-8175-481b-a253-980153d80f4d</id>
+      <masked>false</masked>
+      <name>headlineVerify_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]/div[@class=\'listcontainer__options\']/button'</defaultValue>
+      <description></description>
+      <id>7cd40c36-df51-4b6d-9c7e-71f7230c47fa</id>
+      <masked>false</masked>
+      <name>meetingOptions_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'SP Meeting Admin'</defaultValue>
+      <description></description>
+      <id>a4312698-cbf0-40c2-8d37-73206e94e71c</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+</TestCaseEntity>

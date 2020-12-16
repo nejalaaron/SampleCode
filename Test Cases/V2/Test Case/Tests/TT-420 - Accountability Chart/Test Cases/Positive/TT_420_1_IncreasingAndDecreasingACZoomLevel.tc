@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_420_1_IncreasingAndDecreasingACZoomLevel</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>feb6634b-059b-48f6-b4bf-0fd6384ad6c2</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>32dbdcba-696c-48d0-a8f5-99e3fc5ee959</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f785a0fc-23b2-43b4-b7f4-c00f546334b3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

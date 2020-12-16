@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is for TT-712 data staging.</description>
+   <name>TT-712_1_DataStaging</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6e0e5e0-4b98-4ed3-98f5-6a6296ac8ad8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ea4a2590-f2cf-4eaf-a9e4-a76aac5312cd</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>34833ed9-9b70-4af6-b177-d00987837993</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8e9e205-6b24-4454-b4ba-3f9f1d2c9b04</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ae14bea4-642c-4161-be29-c76039578977</id>
+      <masked>false</masked>
+      <name>acronym</name>
+   </variable>
+</TestCaseEntity>

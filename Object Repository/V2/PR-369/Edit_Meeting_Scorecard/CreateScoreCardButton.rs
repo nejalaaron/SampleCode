@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CreateScoreCardButton</name>
+   <tag></tag>
+   <elementGuidId>3bda00f4-db99-4bc2-a38f-5980f71b5345</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(@class,'BtnIconStyles')][@aria-label=&quot;Add Measurable&quot;]/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>IconStyles-sc-181ai5j-0 cVVWLL icon-plus undefined</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;LayoutWrappper-tp58ga-0 HyzXD&quot;]/div[@class=&quot;layout__container&quot;]/div[@class=&quot;layout__content&quot;]/div[@class=&quot;EditMeetingWrapper-szde2y-5 hdsbQo&quot;]/div[@class=&quot;editmeeting__content&quot;]/div[@class=&quot;editmeeting__right-column&quot;]/div[@class=&quot;_StyledDiv-mluda8-0 hjQVho&quot;]/div[2]/div[@class=&quot;CardStyles-sc-101efrr-0 eKBUFq _StyledCard-tal5v3-2 cDOUBl&quot;]/div[@class=&quot;_StyledDiv-tal5v3-3 klMwxS&quot;]/div[@class=&quot;card__header&quot;]/div[@class=&quot;card__actions&quot;]/div[@class=&quot;StackStyles-sc-12tx3af-1 iXXrsT stack&quot;]/div[@class=&quot;ItemStyles-sc-12tx3af-0 jpgAxN stack__item _StyledStackItem3-tal5v3-5 hAXrRB&quot;]/button[@class=&quot;BtnIconStyles-k8ghfj-0 dRfFyk&quot;]/div[@class=&quot;tooltip_Listener&quot;]/i[@class=&quot;IconStyles-sc-181ai5j-0 cVVWLL icon-plus undefined&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div[4]/div[2]/div/div/div/div/div/div[2]/button/div/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div[2]/div/div/div/div/div/div[2]/button/div/i</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_394_6_CreateNewHeadlineInTheWorkspaceMeeting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2721530-9511-40d4-98a3-ea1415f27d6d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62ae51be-8c31-4585-b6c7-8f28e93df6c0</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>37c1451f-f932-4ce5-baad-fbf9da6db85e</id>
+      <masked>false</masked>
+      <name>passWord</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d82ebfaf-61e0-4415-bb7d-22f0a3793f5d</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>00d57e87-1268-4dee-9b5b-efa58f11407a</id>
+      <masked>false</masked>
+      <name>peopleHeadlineName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'%s\']/ancestor::div[contains(@class,\'_StyledDiv2-sc\')]//button//div[text()=\'Open workspace\']'</defaultValue>
+      <description></description>
+      <id>c9e4f596-715b-4a0b-8e66-de44e13cca46</id>
+      <masked>false</masked>
+      <name>workSpace</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>af5cb1ec-619c-48b7-8310-7d028376334e</id>
+      <masked>false</masked>
+      <name>ownerSelected</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6e3b47de-145b-4109-978e-7087fc695cb1</id>
+      <masked>false</masked>
+      <name>assignedMeeting</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[contains(@id,\'createPeopleHeadline\')]//div[@role=\'listbox\'][@class=\'visible menu transition\']/div[@role=\'option\'][@class=\'item\']/span[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>20472a7f-0dac-4615-9a91-e918c80ced0d</id>
+      <masked>false</masked>
+      <name>owner_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[contains(@id,\'createPeopleHeadline\')]//div[@role=\'listbox\'][@class=\'visible menu transition\']/div/span[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>8198f9b3-e3be-49bc-8e44-785442919b09</id>
+      <masked>false</masked>
+      <name>assignedMeeting_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id=\'root\']//h2[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>74a9e23f-62ee-4dbc-99a2-b9082a9b8468</id>
+      <masked>false</masked>
+      <name>meetingNameWorkspace_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'People Headlines\']/ancestor::div[contains(@class,\'col\')]//div[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>11d6eb17-0fac-41de-a42b-a50f4e1b9d88</id>
+      <masked>false</masked>
+      <name>headlineVerify_Obj</name>
+   </variable>
+</TestCaseEntity>

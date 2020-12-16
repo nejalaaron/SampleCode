@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is for validating that completed to-dos in workspace is included in the to-do calculation in meetings.</description>
+   <name>TT-766_3_Workspace</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13f4ff66-2e4e-422a-9d0d-0df0316f9fdf</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ca5acd62-c8e7-48dc-bfa8-1369c320c26c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ef24efea-53db-4e29-8700-d60c3c7978db</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

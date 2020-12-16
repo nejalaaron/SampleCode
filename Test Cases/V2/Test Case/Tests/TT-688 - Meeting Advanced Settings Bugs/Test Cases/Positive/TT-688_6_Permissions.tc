@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This is to validate that users with basic editor does not have access to advanced settings page.</description>
+   <name>TT-688_6_Permissions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>344fa669-1a57-4ae0-9a0f-d5245cfef447</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>12fc03a9-cbf1-40aa-9f1c-51aa008b2933</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>275aab21-fc35-4642-a4fe-45f3932cc354</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1a7ad8d7-10e9-4d8d-be0c-737c6c618933</id>
+      <masked>false</masked>
+      <name>usernameOne</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>76de9872-262d-465a-8293-18082ba8d7a3</id>
+      <masked>false</masked>
+      <name>passwordOne</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_167_3_AddUserWithSendInvite</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>06a5bc84-5ec1-4605-a91f-0317240b9767</testCaseGuid>
+   <variable>
+      <defaultValue>'aaron+tt167_'</defaultValue>
+      <description></description>
+      <id>2891feb7-a511-4a2a-85cd-e800111fe23b</id>
+      <masked>false</masked>
+      <name>emailAddress_prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>'mytractiontools.com'</defaultValue>
+      <description></description>
+      <id>a75327b9-475c-4b26-8e3f-15f7ae87b506</id>
+      <masked>false</masked>
+      <name>emailAddress_domain</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>8fa628d6-b65e-41a7-8b49-0c3919d3b944</id>
+      <masked>false</masked>
+      <name>emailRandomText_Length</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0ce66256-5cbe-4caf-8af1-65e7fa60832e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

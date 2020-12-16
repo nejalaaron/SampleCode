@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_411_7_VerifyConcludeMeetingSection_Supervisor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8dac9c1f-b4b7-43ad-b829-ed96fa19ab01</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f9bc6c3a-e560-46c5-bdaf-754195095f3b</id>
+      <masked>false</masked>
+      <name>permission</name>
+   </variable>
+</TestCaseEntity>

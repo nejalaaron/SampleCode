@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>GoToMeeting_Button</name>
+   <tag></tag>
+   <elementGuidId>e957a834-6fb9-48b3-9f29-05f3cd96f020</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>html/body/div[1]/div/div[2]/div/div/div/div[2]/div/div/div[2]/div[5]/a/button/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

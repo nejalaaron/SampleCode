@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Rocks_plus icon sc-EHOje ldXvXt sc-Rmtcm hAGFmp</name>
+   <tag></tag>
+   <elementGuidId>495b8917-1a5b-4bf0-a81e-548e73eff004</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div[2]/div/div/div/div/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>plus icon sc-EHOje ldXvXt sc-Rmtcm hAGFmp</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-kjoXOD eXsfjK&quot;]/div[@class=&quot;row no-gutters&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;sc-cHGsZl fxVADi&quot;]/div[@class=&quot;sc-kgAjT cYyIUj&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;sc-jDwBTQ hglsoz Widget&quot;]/div[@class=&quot;sc-jlyJG bbyJzT Widget__block&quot;]/div[@class=&quot;sc-gPEVay iEgOgO Widget__header&quot;]/div[@class=&quot;sc-bRBYWo ifRdfx Widget__actions&quot;]/button[@class=&quot;sc-csuQGl hUqArJ Widget__action&quot;]/i[@class=&quot;plus icon sc-EHOje ldXvXt sc-Rmtcm hAGFmp&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div[2]/div/div/div/div/button/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/button/i</value>
+   </webElementXpaths>
+</WebElementEntity>

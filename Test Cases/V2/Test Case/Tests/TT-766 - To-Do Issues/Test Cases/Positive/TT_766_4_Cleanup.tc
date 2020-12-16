@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is for archiving meeting items and the meeting created in this scenario.</description>
+   <name>TT_766_4_Cleanup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76cff5d6-1069-4dd0-820b-3f2aa99fba63</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>59a2062e-868b-41ea-b6c4-1f8cb84f7af8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>298d59c3-a326-4a0b-9ead-fad7b9145137</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

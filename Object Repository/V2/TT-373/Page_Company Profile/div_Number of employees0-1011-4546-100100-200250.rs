@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Number of employees0-1011-4546-100100-200250</name>
+   <tag></tag>
+   <elementGuidId>e92d0fc4-0244-4c06-8e1b-40e5c16e702d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Number of employees0-1011-4546-100100-200250+' or . = 'Number of employees0-1011-4546-100100-200250+')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@aria-label='Select Number of employees in the company']/parent::div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>listbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-multiselectable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui fluid selection dropdown</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Number of employees in the company</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Number of employees0-1011-4546-100100-200250+</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;LayoutWrappper-tp58ga-0 bOckMl&quot;]/div[@class=&quot;layout__container false&quot;]/div[@class=&quot;layout__content&quot;]/div[1]/div[@class=&quot;_StyledDiv11-zxhscp-11 bNSzRo page__content&quot;]/div[@class=&quot;SettingsStyles-sc-1afsojh-0 jOWMAN&quot;]/div[@class=&quot;contents&quot;]/div[@class=&quot;column-content&quot;]/div[@class=&quot;CardStyles-sc-101efrr-0 eKBUFq _StyledCard-sc-13bn5p7-0 lhKUxI&quot;]/div[@class=&quot;CardBodyStyles-sc-101efrr-1 gLgRZi cardbody&quot;]/form[1]/div[@class=&quot;FormControlStyles-gjfkdq-0 igyPER _StyledSelectInput2-z8f1sr-3 gwiiPS&quot;]/div[@class=&quot;SelectInputStyles-izktqx-0 htzNxZ&quot;]/div[@class=&quot;ui fluid selection dropdown&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

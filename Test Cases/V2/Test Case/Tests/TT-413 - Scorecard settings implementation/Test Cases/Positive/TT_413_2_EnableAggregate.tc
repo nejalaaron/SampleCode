@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is for switching on the aggregate measurable settings in meeting advanced settings page.</description>
+   <name>TT_413_2_EnableAggregate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>96cd688d-d0be-46d0-9a81-c55c2850d987</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>73524f5c-82f3-419e-9bd3-beb3166a1337</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>49e3c91d-07ca-4829-9eda-989ddee764bd</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

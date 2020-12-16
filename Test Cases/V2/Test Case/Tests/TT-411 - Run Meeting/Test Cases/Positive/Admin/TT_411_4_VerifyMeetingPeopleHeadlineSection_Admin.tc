@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_411_4_VerifyMeetingPeopleHeadlineSection_Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>610fb648-49eb-4607-8f09-665bcb323bcb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>025426f0-0fc7-4ec9-b99e-f6044b014642</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b515a87b-1c74-4150-8cba-45d8f5229d4f</id>
+      <masked>false</masked>
+      <name>peopleHeadline_title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5c9950fe-07a3-4f5a-9a7b-474e514e0e38</id>
+      <masked>false</masked>
+      <name>peopleHeadline_title_supervisor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3bbc6fe-7023-4956-b183-574afd93b891</id>
+      <masked>false</masked>
+      <name>peopleHeadline_title_employee</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]/div[@class=\'listcontainer__options\']/button'</defaultValue>
+      <description></description>
+      <id>27d21076-6a44-4fe5-aeae-878a8b8eb3e9</id>
+      <masked>false</masked>
+      <name>meetingOptions_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'People Headlines\']/ancestor::div[contains(@class,\'CardStyles\')]//button[.=\'%s\']'</defaultValue>
+      <description></description>
+      <id>009a6f33-aba9-4ebf-83ad-8bb7b91b141f</id>
+      <masked>false</masked>
+      <name>peopleHeadlineRecord_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//button[.=\'%s\']/ancestor::div[contains(@class,\'StyledDiv-sc\')]/div/div/div/button[@aria-label=\'Create a Context-Aware To-Do™\']'</defaultValue>
+      <description></description>
+      <id>f5c406b4-9d35-4a01-9315-36d88ef5ccbc</id>
+      <masked>false</masked>
+      <name>peopleHeadline_CAT_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//button[.=\'%s\']/ancestor::div[contains(@class,\'StyledDiv-sc\')]/div/div/div/button[@aria-label=\'Create a Context-Aware Issue™\']'</defaultValue>
+      <description></description>
+      <id>b6fdfa21-8d02-4481-83b3-7e12b41b95dd</id>
+      <masked>false</masked>
+      <name>peopleHeadline_CAI_obj</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate that when there's only 1 admin in the meeting, that admin cannot be removed to the meeting.</description>
+   <name>TT-712_2_ValidateAdmin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d15c4a83-e3a0-427a-b0ef-fa1fe2578459</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d63355c8-b677-457b-b0a7-f467c6a8b41c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>74c13cf1-eaee-4a2f-84a5-36a315b17ac2</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

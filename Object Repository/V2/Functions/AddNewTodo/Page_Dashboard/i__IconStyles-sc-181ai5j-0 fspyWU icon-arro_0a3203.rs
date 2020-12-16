@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__IconStyles-sc-181ai5j-0 fspyWU icon-arro_0a3203</name>
+   <tag></tag>
+   <elementGuidId>c47619d9-f369-4265-b991-d8fb2b2efcbb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CREATE_TODO']/form/div[2]/div/div/div[2]/div/div/div/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>IconStyles-sc-181ai5j-0 fspyWU icon-arrow-keyboard-down naked__icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panel-root&quot;)/div[@id=&quot;CREATE_TODO&quot;]/div[@id=&quot;CREATE_TODO&quot;]/form[1]/div[@class=&quot;panel__body&quot;]/div[@class=&quot;ScrollShadowStyles-jc1fvm-0 lfIJtz panel__scrollShadow&quot;]/div[@class=&quot;panel__bodyInner&quot;]/div[@class=&quot;StackStyles-sc-12tx3af-1 kcWCIE stack&quot;]/div[@class=&quot;ItemStyles-sc-12tx3af-0 jPsruz stack__item&quot;]/div[@class=&quot;FormControlStyles-gjfkdq-0 eJfuPb&quot;]/div[@class=&quot;SelectInputStyles-izktqx-0 bHZxhX&quot;]/button[@class=&quot;BtnIconNakedStyles-sc-1vxkzkz-0 kiYMlA selectInput__rightBtn beforeHack&quot;]/i[@class=&quot;IconStyles-sc-181ai5j-0 fspyWU icon-arrow-keyboard-down naked__icon&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CREATE_TODO']/form/div[2]/div/div/div[2]/div/div/div/button/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div/div/button/i</value>
+   </webElementXpaths>
+</WebElementEntity>

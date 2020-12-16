@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR_369_5_EditMeetingCreateEditIssues_Supervisor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d97dc062-b108-4d08-aea5-8512097f1489</testCaseGuid>
+   <variable>
+      <defaultValue>'jeff+075@mytractiontools.com'</defaultValue>
+      <description></description>
+      <id>12496aed-e3eb-4727-bc14-8a7cc36a9e4b</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Skyline69A*'</defaultValue>
+      <description></description>
+      <id>d77ac7e2-6050-4c77-8080-63ae669cf79f</id>
+      <masked>false</masked>
+      <name>passWord</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>838bb6b6-d8f8-45b7-9e01-ee3851687df6</id>
+      <masked>false</masked>
+      <name>meetingRowPosition</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id=\'root\']/div/div[2]/div/div/div/div[2]/div/div[%s]/div[3]/button/i'</defaultValue>
+      <description></description>
+      <id>714d0b57-ca54-4039-92e4-dd41676ca705</id>
+      <masked>false</masked>
+      <name>editMeetingMenu_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'QA Automation Edit Meeting Issue Test'</defaultValue>
+      <description></description>
+      <id>01af7fee-6a54-49a2-a0bb-1e778b25ef9a</id>
+      <masked>false</masked>
+      <name>issuesName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Admin User'</defaultValue>
+      <description></description>
+      <id>808b448c-0708-4ff1-8b25-931dd8bd335b</id>
+      <masked>false</masked>
+      <name>owner</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'createIssue\']//div[@role=\'listbox\'][@class=\'visible menu transition\']/div[@role=\'option\'][contains(@class,\'item\')]/span[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>31a245f1-6fe9-44cf-9ab5-84f69930f069</id>
+      <masked>false</masked>
+      <name>owner_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sample Notes'</defaultValue>
+      <description></description>
+      <id>adc35069-4a0b-4b7e-8c08-e1d02e9b937e</id>
+      <masked>false</masked>
+      <name>Notes</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'Issues\']/ancestor::div[contains(@class,\'CardStyles\')]//button/div[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>afca5456-e08f-43fc-b5d5-fa0589ffe6fb</id>
+      <masked>false</masked>
+      <name>verifyIssues_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'Updated QA Automation Edit Meeting Issue Test'</defaultValue>
+      <description></description>
+      <id>2621917f-4fae-4193-a8c5-c63c03c5beaa</id>
+      <masked>false</masked>
+      <name>editIssuesName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'editIssue\']//div[@role=\'listbox\'][@class=\'visible menu transition\']/div[@role=\'option\'][contains(@class,\'item\')]/span[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>f1e4aee3-b549-489e-a517-4489842f0660</id>
+      <masked>false</masked>
+      <name>editOwner_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'Supervisor User'</defaultValue>
+      <description></description>
+      <id>e4a028df-643d-473f-a0df-f140bdfbc655</id>
+      <masked>false</masked>
+      <name>editOwner</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]/div[@class=\'listcontainer__options\']/button'</defaultValue>
+      <description></description>
+      <id>9d0dae41-b100-43fa-bab4-33640149920c</id>
+      <masked>false</masked>
+      <name>meetingOptions_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'SP Meeting Admin'</defaultValue>
+      <description></description>
+      <id>54515e42-077c-4ef1-805b-7ad2f1fa294d</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+</TestCaseEntity>

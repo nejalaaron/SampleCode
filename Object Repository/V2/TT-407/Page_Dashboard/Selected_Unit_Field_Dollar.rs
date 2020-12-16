@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Selected_Unit_Field_Dollar</name>
+   <tag></tag>
+   <elementGuidId>34554ad6-28ad-4786-85ee-da0b1bdf13c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CREATE_MEASURABLE']/div[2]/div/div/form/div[3]/div/div/div/div/div[2]/div[1]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value></value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div[@role='combobox']/div[@role='listbox']/div[@role='option']/span[text()='Dollars ($)']</value>
+   </webElementXpaths>
+</WebElementEntity>

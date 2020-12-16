@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate and check navigation bar options</description>
+   <name>TC014_ValidateNavbarOptions</name>
+   <tag>Nav_Bar</tag>
+   <comment></comment>
+   <testCaseGuid>e38391a0-56d7-4242-a166-a1384413adcb</testCaseGuid>
+</TestCaseEntity>

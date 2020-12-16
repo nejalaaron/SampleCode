@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/Commons/LoginPage/div_Login",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div/form/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200921_213608/V2/Tests/PR-341 - Archives/PR-341_TestSuite/20200921_213608/Object Repository/V2/Commons/LoginPage/div_Login_position.png"
+    }
+  ]
+}

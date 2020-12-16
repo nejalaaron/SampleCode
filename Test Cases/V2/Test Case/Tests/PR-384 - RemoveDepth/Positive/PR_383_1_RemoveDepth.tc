@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR_383_1_RemoveDepth</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b86fcc9f-206b-4adc-8370-4115dc52a16d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>11427b8a-cff0-4e01-bed8-e48f7d43e5e6</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+</TestCaseEntity>

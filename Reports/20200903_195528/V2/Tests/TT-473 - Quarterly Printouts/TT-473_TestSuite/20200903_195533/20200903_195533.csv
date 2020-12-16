@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TT-473_TestSuite,Chrome 85.0.4183.83,,,2020-09-03 19:55:35,2020-09-03 19:59:24,3m - 49.221s,FAILED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/TT-473 - Quarterly Printouts/Test Cases/TT_473_1_GenerateQP_L10meeting_AllTestCase,Chrome 85.0.4183.83,,,2020-09-03 19:55:36,2020-09-03 19:57:32,1m - 56.596s,FAILED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-03 19:55:37,2020-09-03 19:57:32,1m - 55.821s,FAILED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/TT-473 - Quarterly Printouts/Test Cases/TT_473_2_GenerateQP_L10Meeting_WithoutCoverPage_AllTestCase,Chrome 85.0.4183.83,,,2020-09-03 19:57:32,2020-09-03 19:59:24,1m - 51.876s,FAILED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-03 19:57:33,2020-09-03 19:59:24,1m - 51.627s,FAILED

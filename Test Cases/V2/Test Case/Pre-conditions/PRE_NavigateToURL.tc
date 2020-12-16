@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to URL</description>
+   <name>PRE_NavigateToURL</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f59c8661-710a-4c20-96f7-2e721b1ef9f4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>29ef16c5-f779-4c5a-80ed-234990b6eedd</id>
+      <masked>false</masked>
+      <name>URL</name>
+   </variable>
+</TestCaseEntity>

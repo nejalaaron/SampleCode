@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is for validation of the &quot;User Type&quot; dropdown list.</description>
+   <name>TT-740_1_UserTypeList</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>878618c9-f9b3-45b3-b800-8552aeb8e5c0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>50ed9c73-a98a-4b43-9614-087bec643298</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>22cf68dc-372b-4b18-92fd-76b2db526bad</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

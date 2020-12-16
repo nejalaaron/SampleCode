@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button___StyledButton-sc-9nsd91-0 hrKrVT</name>
+   <tag></tag>
+   <elementGuidId>83d8749c-9cf6-4d6a-8c4e-2ca544f826f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_StyledButton-sc-9nsd91-0 hrKrVT</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;LayoutWrappper-tp58ga-0 TjfAP&quot;]/div[@class=&quot;layout__container&quot;]/div[@class=&quot;layout__content&quot;]/div[@class=&quot;EditMeetingWrapper-sc-1lifrg-4 eAODFB&quot;]/div[@class=&quot;editmeeting__content&quot;]/div[@class=&quot;ScrollShadowStyles-jc1fvm-0 lfIJtz editmeeting__right-column&quot;]/div[@class=&quot;CardStyles-sc-101efrr-0 eKBUFq EditBasicInfoWrapper-sc-1qtq3xf-12 joMSAE&quot;]/div[@class=&quot;CardBodyStyles-sc-101efrr-1 gLgRZi card__body _StyledCardBody-sc-1qtq3xf-1 ibgTre&quot;]/form[1]/div[@class=&quot;_StyledDiv6-sc-1qtq3xf-6 ecLag editbasic__content&quot;]/div[@class=&quot;FormControlStyles-gjfkdq-0 igyPER&quot;]/button[@class=&quot;_StyledButton-sc-9nsd91-0 hrKrVT&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[3]/form/div[5]/div/button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/button[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

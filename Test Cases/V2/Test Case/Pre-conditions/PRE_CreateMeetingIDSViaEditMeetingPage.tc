@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create a meeting todo via 'Edit Meeting Page'</description>
+   <name>PRE_CreateMeetingIDSViaEditMeetingPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>32d0f022-c1ee-4b80-a9c7-12645bb0da20</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2fecbdb0-f952-4c1f-95ee-05cea2bc4829</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>57e527db-f6b9-472c-86a9-8c11370c777d</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>88c517b9-38d1-404d-8483-0bf90568a26f</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0d683e4f-064b-47cb-8ac1-50512a6540c6</id>
+      <masked>false</masked>
+      <name>issue_title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3181382e-8ed5-463a-aeae-14e595c2978f</id>
+      <masked>false</masked>
+      <name>notesText</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6193f225-3140-4a99-8d02-bb971939294f</id>
+      <masked>false</masked>
+      <name>permission</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'createIssue\' and contains(@id,\'editMeeting\')]//div[@data-test-id=\'issue.owner\']//span[text()=\'%s\']/parent::div[@role=\'option\']'</defaultValue>
+      <description></description>
+      <id>353ae977-018d-42ca-84d2-10515cb3d487</id>
+      <masked>false</masked>
+      <name>createIssueDropdownOwnerOpt_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'createIssue\' and contains(@id,\'editMeeting\')]//div[@data-test-id=\'issue.assignToTeamMeeting\']//span[text()=\'%s\']/parent::div[@role=\'option\']'</defaultValue>
+      <description></description>
+      <id>90da15cd-b99f-4718-a45d-eecf30a0567a</id>
+      <masked>false</masked>
+      <name>createIssueDropdownATMOpt_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]/div[@class=\'listcontainer__options\']/button'</defaultValue>
+      <description></description>
+      <id>c5592885-6dd9-4987-9d6c-fe3fbcad0492</id>
+      <masked>false</masked>
+      <name>meetingOptions_obj</name>
+   </variable>
+</TestCaseEntity>

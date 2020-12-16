@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Archive a user in Manage user page</description>
+   <name>TC013_ManageUsers_ArchiveUser</name>
+   <tag>TT_Manage_Users</tag>
+   <comment></comment>
+   <testCaseGuid>e01bdfea-6542-4cc7-976b-117ebadb68f0</testCaseGuid>
+</TestCaseEntity>

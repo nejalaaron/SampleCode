@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edit a To-do Record</description>
+   <name>TC007_EditToDoRecord</name>
+   <tag>Dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>34f6092e-821d-4766-ba26-ec858e49fe9f</testCaseGuid>
+</TestCaseEntity>

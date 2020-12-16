@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create a meeting todo via 'Edit Meeting Page'</description>
+   <name>PRE_CreateMeetingPeopleHeadlineViaEditMeetingPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2393ce31-1643-44c3-93f0-d9a7a896635f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ff0b4e05-a7bd-48ee-b92e-f80f8fccd398</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5614ad73-c3df-4dfd-a3f0-8286c4854aaa</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8f32faf-dbf4-4058-84bf-bd1353a51001</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>add3173d-5bdc-4304-870e-6f949086fa6e</id>
+      <masked>false</masked>
+      <name>peopleHeadline_title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>05a03836-4cc4-4720-a32d-13901adba6a6</id>
+      <masked>false</masked>
+      <name>shared_meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fd80f6f8-3cf5-47dd-be3a-cd3465fda865</id>
+      <masked>false</masked>
+      <name>notesText</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c2a20080-d19c-40d5-afa3-2850e85c23b3</id>
+      <masked>false</masked>
+      <name>permission</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'createPeopleHeadline\' and contains(@id,\'editMeeting\')]//div[@data-test-id=\'peopleHeadline.owner\']//span[text()=\'%s\']/parent::div[@role=\'option\']'</defaultValue>
+      <description></description>
+      <id>14b8fb97-17c6-4441-bdd2-1a8cf1330a37</id>
+      <masked>false</masked>
+      <name>createPeopleHeadlineDropdownOwnerOpt_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'createPeopleHeadline\' and contains(@id,\'editMeeting\')]//div[@data-test-id=\'peopleHeadline.assignToTeamMeeting\']//span[text()=\'%s\']/parent::div[@role=\'option\']'</defaultValue>
+      <description></description>
+      <id>51041fbd-8d6e-4cd8-9699-94df835d1478</id>
+      <masked>false</masked>
+      <name>createPeopleHeadlineDropdownATMOpt_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'createPeopleHeadline\' and contains(@id,\'editMeeting\')]//div[@data-test-id=\'peopleHeadline.sharedWithMeetings\']]//span[text()=\'%s\']/parent::div[@role=\'option\']'</defaultValue>
+      <description></description>
+      <id>9e397159-5d4f-4247-bd89-73728ba6e28e</id>
+      <masked>false</masked>
+      <name>createPeopleHeadlineDropdownSTTMOpt_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]/div[@class=\'listcontainer__options\']/button'</defaultValue>
+      <description></description>
+      <id>5f9c8cbc-9b12-4fa9-a1bd-ecccb993588d</id>
+      <masked>false</masked>
+      <name>meetingOptions_obj</name>
+   </variable>
+</TestCaseEntity>

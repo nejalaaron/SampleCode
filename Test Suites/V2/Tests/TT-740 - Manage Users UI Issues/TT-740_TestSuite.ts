@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TT-740_TestSuite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>34ac54c5-39a2-4640-9269-ac3ec4399262</testSuiteGuid>
+   <testCaseLink>
+      <guid>64d37798-ab62-44a3-9e49-96c86075034e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/V2/Test Case/Tests/TT-740 - Manage Users UI Issues/Test Cases/Positive/TT-740_1_UserTypeList</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ab9fd894-e72c-4474-8c89-651003706904</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/V2/TT-740/TT_740_1</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ab9fd894-e72c-4474-8c89-651003706904</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>50ed9c73-a98a-4b43-9614-087bec643298</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ab9fd894-e72c-4474-8c89-651003706904</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>22cf68dc-372b-4b18-92fd-76b2db526bad</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,84 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Meeting name Acronym Meeting descriptio_78e662",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div[2]/div/div/div[2]/div[2]/div/div[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Basic information\u0027])[2]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200923_232149/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200923_232149/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Meeting name Acronym Meeting descriptio_78e662_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/i__IconStyles-sc-181ai5j-0 fspyWU icon-arro_0a3203",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/form/div[4]/div/div/button/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//form/div[4]/div/div/button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200923_232149/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200923_232149/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/i__IconStyles-sc-181ai5j-0 fspyWU icon-arro_0a3203_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Departmental",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/form/div[4]/div/div/div/div[2]/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Leadership\u0027])[2]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200923_232149/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200923_232149/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Departmental_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Tuesday",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/form/div[6]/div/div/div/div[2]/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Monday\u0027])[2]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200923_232149/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200923_232149/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Tuesday_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_ampm700",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div[2]/div/div/div[2]/div[2]/div/div[3]/form/div[7]/div/div/div/div[2]/div[8]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027am/pm\u0027])[7]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200923_232149/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200923_232149/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_ampm700_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Save2",
+      "brokenLocator": "//*[@id\u003d\"root\"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div[3]/form/div[3]/button[2]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200923_232149/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200923_232149/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Save2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/input__meeting title",
+      "brokenLocator": "//input[@id\u003d\u0027name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200923_232149/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200923_232149/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/input__meeting title_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_GeneralBasic informationVideo conferenc_ee1ae7",
+      "brokenLocator": "//a[@href\u003d\u0027#video-conference\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200923_232149/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200923_232149/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_GeneralBasic informationVideo conferenc_ee1ae7_position.png"
+    }
+  ]
+}

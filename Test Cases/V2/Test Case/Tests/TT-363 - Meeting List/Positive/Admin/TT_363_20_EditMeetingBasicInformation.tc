@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_363_20_EditMeetingBasicInformation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8be68767-14cf-4463-82d4-2c16d3dab122</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c7652322-d702-48e0-be97-e5112a3c1ae7</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>913b18d3-1340-41b6-ad7d-3cf41c6fc39a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4d066f6e-ebab-4a2e-9c8a-33670c7a1970</id>
+      <masked>false</masked>
+      <name>meetingTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>46cb866d-8b6a-4893-8f49-9c91c4d6faf2</id>
+      <masked>false</masked>
+      <name>meetingAcronym</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>58d42767-4554-44ce-a873-e307f2721e03</id>
+      <masked>false</masked>
+      <name>meetingDescription</name>
+   </variable>
+</TestCaseEntity>

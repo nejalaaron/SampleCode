@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_413_4_ToDoCalc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1e032a7-da22-42c7-bdd0-88e09c01dd81</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bdee7a2a-c7ca-4e07-8424-40a09420f869</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9b19c563-09aa-494a-9283-c7a8555fe0c7</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

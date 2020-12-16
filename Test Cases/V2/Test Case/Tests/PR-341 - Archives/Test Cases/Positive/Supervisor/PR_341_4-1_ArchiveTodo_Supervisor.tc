@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR_341_4-1_ArchiveTodo_Supervisor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7cd2e7a9-5309-44a9-a5de-67dda7bcaebd</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>24a1d3d9-aa98-4774-aa57-b84580b5c56f</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@class=\'detailscontainer__block item\']/h4[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>7dd69652-fb2f-468e-99a8-5293b3735bd5</id>
+      <masked>false</masked>
+      <name>meetingRecord_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@class=\'detailscontainer__block item\']/h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]//div[@class=\'item\']//button[.=\'Go to meeting\']'</defaultValue>
+      <description></description>
+      <id>6105c51f-d39f-424c-afc9-7b149101897e</id>
+      <masked>false</masked>
+      <name>meetingGoToMeeting_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]/div[@class=\'listcontainer__options\']/button'</defaultValue>
+      <description></description>
+      <id>4db62f6f-1a42-48b1-a5fa-54f9045076ac</id>
+      <masked>false</masked>
+      <name>meetingOptions_obj</name>
+   </variable>
+</TestCaseEntity>

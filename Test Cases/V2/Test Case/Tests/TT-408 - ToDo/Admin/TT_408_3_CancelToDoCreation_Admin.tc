@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_408_3_CancelToDoCreation_Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e73249fd-8d3a-442b-b3ea-fed08224686b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f0f20209-2659-4f3c-b21d-07489fdeaa0b</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9f4bb2e1-7e69-4129-86a2-a6c7326ff3a5</id>
+      <masked>false</masked>
+      <name>passWord</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c04bb34c-0e75-42f3-b5e2-91f9f2f7385a</id>
+      <masked>false</masked>
+      <name>todoName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c3d834a1-0313-4621-9434-d620a91c02ad</id>
+      <masked>false</masked>
+      <name>day</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'To-Dos\']/ancestor::div[contains(@class,\'CardStyles\')]/div[2]//div[contains(@class,\'TextBodyStyles\') and text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>ee83f8d1-eb87-4765-9dc6-5b59083b33c3</id>
+      <masked>false</masked>
+      <name>todoVerify_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6f5203e4-8ca3-49ff-a617-5113f3bf3e47</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id=\'CREATE_TODO\']//div[@role=\'listbox\'][@class=\'visible menu transition\']/div/span[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>00582c2a-3884-4c58-a243-c9bb72bb772d</id>
+      <masked>false</masked>
+      <name>assignedMeeting_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'(//*[normalize-space(text()) and normalize-space(.)=\'September 2020\'])[1]/following::div[%s]'</defaultValue>
+      <description></description>
+      <id>d68ccdb5-e206-4d33-9bc0-bd76c4654726</id>
+      <masked>false</masked>
+      <name>date_Obj</name>
+   </variable>
+</TestCaseEntity>

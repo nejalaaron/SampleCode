@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_394_1_NavigateAndViewTeamWorkspacePage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0dfbf0dd-54d1-4c9d-9d93-5fdfd14d3b18</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b6f5521b-62a5-4b6c-b536-f443edfc5f67</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3e8318ae-bc84-477e-86f0-52c67969313f</id>
+      <masked>false</masked>
+      <name>passWord</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>641b5361-c3d3-4ed7-866c-430e06996908</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id=\'root\']//h2[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>0c47859e-d3ad-4350-aa2a-9dd2ad38a75e</id>
+      <masked>false</masked>
+      <name>meetingNameWorkspace_Obj</name>
+   </variable>
+</TestCaseEntity>

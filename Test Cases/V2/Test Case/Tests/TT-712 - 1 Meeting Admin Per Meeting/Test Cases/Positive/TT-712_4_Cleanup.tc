@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT-712_4_Cleanup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1af59d17-3155-4e93-be4b-3823bc1cac53</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>21c24025-a6bb-458b-8d45-93f9f7446949</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8a61579-f272-454f-8b84-3a08999c282e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

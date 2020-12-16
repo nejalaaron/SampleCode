@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage Users - Send Invite</description>
+   <name>TC012_ManageUsers_SendInvite</name>
+   <tag>TT_Manage_Users</tag>
+   <comment></comment>
+   <testCaseGuid>f1fd5b1b-26e8-4f15-b591-53ec7134ca5a</testCaseGuid>
+</TestCaseEntity>

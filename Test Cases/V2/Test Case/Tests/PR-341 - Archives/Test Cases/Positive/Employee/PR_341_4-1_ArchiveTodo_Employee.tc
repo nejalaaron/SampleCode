@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PR_341_4-1_ArchiveTodo_Employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbfbe882-86de-449d-8c6c-a56d6b6c46e7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9d5bb2e4-75ce-43da-b9a9-fd825051dc0e</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@class=\'detailscontainer__block item\']/h4[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>6c0c9bc6-9086-4710-aeaa-911c5ff9306c</id>
+      <masked>false</masked>
+      <name>meetingRecord_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@class=\'detailscontainer__block item\']/h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]//div[@class=\'item\']//button[.=\'Go to meeting\']'</defaultValue>
+      <description></description>
+      <id>b98e8364-f1ee-439b-91a0-bdeda2c5d703</id>
+      <masked>false</masked>
+      <name>meetingGoToMeeting_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]/div[@class=\'listcontainer__options\']/button'</defaultValue>
+      <description></description>
+      <id>4db62f6f-1a42-48b1-a5fa-54f9045076ac</id>
+      <masked>false</masked>
+      <name>meetingOptions_obj</name>
+   </variable>
+</TestCaseEntity>

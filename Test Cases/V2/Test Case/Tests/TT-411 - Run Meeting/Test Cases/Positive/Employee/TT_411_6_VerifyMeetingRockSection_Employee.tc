@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_411_6_VerifyMeetingRockSection_Employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63c3b398-f2c2-4acc-8659-9ce8708aac15</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ad30cbe6-efac-4fd5-a74c-fee82f1d05cc</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>65b853b7-917c-47c8-b83e-be3e0b0ed592</id>
+      <masked>false</masked>
+      <name>rock_title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f9f517b2-298b-4ae5-a24e-d5d5ccf10f0e</id>
+      <masked>false</masked>
+      <name>rock_title_supervisor</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c45f0457-ad33-4286-9275-1fd7d06021dc</id>
+      <masked>false</masked>
+      <name>rock_title_employee</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>457b29cd-34df-47df-a3b5-cd3a1d740580</id>
+      <masked>false</masked>
+      <name>permission</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]/div[@class=\'listcontainer__options\']/button'</defaultValue>
+      <description></description>
+      <id>f3d3708f-3313-4ea6-a6c8-0233d67ba828</id>
+      <masked>false</masked>
+      <name>meetingOptions_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'Company Rocks\']/ancestor::div[contains(@class,\'CardStyles\')]//div[text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>b0fb916b-2898-4084-b7b3-d48440cd5e4e</id>
+      <masked>false</masked>
+      <name>companyRockRecord_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'Company Rocks\']/ancestor::div[contains(@class,\'CardStyles\')]//div[text()=\'%s\']/ancestor::div[contains(@class,\'StyledDiv2\')]/div[4]/button[@aria-label=\'Create a Context-Aware To-Do™\']'</defaultValue>
+      <description></description>
+      <id>f53ce033-4ed8-4672-a3d1-0c4792e82f74</id>
+      <masked>false</masked>
+      <name>companyRock_CAT_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'Company Rocks\']/ancestor::div[contains(@class,\'CardStyles\')]//div[text()=\'%s\']/ancestor::div[contains(@class,\'StyledDiv2\')]/div[4]/button[@aria-label=\'Create a Context-Aware Issue™\']'</defaultValue>
+      <description></description>
+      <id>5f845943-df4b-415a-9304-0ece0f75070d</id>
+      <masked>false</masked>
+      <name>companyRock_CAI_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'Our Rocks\']/ancestor::div[contains(@class,\'CardStyles\')]//button[.=\'%s\']'</defaultValue>
+      <description></description>
+      <id>4510092c-43df-464c-88ad-012cb865c2b1</id>
+      <masked>false</masked>
+      <name>ourRockRecord_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//button[.=\'%s\']/ancestor::div[contains(@class,\'StyledDiv2\')]/div[4]/button[@aria-label=\'Create a Context-Aware To-Do™\']'</defaultValue>
+      <description></description>
+      <id>7773d9f1-8f6a-4f1e-9ec1-ec835dd238fe</id>
+      <masked>false</masked>
+      <name>ourRock_CAT_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//button[.=\'%s\']/ancestor::div[contains(@class,\'StyledDiv2\')]/div[4]/button[@aria-label=\'Create a Context-Aware Issue™\']'</defaultValue>
+      <description></description>
+      <id>4b028825-e025-4455-84ca-fd8de7e6853a</id>
+      <masked>false</masked>
+      <name>ourRock_CAI_obj</name>
+   </variable>
+</TestCaseEntity>

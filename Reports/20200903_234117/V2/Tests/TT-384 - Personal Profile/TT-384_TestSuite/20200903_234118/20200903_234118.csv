@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TT-384_TestSuite,Chrome 85.0.4183.83,,,2020-09-03 23:54:25,2020-09-03 23:56:17,1m - 51.611s,FAILED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/TT-384 - Personal Profile/Positive/TT_384_4_EmailPreferences_AllTestCase,Chrome 85.0.4183.83,,,2020-09-03 23:54:25,2020-09-03 23:56:17,1m - 51.357s,FAILED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-03 23:54:26,2020-09-03 23:56:17,1m - 51.056s,FAILED

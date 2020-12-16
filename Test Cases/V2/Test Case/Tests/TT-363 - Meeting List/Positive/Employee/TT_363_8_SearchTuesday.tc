@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_363_8_SearchTuesday</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a4a5b62-f674-4485-85a4-d5f4e6f7fd83</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>02d32a68-971b-4795-981e-a90986d8e62d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>899c4974-747c-4c25-9add-354806d72646</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>791686d0-7619-482a-b456-3d2161c1ef92</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+</TestCaseEntity>

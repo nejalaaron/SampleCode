@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Run_AsMeeting_Btn</name>
+   <tag></tag>
+   <elementGuidId>72aa6bc8-ed36-4c24-a6b7-16f9f98a031e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>html/body/div[1]/div/div[2]/div/div/div[2]/div[1]/div/div/div/button/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

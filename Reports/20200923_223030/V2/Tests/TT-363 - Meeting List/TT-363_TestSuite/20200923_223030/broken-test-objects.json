@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Aaron Nejal",
+      "brokenLocator": "//*[@id\u003d\"root\"]/div/div[2]/div/div/div[2]/div[2]/div[3]/div[3]/div[2]/div[2]/div[2]/div[1]/div/div/div[2]/div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Basic editor\u0027])[2]/following::div[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200923_223030/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200923_223030/Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Aaron Nejal_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Employee 001",
+      "brokenLocator": "//*[@id\u003d\"root\"]/div/div[2]/div/div/div[2]/div[2]/div[3]/div[3]/div[2]/div[2]/div[3]/div[1]/div/div/div[2]/div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Basic editor\u0027])[3]/following::div[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200923_223030/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200923_223030/Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Employee 001_neighbor.png"
+    }
+  ]
+}

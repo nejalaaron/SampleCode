@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create a new Rock</description>
+   <name>TC008_CreateNewRock</name>
+   <tag>Dashboard</tag>
+   <comment></comment>
+   <testCaseGuid>e7988bc6-5a21-4011-8202-2a03db849e02</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_411_8_VerifyVideoConferenceLink_Supervisor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dceb2d05-f61e-4e34-8b89-41613b2b2b1b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a1c81125-d177-40fe-b67f-0d2ec310b5c5</id>
+      <masked>false</masked>
+      <name>user_fullname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>03408aad-0440-4621-9fb4-4728bf3078c0</id>
+      <masked>false</masked>
+      <name>s_user_fullname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>03125b0f-a813-4e91-91ab-97c745be25fe</id>
+      <masked>false</masked>
+      <name>e_user_fullname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ebdbdd4-24c0-44b1-8219-94cdddc68bce</id>
+      <masked>false</masked>
+      <name>videoConferenceURL</name>
+   </variable>
+</TestCaseEntity>

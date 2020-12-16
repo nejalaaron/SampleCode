@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>D_todoRecord_nameText_div</name>
+   <tag></tag>
+   <elementGuidId>188b9055-1ed1-42e9-b8fc-c579b82cd8c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[text()='To-Dos']/ancestor::div[contains(@class,'CardStyles')]//button//div[text()='${todoName}']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h2[text()='To-Dos']/ancestor::div[contains(@class,'CardStyles')]//button//div[text()='${todoName}']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>D_meetingRecord_3DotsOption_div</name>
+   <tag></tag>
+   <elementGuidId>6cfb93a2-033a-491b-b015-4cbc2aa4ef0f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h2[.='${meetingName}']/ancestor::div[contains(@class,'ListContainer')]/div[@class='listcontainer__options']/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//h2[.='${meetingName}']/ancestor::div[contains(@class,'ListContainer')]/div[@class='listcontainer__options']/button</value>
+   </webElementProperties>
+</WebElementEntity>

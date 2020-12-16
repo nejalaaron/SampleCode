@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This script is for deleting/archiving the data used in this test scenario</description>
+   <name>TT-688_7_Cleanup</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>958c2a23-10c7-48f0-be3c-24f100e9f5a7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aa4ddaf1-b5e0-4a32-b2e8-2b36fe4e3991</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b2115fc9-6e72-4d2d-99fa-02e7086ec73c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

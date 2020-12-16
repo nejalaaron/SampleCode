@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is for validation of aggregate measurable's to-do calculation.</description>
+   <name>TT_413_3_AggTodoCalc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>63172a81-4ef5-492d-a263-a7982f790227</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6bf52f95-ca78-47ee-b42e-0d664ac4c3cf</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f9790c57-2b1a-4df2-a844-66af24ac515b</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

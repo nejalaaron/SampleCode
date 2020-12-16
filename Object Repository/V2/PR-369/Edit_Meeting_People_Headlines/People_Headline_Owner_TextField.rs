@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>People_Headline_Owner_TextField</name>
+   <tag></tag>
+   <elementGuidId>9571364a-4297-4df5-837a-e0aaa0780a28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@data-test-id='createPeopleHeadline']//input[contains(@id,'editMeetingCreatePeopleHeadline')][@name='assigneeId']/parent::div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

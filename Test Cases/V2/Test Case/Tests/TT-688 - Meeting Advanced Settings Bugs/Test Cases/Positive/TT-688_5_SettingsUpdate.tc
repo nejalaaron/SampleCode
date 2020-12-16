@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate that the issue with settings not updating is no longer occuring.</description>
+   <name>TT-688_5_SettingsUpdate</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5163a96-3456-41aa-b5dc-4efbfb9da689</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e2ee7e77-a879-4ec5-b305-2c85db1309ee</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>053d9c07-5bde-4b01-a1be-f4bd4f94a675</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

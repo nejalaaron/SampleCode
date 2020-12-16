@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login to Traction Tools V2</description>
+   <name>TC004_LoginToTractionTools</name>
+   <tag>TT_Login</tag>
+   <comment></comment>
+   <testCaseGuid>db08249a-49a0-4c49-85ff-dacc4735cebf</testCaseGuid>
+</TestCaseEntity>

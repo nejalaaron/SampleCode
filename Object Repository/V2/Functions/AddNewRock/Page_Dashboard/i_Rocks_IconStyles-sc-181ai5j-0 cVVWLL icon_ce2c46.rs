@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Rocks_IconStyles-sc-181ai5j-0 cVVWLL icon_ce2c46</name>
+   <tag></tag>
+   <elementGuidId>2c139e27-30ba-4877-8873-017513f55678</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div/button/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>IconStyles-sc-181ai5j-0 cVVWLL icon-plus undefined</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;LayoutWrappper-tp58ga-0 bOckMl&quot;]/div[@class=&quot;layout__container false&quot;]/div[@class=&quot;layout__content&quot;]/div[@class=&quot;StyledPage-zxhscp-9 fbIhbV&quot;]/div[@class=&quot;_StyledDiv7-zxhscp-7 jZBIOf _StyledPageContent-sc-73w9qp-0 dZPnpd page__content&quot;]/div[@class=&quot;dashboard__row&quot;]/div[@class=&quot;dashboard__colHalf&quot;]/div[@class=&quot;CardStyles-sc-101efrr-0 eKBUFq&quot;]/div[@class=&quot;card__header&quot;]/div[@class=&quot;card__actions&quot;]/button[@class=&quot;BtnIconStyles-k8ghfj-0 dRfFyk&quot;]/div[@class=&quot;tooltip_Listener&quot;]/i[@class=&quot;IconStyles-sc-181ai5j-0 cVVWLL icon-plus undefined&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/div/div[2]/div/div[2]/div/div/div/button/div/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/button/div/i</value>
+   </webElementXpaths>
+</WebElementEntity>

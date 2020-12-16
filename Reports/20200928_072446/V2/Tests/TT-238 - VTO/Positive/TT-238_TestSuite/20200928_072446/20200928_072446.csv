@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TT-238_TestSuite,Chrome 85.0.4183.121,,,2020-09-28 07:24:48,2020-09-28 07:28:16,3m - 28.135s,FAILED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/TT-238 - VTO/Test Cases/Positive/TT_369_1_CreateScorecard_AllTestCase,Chrome 85.0.4183.121,,,2020-09-28 07:24:48,2020-09-28 07:28:16,3m - 27.837s,FAILED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 07:24:48,2020-09-28 07:26:07,1m - 18.934s,PASSED
+closeBrowser(),Chrome 85.0.4183.121,,,2020-09-28 07:26:07,2020-09-28 07:26:08,0.672s,PASSED
+"path = System.getProperty(""user.dir"")",Chrome 85.0.4183.121,,,2020-09-28 07:26:08,2020-09-28 07:26:08,0.045s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", getChromeDriverPath())",Chrome 85.0.4183.121,,,2020-09-28 07:26:08,2020-09-28 07:26:08,0.001s,PASSED
+driver1 = new org.openqa.selenium.chrome.ChromeDriver(),Chrome 85.0.4183.121,,,2020-09-28 07:26:08,2020-09-28 07:26:11,3.265s,PASSED
+changeWebDriver(driver1),Chrome 85.0.4183.121,,,2020-09-28 07:26:11,2020-09-28 07:26:11,0.014s,PASSED
+maximizeWindow(),Chrome 85.0.4183.121,,,2020-09-28 07:26:11,2020-09-28 07:26:13,2.117s,PASSED
+navigateToUrl(V2Url),Chrome 85.0.4183.121,,,2020-09-28 07:26:13,2020-09-28 07:26:15,1.305s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication""), [""username"":email, ""password"":password], STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 07:26:15,2020-09-28 07:26:29,14.666s,PASSED
+driver2 = new org.openqa.selenium.chrome.ChromeDriver(),Chrome 85.0.4183.121,,,2020-09-28 07:26:29,2020-09-28 07:26:32,3.259s,PASSED
+changeWebDriver(driver2),Chrome 85.0.4183.121,,,2020-09-28 07:26:32,2020-09-28 07:26:32,0.010s,PASSED
+maximizeWindow(),Chrome 85.0.4183.121,,,2020-09-28 07:26:32,2020-09-28 07:26:35,2.118s,PASSED
+navigateToUrl(V2Url),Chrome 85.0.4183.121,,,2020-09-28 07:26:35,2020-09-28 07:26:36,1.201s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication""), [""username"":supervisor_email, ""password"":password], STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 07:26:36,2020-09-28 07:26:47,10.816s,PASSED
+driver3 = new org.openqa.selenium.chrome.ChromeDriver(),Chrome 85.0.4183.121,,,2020-09-28 07:26:47,2020-09-28 07:26:50,3.307s,PASSED
+changeWebDriver(driver3),Chrome 85.0.4183.121,,,2020-09-28 07:26:50,2020-09-28 07:26:50,0.009s,PASSED
+maximizeWindow(),Chrome 85.0.4183.121,,,2020-09-28 07:26:50,2020-09-28 07:26:52,2.116s,PASSED
+navigateToUrl(V2Url),Chrome 85.0.4183.121,,,2020-09-28 07:26:52,2020-09-28 07:26:53,1.182s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication""), [""username"":employee_email, ""password"":password], STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 07:26:53,2020-09-28 07:27:04,10.661s,PASSED
+changeWebDriver(driver1),Chrome 85.0.4183.121,,,2020-09-28 07:27:04,2020-09-28 07:27:04,0.011s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_CreateL10Meeting""), [""meetingName"":meetingName, ""meetingAcronym"":meetingAcronym, ""meetingType"":meetingType, ""dropdownOptions_obj"":""//div[@id='CREATE_MEETING_L10']//span[text()='%s']/parent::div[@role='option']"", ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 07:27:04,2020-09-28 07:27:13,9.316s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_AddAllAttendeesToMeeting""), [""meetingName"":meetingName, ""firstname"":supervisor_fname, ""lastname"":lastname, ""userOptionObj"":""//span[text()='%s']/parent::div[@role='option']"", ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 07:27:13,2020-09-28 07:27:33,20.231s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_AddAllAttendeesToMeeting""), [""meetingName"":meetingName, ""firstname"":employee_fname, ""lastname"":lastname, ""userOptionObj"":""//span[text()='%s']/parent::div[@role='option']"", ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 07:27:33,2020-09-28 07:27:52,18.579s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Tests/TT-238 - VTO/Test Cases/Positive/Admin/TT_238_1_InputCompanyName_Admin""), [""meetingName"":"""", ""meetingAcronym"":"""", ""meetingType"":"""", ""dropdownOptions_obj"":""//div[@id='CREATE_MEETING_L10']//span[text()='%s']/parent::div[@role='option']"", ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 07:27:52,2020-09-28 07:28:01,8.738s,PASSED
+changeWebDriver(driver2),Chrome 85.0.4183.121,,,2020-09-28 07:28:01,2020-09-28 07:28:01,0.011s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Tests/TT-238 - VTO/Test Cases/Positive/Supervisor/TT_238_1_InputCompanyName_Supervisor""), [""meetingName"":"""", ""meetingAcronym"":"""", ""meetingType"":"""", ""dropdownOptions_obj"":""//div[@id='CREATE_MEETING_L10']//span[text()='%s']/parent::div[@role='option']"", ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 07:28:01,2020-09-28 07:28:08,7.560s,PASSED
+changeWebDriver(driver3),Chrome 85.0.4183.121,,,2020-09-28 07:28:08,2020-09-28 07:28:08,0.009s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Tests/TT-238 - VTO/Test Cases/Positive/Employee/TT_238_1_InputCompanyName_Employee""), [""meetingName"":"""", ""meetingAcronym"":"""", ""meetingType"":"""", ""dropdownOptions_obj"":""//div[@id='CREATE_MEETING_L10']//span[text()='%s']/parent::div[@role='option']"", ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-09-28 07:28:08,2020-09-28 07:28:16,7.357s,FAILED

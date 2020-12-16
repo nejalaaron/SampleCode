@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TT-363_TestSuite,Chrome 85.0.4183.83,,,2020-09-03 23:41:21,2020-09-03 23:54:23,13m - 1.698s,FAILED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/TT-363 - Meeting List/Positive/TT_363_1_CreateL10Meeting_AllTestCase,Chrome 85.0.4183.83,,,2020-09-03 23:41:21,2020-09-03 23:43:14,1m - 53.084s,FAILED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-03 23:41:21,2020-09-03 23:43:14,1m - 52.744s,FAILED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/TT-363 - Meeting List/Positive/TT_363_2_CreateSPMeeting_AllTestCase,Chrome 85.0.4183.83,,,2020-09-03 23:43:14,2020-09-03 23:45:05,1m - 50.773s,FAILED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-03 23:43:14,2020-09-03 23:45:05,1m - 50.575s,FAILED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/TT-363 - Meeting List/Positive/TT_363_3_EditMeetingBasicInformation_AllTestCase,Chrome 85.0.4183.83,,,2020-09-03 23:45:05,2020-09-03 23:46:56,1m - 51.317s,FAILED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-03 23:45:05,2020-09-03 23:46:56,1m - 51.121s,FAILED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/TT-363 - Meeting List/Positive/TT_363_4_EditMeetingVideoConference_AllTestCase,Chrome 85.0.4183.83,,,2020-09-03 23:46:57,2020-09-03 23:48:47,1m - 50.693s,FAILED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-03 23:46:57,2020-09-03 23:48:47,1m - 50.488s,FAILED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/TT-363 - Meeting List/Positive/TT_363_5_AddRole_AllTestCase,Chrome 85.0.4183.83,,,2020-09-03 23:48:47,2020-09-03 23:50:39,1m - 51.227s,FAILED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-03 23:48:48,2020-09-03 23:50:39,1m - 51.035s,FAILED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/TT-363 - Meeting List/Positive/TT_363_6_EditMeetingBasicInformation_AllTestCase,Chrome 85.0.4183.83,,,2020-09-03 23:50:39,2020-09-03 23:52:30,1m - 51.401s,FAILED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-03 23:50:39,2020-09-03 23:52:30,1m - 51.191s,FAILED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/TT-363 - Meeting List/Positive/TT_363_7_EditMeetingVideoConference_AllTestCase,Chrome 85.0.4183.83,,,2020-09-03 23:52:30,2020-09-03 23:54:23,1m - 52.362s,FAILED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-03 23:52:30,2020-09-03 23:54:23,1m - 52.147s,FAILED

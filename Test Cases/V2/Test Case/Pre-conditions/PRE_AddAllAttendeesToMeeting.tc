@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PRE_AddAllAttendeesToMeeting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>277bebea-8e5e-4c5c-ab74-f8d7f53e790e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bab178d9-71e1-4f88-aa70-0434d2200842</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6e2b5190-48f3-419f-a5a2-c69a92b25747</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d73799c-5b0c-40be-8c1a-30dcca4016e0</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'//span[text()=\'%s\']/parent::div[@role=\'option\']'</defaultValue>
+      <description></description>
+      <id>5e6c8e1d-20ad-4c29-8425-34165ceda0d8</id>
+      <masked>false</masked>
+      <name>userOptionObj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@role=\'alert\' and text()=\'%s\']/ancestor::div[@class=\'editAttendees__item\']//button[contains(@aria-label,\'assign\')]/parent::div'</defaultValue>
+      <description></description>
+      <id>c13a1428-1b70-4d5b-b396-c4f6c591ccae</id>
+      <masked>false</masked>
+      <name>permissionDropObj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@role=\'alert\' and text()=\'%s\']/ancestor::div[@class=\'editAttendees__item\']//span[text()=\'Meeting Admin\']/parent::div'</defaultValue>
+      <description></description>
+      <id>e0f3869f-a0b6-4bed-9118-c96249b194b7</id>
+      <masked>false</masked>
+      <name>permissionDropOptObj_MA</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@role=\'alert\' and text()=\'%s\']/ancestor::div[@class=\'editAttendees__item\']//span[text()=\'Full editor\']/parent::div'</defaultValue>
+      <description></description>
+      <id>b0146b9e-8552-4761-946f-c1a2c485e86e</id>
+      <masked>false</masked>
+      <name>permissionDropOptObj_FE</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@role=\'alert\' and text()=\'%s\']/ancestor::div[@class=\'editAttendees__item\']//span[text()=\'Basic editor\']'</defaultValue>
+      <description></description>
+      <id>949c817e-bc97-430b-b3b5-047873cb24fd</id>
+      <masked>false</masked>
+      <name>permissionDropOptObj_BE</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]/div[@class=\'listcontainer__options\']/button'</defaultValue>
+      <description></description>
+      <id>74db9f9f-9d4f-4ff1-a442-95c35a7f6e4a</id>
+      <masked>false</masked>
+      <name>meetingOptions_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>276f5c6e-5552-4e7e-b0d0-e0f114dc7283</id>
+      <masked>false</masked>
+      <name>permission</name>
+   </variable>
+</TestCaseEntity>

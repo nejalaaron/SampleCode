@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SampleRegistrationTestCase_Admin_Suite,Chrome 85.0.4183.83,,,2020-09-07 06:23:54,2020-09-07 06:24:49,55.114s,PASSED
+,,,,,,,
+Test Cases/V2/Test Case/Templates/SampleRegistrationTestCase_AdminOnly,Chrome 85.0.4183.83,,,2020-09-07 06:23:54,2020-09-07 06:24:49,54.918s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterNewAdminUserViaAPI""), [""email"":"""", ""password"":password, ""firstname"":admin_fname, ""lastname"":lastname, ""phoneNumber"":""9999999999"", ""company"":""Traction Tools"", ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 06:23:55,2020-09-07 06:24:49,54.705s,PASSED

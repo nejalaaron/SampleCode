@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_dayOfMeetingDropdownList</name>
+   <tag></tag>
+   <elementGuidId>979cddb0-ab3a-422d-9fc9-990db3b277fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Select a dayMondayTuesdayWednesdayThursdayFridaySaturdaySunday' or . = 'Select a dayMondayTuesdayWednesdayThursdayFridaySaturdaySunday')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CREATE_MEETING_L10']//div[@role='listbox' and @aria-label='Day of meeting']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>listbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-multiselectable</name>
+      <type>Main</type>
+      <value>false</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui fluid selection dropdown</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Day of meeting</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select a dayMondayTuesdayWednesdayThursdayFridaySaturdaySunday</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panel-root&quot;)/div[@id=&quot;CREATE_MEETING_L10&quot;]/div[@id=&quot;CREATE_MEETING_L10&quot;]/div[@class=&quot;panel__body&quot;]/div[@class=&quot;ScrollShadowStyles-jc1fvm-0 lfIJtz panel__scrollShadow&quot;]/div[@class=&quot;panel__bodyInner&quot;]/div[@class=&quot;_StyledDiv6-sc-1ocqjjt-5 hlRjTU createmeeting__content&quot;]/div[@class=&quot;FormControlStyles-gjfkdq-0 igyPER _StyledTTDayPicker-sc-1ocqjjt-6 cIbGAz&quot;]/div[@class=&quot;SelectInputStyles-izktqx-0 jNaTNS&quot;]/div[@class=&quot;ui fluid selection dropdown&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CREATE_MEETING_L10']/div[2]/div/div/div[6]/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[10]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[6]/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is to validate that the data in aggregate measurables doesn't disappear after the to-dos have been archived.</description>
+   <name>TT_413_5_ValidateData</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>09df32d2-b8ee-4589-9e15-636b61f4bff6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>67272d2c-66ae-4abd-a772-aedb47a501ea</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0116cbe9-221f-41d9-8398-7b57a467b330</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

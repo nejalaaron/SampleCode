@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Supervisor</name>
+   <tag></tag>
+   <elementGuidId>04d30835-23de-42b1-bbcc-80cb5731ded3</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Supervisor</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;LayoutWrappper-tp58ga-0 HyzXD&quot;]/div[@class=&quot;layout__container&quot;]/div[@class=&quot;layout__content&quot;]/div[@class=&quot;ManageUsersWrapper-sc-1hlwo9w-2 iLXDIH&quot;]/div[@class=&quot;_StyledDiv10-zxhscp-10 jLRpeA content page__content&quot;]/div[@class=&quot;_StyledDiv-sc-1hlwo9w-0 cNmvbN&quot;]/div[@class=&quot;UserCardWrapper-sc-5jtmv7-11 ipbQbK&quot;]/div[@class=&quot;CardContent-sc-5jtmv7-12 klJucb usercard__content&quot;]/div[@class=&quot;CardEditDetailWrapper-sc-16d69ap-2 hUcUVH&quot;]/form[@class=&quot;_StyledForm-sc-16d69ap-0 itGSGU&quot;]/div[@class=&quot;ScrollShadowStyles-jc1fvm-0 lfIJtz cardedit__scrollshadow&quot;]/div[@class=&quot;StackStyles-sc-12tx3af-1 hluRUt stack&quot;]/div[@class=&quot;ItemStyles-sc-12tx3af-0 jPsruz stack__item&quot;]/div[@class=&quot;FormControlStyles-gjfkdq-0 igyPER&quot;]/div[@class=&quot;SelectInputStyles-izktqx-1 jQsycH&quot;]/div[@class=&quot;ui active visible fluid search selection dropdown&quot;]/div[@class=&quot;visible menu transition&quot;]/div[@class=&quot;active selected item&quot;]/span[@class=&quot;text&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[4]/div/div/div[2]/form/div/div[6]/div/div/div/div/div[2]/div[2]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Employee'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Supervisor'])[2]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administrator'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/div/div/div[2]/div[2]/span</value>
+   </webElementXpaths>
+</WebElementEntity>

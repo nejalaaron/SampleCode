@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is for deleting a meeting agenda.</description>
+   <name>TT-688_4_DeleteAgenda</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be71c1d5-1854-419f-b879-955eda306603</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dfd70d1e-0628-460a-92ef-fa6021e6efdc</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bb3a9c45-b660-437f-937b-356336dfaf1d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

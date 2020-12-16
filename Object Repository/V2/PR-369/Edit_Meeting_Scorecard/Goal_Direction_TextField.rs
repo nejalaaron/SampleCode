@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Goal_Direction_TextField</name>
+   <tag></tag>
+   <elementGuidId>0345c572-afac-4ab3-b5a4-d4121614b673</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@id,'editMeetingCreateScorecard')]/div[@data-test-id='createMeasurable']//input[@id='createMeasurable-goalDirection'][@name='goalDirection']/parent::div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

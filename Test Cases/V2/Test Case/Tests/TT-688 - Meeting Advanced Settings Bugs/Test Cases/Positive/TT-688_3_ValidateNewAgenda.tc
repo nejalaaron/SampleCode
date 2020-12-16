@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is for validating that newly added agendas can be navigated to.</description>
+   <name>TT-688_3_ValidateNewAgenda</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2aaeab17-e4aa-40e4-bbfa-65990bdd7f8d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>66a8884f-d742-48cd-9ddb-eacefb4a6bcf</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>120d9a25-c617-4d4a-aab9-0c1c914bc524</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

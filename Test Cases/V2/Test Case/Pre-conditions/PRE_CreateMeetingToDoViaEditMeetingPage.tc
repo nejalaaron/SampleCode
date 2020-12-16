@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create a meeting todo via 'Edit Meeting Page'</description>
+   <name>PRE_CreateMeetingToDoViaEditMeetingPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a022454a-a10c-4621-a3e7-e8fcbc0d427b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bab178d9-71e1-4f88-aa70-0434d2200842</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6e2b5190-48f3-419f-a5a2-c69a92b25747</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d73799c-5b0c-40be-8c1a-30dcca4016e0</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f24a8c5a-3be8-4209-8fb0-7da3a3da9c7d</id>
+      <masked>false</masked>
+      <name>toDo_title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>017cfd8e-24d6-4170-bd19-83f7e9fac076</id>
+      <masked>false</masked>
+      <name>notesText</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>276f5c6e-5552-4e7e-b0d0-e0f114dc7283</id>
+      <masked>false</masked>
+      <name>permission</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'createTodo\' and contains(@id,\'editMeeting\')]//div[@data-test-id=\'todo.accountableOwner\']//span[text()=\'%s\']/parent::div[@role=\'option\']'</defaultValue>
+      <description></description>
+      <id>5e6c8e1d-20ad-4c29-8425-34165ceda0d8</id>
+      <masked>false</masked>
+      <name>createTodoDropdownAOwnerOpt_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@data-test-id=\'createTodo\' and contains(@id,\'editMeeting\')]//div[@data-test-id=\'todo.assignToTeamMeeting\']//span[text()=\'%s\']/parent::div[@role=\'option\']'</defaultValue>
+      <description></description>
+      <id>4174300f-9f66-4d89-a146-5dab3d4701fc</id>
+      <masked>false</masked>
+      <name>createToDoDropdownATMOpt_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]/div[@class=\'listcontainer__options\']/button'</defaultValue>
+      <description></description>
+      <id>74db9f9f-9d4f-4ff1-a442-95c35a7f6e4a</id>
+      <masked>false</masked>
+      <name>meetingOptions_obj</name>
+   </variable>
+</TestCaseEntity>

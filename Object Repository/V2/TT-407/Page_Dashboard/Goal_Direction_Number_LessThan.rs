@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Goal_Direction_Number_LessThan</name>
+   <tag></tag>
+   <elementGuidId>866c77ab-1c07-47b4-b10b-a429a5515048</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CREATE_MEASURABLE']/div[2]/div/div/form/div[2]/div[2]/div/div/div/div[2]/div[5]/span</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

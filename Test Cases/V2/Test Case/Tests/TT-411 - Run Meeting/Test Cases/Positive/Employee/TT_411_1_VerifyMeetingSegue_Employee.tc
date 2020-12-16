@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_411_1_VerifyMeetingSegue_Employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2030966-d8be-4880-a8b3-87462a0d69da</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>abdbc40b-afa1-4b3d-9ad5-30edc6097bc5</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h4[text()=\'%s\']/ancestor::div[contains(@class,\'ListContainer\')]/div[@class=\'listcontainer__options\']/button'</defaultValue>
+      <description></description>
+      <id>74db9f9f-9d4f-4ff1-a442-95c35a7f6e4a</id>
+      <masked>false</masked>
+      <name>meetingOptions_obj</name>
+   </variable>
+</TestCaseEntity>

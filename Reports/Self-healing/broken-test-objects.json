@@ -1,0 +1,102 @@
+{
+  "brokenTestObjects" : [ {
+    "approved" : false,
+    "testObjectId" : "Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Employee 001",
+    "brokenLocator" : "//*[@id=\"root\"]/div/div[2]/div/div/div[2]/div[2]/div[3]/div[3]/div[2]/div[2]/div[3]/div[1]/div/div/div[2]/div[1]",
+    "brokenLocatorMethod" : "XPATH",
+    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Basic editor'])[3]/following::div[8]",
+    "proposedLocatorMethod" : "XPATH",
+    "recoveryMethod" : "XPATH",
+    "pathToScreenshot" : "Reports/Self-healing/Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Employee 001_neighbor.png"
+  }, {
+    "approved" : false,
+    "testObjectId" : "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/i__IconStyles-sc-181ai5j-0 fspyWU icon-arro_0a3203",
+    "brokenLocator" : "//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[3]/form/div[4]/div/div/button/i",
+    "brokenLocatorMethod" : "XPATH",
+    "proposedLocator" : "//form/div[4]/div/div/button/i",
+    "proposedLocatorMethod" : "XPATH",
+    "recoveryMethod" : "XPATH",
+    "pathToScreenshot" : "Reports/Self-healing/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/i__IconStyles-sc-181ai5j-0 fspyWU icon-arro_0a3203_position.png"
+  }, {
+    "approved" : false,
+    "testObjectId" : "Object Repository/V2/Commons/LoginPage/div_Login",
+    "brokenLocator" : "//div[@id='root']/div/div/div[2]/div/form/button",
+    "brokenLocatorMethod" : "XPATH",
+    "proposedLocator" : "//button/div",
+    "proposedLocatorMethod" : "XPATH",
+    "recoveryMethod" : "XPATH",
+    "pathToScreenshot" : "Reports/Self-healing/Object Repository/V2/Commons/LoginPage/div_Login_position.png"
+  }, {
+    "approved" : false,
+    "testObjectId" : "Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Aaron Nejal",
+    "brokenLocator" : "//*[@id=\"root\"]/div/div[2]/div/div/div[2]/div[2]/div[3]/div[3]/div[2]/div[2]/div[2]/div[1]/div/div/div[2]/div[1]",
+    "brokenLocatorMethod" : "XPATH",
+    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Basic editor'])[2]/following::div[8]",
+    "proposedLocatorMethod" : "XPATH",
+    "recoveryMethod" : "XPATH",
+    "pathToScreenshot" : "Reports/Self-healing/Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Aaron Nejal_neighbor.png"
+  }, {
+    "approved" : false,
+    "testObjectId" : "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Meeting name Acronym Meeting descriptio_78e662",
+    "brokenLocator" : "//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[3]",
+    "brokenLocatorMethod" : "XPATH",
+    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Basic information'])[2]/following::div[1]",
+    "proposedLocatorMethod" : "XPATH",
+    "recoveryMethod" : "XPATH",
+    "pathToScreenshot" : "Reports/Self-healing/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Meeting name Acronym Meeting descriptio_78e662_neighbor.png"
+  }, {
+    "approved" : false,
+    "testObjectId" : "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/input__meeting title",
+    "brokenLocator" : "//input[@id='name']",
+    "brokenLocatorMethod" : "XPATH",
+    "proposedLocator" : "//input",
+    "proposedLocatorMethod" : "XPATH",
+    "recoveryMethod" : "XPATH",
+    "pathToScreenshot" : "Reports/Self-healing/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/input__meeting title_position.png"
+  }, {
+    "approved" : false,
+    "testObjectId" : "Object Repository/V2/Commons/LoginPage/div_Login",
+    "brokenLocator" : "//div[@id='root']/div/div/div[2]/div/form/button",
+    "brokenLocatorMethod" : "XPATH",
+    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::div[3]",
+    "proposedLocatorMethod" : "XPATH",
+    "recoveryMethod" : "XPATH",
+    "pathToScreenshot" : "Reports/Self-healing/Object Repository/V2/Commons/LoginPage/div_Login_neighbor.png"
+  }, {
+    "approved" : false,
+    "testObjectId" : "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Departmental",
+    "brokenLocator" : "//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[3]/form/div[4]/div/div/div/div[2]/div[2]",
+    "brokenLocatorMethod" : "XPATH",
+    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Leadership'])[2]/following::div[1]",
+    "proposedLocatorMethod" : "XPATH",
+    "recoveryMethod" : "XPATH",
+    "pathToScreenshot" : "Reports/Self-healing/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Departmental_neighbor.png"
+  }, {
+    "approved" : false,
+    "testObjectId" : "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Save2",
+    "brokenLocator" : "//*[@id=\"root\"]/div/div[2]/div/div/div[2]/div[2]/div[2]/div[3]/form/div[3]/button[2]/div",
+    "brokenLocatorMethod" : "XPATH",
+    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::div[1]",
+    "proposedLocatorMethod" : "XPATH",
+    "recoveryMethod" : "XPATH",
+    "pathToScreenshot" : "Reports/Self-healing/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Save2_neighbor.png"
+  }, {
+    "approved" : false,
+    "testObjectId" : "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_ampm700",
+    "brokenLocator" : "//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[3]/form/div[7]/div/div/div/div[2]/div[8]",
+    "brokenLocatorMethod" : "XPATH",
+    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='am/pm'])[7]/following::div[1]",
+    "proposedLocatorMethod" : "XPATH",
+    "recoveryMethod" : "XPATH",
+    "pathToScreenshot" : "Reports/Self-healing/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_ampm700_neighbor.png"
+  }, {
+    "approved" : false,
+    "testObjectId" : "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Tuesday",
+    "brokenLocator" : "//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[3]/form/div[6]/div/div/div/div[2]/div[2]",
+    "brokenLocatorMethod" : "XPATH",
+    "proposedLocator" : "(.//*[normalize-space(text()) and normalize-space(.)='Monday'])[2]/following::div[1]",
+    "proposedLocatorMethod" : "XPATH",
+    "recoveryMethod" : "XPATH",
+    "pathToScreenshot" : "Reports/Self-healing/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_Tuesday_neighbor.png"
+  } ]
+}

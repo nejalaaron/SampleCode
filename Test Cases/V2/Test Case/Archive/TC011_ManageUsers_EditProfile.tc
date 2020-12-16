@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manage Users Edit Profile</description>
+   <name>TC011_ManageUsers_EditProfile</name>
+   <tag>TT_Manage_Users</tag>
+   <comment></comment>
+   <testCaseGuid>67c89740-8d82-4f99-8ec3-638225f6e014</testCaseGuid>
+</TestCaseEntity>

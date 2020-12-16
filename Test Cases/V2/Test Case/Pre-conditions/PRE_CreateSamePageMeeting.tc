@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create an L10 Meeting</description>
+   <name>PRE_CreateSamePageMeeting</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d345948-67ff-45bd-a444-2fdf7c2c5c0c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dbf0d437-c7b7-42ab-bdae-a8760ef29d1c</id>
+      <masked>false</masked>
+      <name>meetingName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>850dc921-bb6c-483f-9c8f-034e5615ab6b</id>
+      <masked>false</masked>
+      <name>meetingAcronym</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fb45cbec-7aec-4991-a55b-bc5deb7f80a8</id>
+      <masked>false</masked>
+      <name>meetingType</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@id=\'CREATE_MEETING_SAME_PAGE\']//span[text()=\'%s\']/parent::div[@role=\'option\']'</defaultValue>
+      <description></description>
+      <id>383bf894-f59c-4f6e-b362-b3bf6d077cfe</id>
+      <masked>false</masked>
+      <name>dropdownOptions_obj</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>56e9a13b-33d6-4b2d-93a4-e143b3a9dbc4</id>
+      <masked>false</masked>
+      <name>dayOfMeeting</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>67ab2e91-191c-4bbc-9ff4-bb4716e14805</id>
+      <masked>false</masked>
+      <name>meetingTime</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[@class=\'container__col detailscontainer__block\']/h2[.=\'%s\']'</defaultValue>
+      <description></description>
+      <id>4f5b68ac-ce30-4d42-8a6b-e93f7f369152</id>
+      <masked>false</masked>
+      <name>meetingRecord_obj</name>
+   </variable>
+</TestCaseEntity>

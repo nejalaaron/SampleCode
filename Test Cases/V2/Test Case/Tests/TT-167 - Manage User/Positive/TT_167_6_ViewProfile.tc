@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_167_6_ViewProfile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>51b6bf06-5a5b-4392-ac66-bba9c8948fc3</testCaseGuid>
+   <variable>
+      <defaultValue>'aaron+tt167_'</defaultValue>
+      <description></description>
+      <id>bc51eafe-b8c9-4870-bee8-20b5e4054326</id>
+      <masked>false</masked>
+      <name>emailAddress_prefix</name>
+   </variable>
+   <variable>
+      <defaultValue>'mytractiontools.com'</defaultValue>
+      <description></description>
+      <id>0b84ecdb-8eca-4eaa-957d-eb1e612df6b7</id>
+      <masked>false</masked>
+      <name>emailAddress_domain</name>
+   </variable>
+   <variable>
+      <defaultValue>'10'</defaultValue>
+      <description></description>
+      <id>8b03e7b6-186f-459b-86e1-b0e5c729ec02</id>
+      <masked>false</masked>
+      <name>emailRandomText_Length</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b92db166-6624-4fd9-93d4-3f4d863cdf0a</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+</TestCaseEntity>

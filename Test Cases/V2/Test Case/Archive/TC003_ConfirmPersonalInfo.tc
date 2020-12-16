@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Confirm and Update Personal Information</description>
+   <name>TC003_ConfirmPersonalInfo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a411e233-8bf2-4b98-8ff0-e39dcbf0b0be</testCaseGuid>
+</TestCaseEntity>

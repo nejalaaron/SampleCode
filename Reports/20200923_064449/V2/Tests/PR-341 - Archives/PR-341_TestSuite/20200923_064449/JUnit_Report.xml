@@ -1,0 +1,1667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PR-341_TestSuite" time="262.633" tests="1" failures="0" errors="0">
+   <testsuite name="PR-341_TestSuite" tests="1" failures="0" errors="0" time="262.633" timestamp="2020-09-23 06:44:50" hostname="Aaron-PC - host.docker.internal" id="Test Suites/V2/Tests/PR-341 - Archives/PR-341_TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aaron-PC\\git\\TractionTools\\Reports\\20200923_064449\\V2\\Tests\\PR-341 - Archives\\PR-341_TestSuite\\20200923_064449"/>
+         <property name="logFiles" value="C:\\Users\\Aaron-PC\\git\\TractionTools\\Reports\\20200923_064449\\V2\\Tests\\PR-341 - Archives\\PR-341_TestSuite\\20200923_064449\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Aaron-PC - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.102"/>
+         <property name="hostAddress" value="192.168.1.48"/>
+         <property name="sessionId" value="2edff8375c0505cfee614ad262e66c85"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase" time="262.016" classname="Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase" status="PASSED">
+         <system-out><![CDATA[2020-09-23 06:44:51 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase: Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase
+
+2020-09-23 06:44:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers"), ["admin_fname":admin_fname, "lastname":lastname, "phonenumber":"9999999999", "company":"Traction Tools", "password":password, ... ], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers' successfully
+
+2020-09-23 06:44:51 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers: Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers
+
+2020-09-23 06:44:51 - [TEST_STEP][PASSED] - email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(admin_email_prefix, admin_email_domain, randomTextLength): Successfully generated a random email: tractiontools.user001+ta5fsp9d@gmail.com
+
+2020-09-23 06:44:51 - [MESSAGE][PASSED] - Successfully generated a random email: tractiontools.user001+ta5fsp9d@gmail.com
+
+2020-09-23 06:44:51 - [TEST_STEP][PASSED] - supervisor_email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(supervisor_email_prefix, supervisor_email_domain, randomTextLength): Successfully generated a random email: tractiontools.user001+ts5184t5@gmail.com
+
+2020-09-23 06:44:51 - [MESSAGE][PASSED] - Successfully generated a random email: tractiontools.user001+ts5184t5@gmail.com
+
+2020-09-23 06:44:51 - [TEST_STEP][PASSED] - employee_email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(employee_email_prefix, employee_email_domain, randomTextLength): Successfully generated a random email: tractiontools.user001+te5xe2rj@gmail.com
+
+2020-09-23 06:44:51 - [MESSAGE][PASSED] - Successfully generated a random email: tractiontools.user001+te5xe2rj@gmail.com
+
+2020-09-23 06:44:51 - [TEST_STEP][PASSED] - adminDetails = tt_CustomKeywords.CustomKeywords.RegisterUserViaAPIAndGenerateActivateURL(email, admin_fname, lastname, phonenumber, company, "__JSON__{\"howDidYouHearAboutUs\":\"Facebook\",\"implementer\":\"\",\"existingTractionToolsClient\":\"\",\"other\":\"\"}", "__JSON__{\"timeZone\":\"America/Guatemala\",\"brandColor\":\"#023047\",\"q1Start\":null,\"q1End\":null,\"q2Start\":null,\"q2End\":null,\"q3Start\":null,\"q3End\":null,\"q4Start\":null,\"q4End\":null,\"quarterDatesSetsRocks\":false,\"exportUsers\":false,\"exportRocks\":false,\"exportRocksIncludesMilestones\":false,\"exportScorecards\":false,\"exportTodos\":false,\"exportTodosIncludesNotes\":false,\"exportPeopleHeadlines\":false,\"exportPeopleHeadlinesIncludesNotes\":false,\"exportIssues\":false,\"exportIssuesIncludesNotes\":false,\"exportContextAwareTodos\":false,\"dateFormat\":\"MM/DD/YYYY\",\"timeFormat\":\"h:mma\",\"numberFormat\":\"-1,000.99\",\"supervisorsArchiveRestoreUsers\":false,\"supervisorsEditPositions\":false,\"milestonesAvailableToAll\":false,\"customMeetingTemplatesEnabled\":false,\"receiveTodoReminders\":false,\"todoReminderTime\":\"13:00\",\"todoReminderTimeZone\":\"America/Guatemala\",\"todoReminderFrequency\":\"DAILY\",\"vtoMeetingId\":\"\",\"vtoDisplayMode\":\"ALL\",\"coreValues\":[{\"id\":\"1\",\"text\":\"\"},{\"id\":\"2\",\"text\":\"\"},{\"id\":\"3\",\"text\":\"\"}]}", password, V2Url): SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmaster.dev02.tt-devs.com/activate?activationKey=108042e5-1990-4964-833d-243bedb802b5&userId=44ba5bfe-db2f-d043-e1f4-c48ee6e66c5c&orgId=78ba5bfe-d9e5-ec1b-6e4d-afe20d0dd45a&email=tractiontools.user001+ta5fsp9d@gmail.com&teamsId=12ba5bfe-da1d-e7f3-2802-ff446e70feb8&meetingsId=c4ba5bfe-da0f-265f-c470-cb3e14a35cf4&adminsId=c0ba5bfe-dbcb-58c8-ac48-c0ed78c53a99&usersId=9aba5bfe-da2c-55ae-4bc6-3a03088fb1c4&supervisorsId=d2ba5bfe-da00-9f83-e7e8-861f8dc6af96&accountabilityChartId=06ba5bfe-da3b-716d-32fd-0f4e5f2e6212&isCreator=1
+
+2020-09-23 06:44:54 - [MESSAGE][PASSED] - SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmaster.dev02.tt-devs.com/activate?activationKey=108042e5-1990-4964-833d-243bedb802b5&userId=44ba5bfe-db2f-d043-e1f4-c48ee6e66c5c&orgId=78ba5bfe-d9e5-ec1b-6e4d-afe20d0dd45a&email=tractiontools.user001+ta5fsp9d@gmail.com&teamsId=12ba5bfe-da1d-e7f3-2802-ff446e70feb8&meetingsId=c4ba5bfe-da0f-265f-c470-cb3e14a35cf4&adminsId=c0ba5bfe-dbcb-58c8-ac48-c0ed78c53a99&usersId=9aba5bfe-da2c-55ae-4bc6-3a03088fb1c4&supervisorsId=d2ba5bfe-da00-9f83-e7e8-861f8dc6af96&accountabilityChartId=06ba5bfe-da3b-716d-32fd-0f4e5f2e6212&isCreator=1
+
+2020-09-23 06:44:54 - [TEST_STEP][PASSED] - activationURL = adminDetails[0]: null
+
+2020-09-23 06:44:54 - [TEST_STEP][PASSED] - orgID = adminDetails[1]: null
+
+2020-09-23 06:44:54 - [TEST_STEP][PASSED] - out.println("URL: " + activationURL): null
+
+2020-09-23 06:44:54 - [TEST_STEP][PASSED] - out.println("orgID: " + orgID): null
+
+2020-09-23 06:44:54 - [TEST_STEP][PASSED] - supervisorUser_name = supervisor_fname + " " + lastname: null
+
+2020-09-23 06:44:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-23 06:44:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-23 06:44:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-23 06:44:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-23 06:44:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-23 06:45:00 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 06:45:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ActivateNewUser"), ["activationURL":activationURL, "email":email, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-23 06:45:00 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser
+
+2020-09-23 06:45:00 - [TEST_STEP][PASSED] - navigateToUrl(activationURL): Navigate to 'https://meetingmaster.dev02.tt-devs.com/activate?activationKey=108042e5-1990-4964-833d-243bedb802b5&userId=44ba5bfe-db2f-d043-e1f4-c48ee6e66c5c&orgId=78ba5bfe-d9e5-ec1b-6e4d-afe20d0dd45a&email=tractiontools.user001+ta5fsp9d@gmail.com&teamsId=12ba5bfe-da1d-e7f3-2802-ff446e70feb8&meetingsId=c4ba5bfe-da0f-265f-c470-cb3e14a35cf4&adminsId=c0ba5bfe-dbcb-58c8-ac48-c0ed78c53a99&usersId=9aba5bfe-da2c-55ae-4bc6-3a03088fb1c4&supervisorsId=d2ba5bfe-da00-9f83-e7e8-861f8dc6af96&accountabilityChartId=06ba5bfe-da3b-716d-32fd-0f4e5f2e6212&isCreator=1' successfully
+
+2020-09-23 06:45:01 - [MESSAGE][PASSED] - Navigate to 'https://meetingmaster.dev02.tt-devs.com/activate?activationKey=108042e5-1990-4964-833d-243bedb802b5&userId=44ba5bfe-db2f-d043-e1f4-c48ee6e66c5c&orgId=78ba5bfe-d9e5-ec1b-6e4d-afe20d0dd45a&email=tractiontools.user001+ta5fsp9d@gmail.com&teamsId=12ba5bfe-da1d-e7f3-2802-ff446e70feb8&meetingsId=c4ba5bfe-da0f-265f-c470-cb3e14a35cf4&adminsId=c0ba5bfe-dbcb-58c8-ac48-c0ed78c53a99&usersId=9aba5bfe-da2c-55ae-4bc6-3a03088fb1c4&supervisorsId=d2ba5bfe-da00-9f83-e7e8-861f8dc6af96&accountabilityChartId=06ba5bfe-da3b-716d-32fd-0f4e5f2e6212&isCreator=1' successfully
+
+2020-09-23 06:45:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/ActivationPage/input_Email_email"), DefaultTimeout): Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-23 06:45:09 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-23 06:45:09 - [TEST_STEP][PASSED] - actual_email = getAttribute(findTestObject("Object Repository/V2/Commons/ActivationPage/input_Email_email"), "value"): Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+ta5fsp9d@gmail.com'
+
+2020-09-23 06:45:09 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+ta5fsp9d@gmail.com'
+
+2020-09-23 06:45:09 - [TEST_STEP][PASSED] - verifyMatch(actual_email, email, false): Actual text 'tractiontools.user001+ta5fsp9d@gmail.com' and expected text 'tractiontools.user001+ta5fsp9d@gmail.com' are matched 
+
+2020-09-23 06:45:09 - [MESSAGE][PASSED] - Actual text 'tractiontools.user001+ta5fsp9d@gmail.com' and expected text 'tractiontools.user001+ta5fsp9d@gmail.com' are matched 
+
+2020-09-23 06:45:09 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ActivationPage/input_password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-23 06:45:10 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-23 06:45:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/V2/Commons/ActivationPage/input__passwordRepeat"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-23 06:45:11 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-23 06:45:11 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/ActivationPage/input_termsandconditions")): Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-23 06:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-23 06:45:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ActivationPage/div_Create account")): Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-23 06:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-23 06:45:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 06:45:17 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 06:45:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), 0): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 06:45:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 06:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 06:45:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-23 06:45:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup' successfully
+
+2020-09-23 06:45:18 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup: Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup
+
+2020-09-23 06:45:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmCompanyInfoHeader_h1"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmCompanyInfoHeader_h1' is visible
+
+2020-09-23 06:45:18 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmCompanyInfoHeader_h1' is visible
+
+2020-09-23 06:45:18 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 06:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 06:45:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-23 06:45:19 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-23 06:45:19 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 06:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 06:45:19 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-23 06:45:20 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-23 06:45:20 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-23 06:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-23 06:45:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup' successfully
+
+2020-09-23 06:45:20 - [TEST_STEP][PASSED] - supervisor_activationURL = tt_CustomKeywords.CustomKeywords.RegisterAndActivateSupervisorUserViaAPI(V2Url, orgID, supervisor_email, password, email, password, supervisor_fname, lastname): SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmaster.dev02.tt-devs.com/activate?activationKey=32bebff3-8136-43e5-bfc7-7263bac9aef1&userId=04ba5bff-11f3-ef54-0709-0cbd898e3407&orgId=78ba5bfe-d9e5-ec1b-6e4d-afe20d0dd45a&email=tractiontools.user001+ts5184t5@gmail.com&isCreator=0
+
+2020-09-23 06:45:22 - [MESSAGE][PASSED] - SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmaster.dev02.tt-devs.com/activate?activationKey=32bebff3-8136-43e5-bfc7-7263bac9aef1&userId=04ba5bff-11f3-ef54-0709-0cbd898e3407&orgId=78ba5bfe-d9e5-ec1b-6e4d-afe20d0dd45a&email=tractiontools.user001+ts5184t5@gmail.com&isCreator=0
+
+2020-09-23 06:45:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser"), ["showMenuItemsPath":"//div[@class='usercard__detail_container']/div[text()='%s']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']", "user_email":supervisor_email, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' successfully
+
+2020-09-23 06:45:22 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser
+
+2020-09-23 06:45:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/span_Company Settings")): Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-23 06:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-23 06:45:22 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/a_Manage Users")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Manage Users' is clicked on
+
+2020-09-23 06:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Manage Users' is clicked on
+
+2020-09-23 06:45:22 - [TEST_STEP][PASSED] - showMenuItemsObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(showMenuItemsPath, user_email, "xpath"): Successfully created new dynamic object: //div[@class='usercard__detail_container']/div[text()='tractiontools.user001+ts5184t5@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']
+
+2020-09-23 06:45:22 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@class='usercard__detail_container']/div[text()='tractiontools.user001+ts5184t5@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']
+
+2020-09-23 06:45:22 - [TEST_STEP][PASSED] - click(showMenuItemsObj): Object: '' is clicked on
+
+2020-09-23 06:45:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:45:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_Edit user")): Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Edit user' is clicked on
+
+2020-09-23 06:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Edit user' is clicked on
+
+2020-09-23 06:45:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/ManageUsersPage/div_PositionTitle"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/div_PositionTitle' is present
+
+2020-09-23 06:45:24 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/div_PositionTitle' is present
+
+2020-09-23 06:45:24 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ManageUsersPage/position_title_input"), position_title): Text 'QA Manager' is set on object 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 06:45:25 - [MESSAGE][PASSED] - Text 'QA Manager' is set on object 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 06:45:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("V2/Commons/ManageUsersPage/position_title_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 06:45:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 06:45:26 - [TEST_STEP][PASSED] - if (permissionValue == "Employee"): null
+
+2020-09-23 06:45:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_User type"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/div_User type' is present
+
+2020-09-23 06:45:26 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/div_User type' is present
+
+2020-09-23 06:45:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/input__orgRole")): Object: 'Object Repository/V2/Commons/ManageUsersPage/input__orgRole' is clicked on
+
+2020-09-23 06:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/input__orgRole' is clicked on
+
+2020-09-23 06:45:26 - [TEST_STEP][PASSED] - roleOptionObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(roleOption, permissionValue, "xpath"): Successfully created new dynamic object: //span[text()='Supervisor']/parent::div[@role='option']
+
+2020-09-23 06:45:26 - [MESSAGE][PASSED] - Successfully created new dynamic object: //span[text()='Supervisor']/parent::div[@role='option']
+
+2020-09-23 06:45:26 - [TEST_STEP][PASSED] - click(roleOptionObj): Object: '' is clicked on
+
+2020-09-23 06:45:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:45:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_Save")): Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Save' is clicked on
+
+2020-09-23 06:45:27 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Save' is clicked on
+
+2020-09-23 06:45:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/ManageUsersPage/h3_User Saved"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 06:45:30 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 06:45:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/V2/Commons/ManageUsersPage/h3_User Saved")): Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 06:45:30 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 06:45:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' successfully
+
+2020-09-23 06:45:30 - [TEST_STEP][PASSED] - employee_activationURL = tt_CustomKeywords.CustomKeywords.RegisterAndActivateSupervisorUserViaAPI(V2Url, orgID, employee_email, password, email, password, employee_fname, lastname): SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmaster.dev02.tt-devs.com/activate?activationKey=bcb14344-0a19-44fd-9b27-7148c1b8ce52&userId=9aba5bff-25c9-8499-3e66-36fd5b6380dc&orgId=78ba5bfe-d9e5-ec1b-6e4d-afe20d0dd45a&email=tractiontools.user001+te5xe2rj@gmail.com&isCreator=0
+
+2020-09-23 06:45:32 - [MESSAGE][PASSED] - SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://meetingmaster.dev02.tt-devs.com/activate?activationKey=bcb14344-0a19-44fd-9b27-7148c1b8ce52&userId=9aba5bff-25c9-8499-3e66-36fd5b6380dc&orgId=78ba5bfe-d9e5-ec1b-6e4d-afe20d0dd45a&email=tractiontools.user001+te5xe2rj@gmail.com&isCreator=0
+
+2020-09-23 06:45:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser"), ["showMenuItemsPath":"//div[@class='usercard__detail_container']/div[text()='%s']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']", "user_email":employee_email, ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' successfully
+
+2020-09-23 06:45:32 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser
+
+2020-09-23 06:45:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/span_Company Settings")): Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-23 06:45:32 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-23 06:45:32 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/a_Manage Users")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Manage Users' is clicked on
+
+2020-09-23 06:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Manage Users' is clicked on
+
+2020-09-23 06:45:33 - [TEST_STEP][PASSED] - showMenuItemsObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(showMenuItemsPath, user_email, "xpath"): Successfully created new dynamic object: //div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5xe2rj@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']
+
+2020-09-23 06:45:33 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@class='usercard__detail_container']/div[text()='tractiontools.user001+te5xe2rj@gmail.com']/ancestor::div[contains(@class,'usercard__content')]//button[@aria-label='Show Menu Items']
+
+2020-09-23 06:45:33 - [TEST_STEP][PASSED] - click(showMenuItemsObj): Object: '' is clicked on
+
+2020-09-23 06:45:33 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_Edit user")): Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Edit user' is clicked on
+
+2020-09-23 06:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Edit user' is clicked on
+
+2020-09-23 06:45:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/ManageUsersPage/div_PositionTitle"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/div_PositionTitle' is present
+
+2020-09-23 06:45:34 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/div_PositionTitle' is present
+
+2020-09-23 06:45:34 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ManageUsersPage/position_title_input"), position_title): Text 'Quality Assurance' is set on object 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 06:45:34 - [MESSAGE][PASSED] - Text 'Quality Assurance' is set on object 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 06:45:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("V2/Commons/ManageUsersPage/position_title_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 06:45:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/position_title_input'
+
+2020-09-23 06:45:35 - [TEST_STEP][PASSED] - if (permissionValue == "Employee"): Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input'
+
+2020-09-23 06:45:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/ManageUsersPage/supervisor_input"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input' is present
+
+2020-09-23 06:45:35 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input' is present
+
+2020-09-23 06:45:35 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ManageUsersPage/supervisor_input"), user_supervisorName): Text 'Supervisor User' is set on object 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input'
+
+2020-09-23 06:45:36 - [MESSAGE][PASSED] - Text 'Supervisor User' is set on object 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input'
+
+2020-09-23 06:45:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("V2/Commons/ManageUsersPage/supervisor_input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input'
+
+2020-09-23 06:45:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/V2/Commons/ManageUsersPage/supervisor_input'
+
+2020-09-23 06:45:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_User type"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/div_User type' is present
+
+2020-09-23 06:45:37 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/div_User type' is present
+
+2020-09-23 06:45:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/input__orgRole")): Object: 'Object Repository/V2/Commons/ManageUsersPage/input__orgRole' is clicked on
+
+2020-09-23 06:45:37 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/input__orgRole' is clicked on
+
+2020-09-23 06:45:37 - [TEST_STEP][PASSED] - roleOptionObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(roleOption, permissionValue, "xpath"): Successfully created new dynamic object: //span[text()='Employee']/parent::div[@role='option']
+
+2020-09-23 06:45:37 - [MESSAGE][PASSED] - Successfully created new dynamic object: //span[text()='Employee']/parent::div[@role='option']
+
+2020-09-23 06:45:37 - [TEST_STEP][PASSED] - click(roleOptionObj): Object: '' is clicked on
+
+2020-09-23 06:45:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:45:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/div_Save")): Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Save' is clicked on
+
+2020-09-23 06:45:38 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/div_Save' is clicked on
+
+2020-09-23 06:45:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/ManageUsersPage/h3_User Saved"), DefaultTimeout): Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 06:45:41 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 06:45:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/V2/Commons/ManageUsersPage/h3_User Saved")): Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 06:45:42 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ManageUsersPage/h3_User Saved' is visible
+
+2020-09-23 06:45:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ChangeUserPermissionViaManageUser' successfully
+
+2020-09-23 06:45:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ActivateNewUser"), ["activationURL":supervisor_activationURL, "email":supervisor_email, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-23 06:45:42 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser
+
+2020-09-23 06:45:42 - [TEST_STEP][PASSED] - navigateToUrl(activationURL): Navigate to 'https://meetingmaster.dev02.tt-devs.com/activate?activationKey=32bebff3-8136-43e5-bfc7-7263bac9aef1&userId=04ba5bff-11f3-ef54-0709-0cbd898e3407&orgId=78ba5bfe-d9e5-ec1b-6e4d-afe20d0dd45a&email=tractiontools.user001+ts5184t5@gmail.com&isCreator=0' successfully
+
+2020-09-23 06:45:44 - [MESSAGE][PASSED] - Navigate to 'https://meetingmaster.dev02.tt-devs.com/activate?activationKey=32bebff3-8136-43e5-bfc7-7263bac9aef1&userId=04ba5bff-11f3-ef54-0709-0cbd898e3407&orgId=78ba5bfe-d9e5-ec1b-6e4d-afe20d0dd45a&email=tractiontools.user001+ts5184t5@gmail.com&isCreator=0' successfully
+
+2020-09-23 06:45:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/ActivationPage/input_Email_email"), DefaultTimeout): Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-23 06:45:45 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-23 06:45:45 - [TEST_STEP][PASSED] - actual_email = getAttribute(findTestObject("Object Repository/V2/Commons/ActivationPage/input_Email_email"), "value"): Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+ts5184t5@gmail.com'
+
+2020-09-23 06:45:45 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+ts5184t5@gmail.com'
+
+2020-09-23 06:45:45 - [TEST_STEP][PASSED] - verifyMatch(actual_email, email, false): Actual text 'tractiontools.user001+ts5184t5@gmail.com' and expected text 'tractiontools.user001+ts5184t5@gmail.com' are matched 
+
+2020-09-23 06:45:45 - [MESSAGE][PASSED] - Actual text 'tractiontools.user001+ts5184t5@gmail.com' and expected text 'tractiontools.user001+ts5184t5@gmail.com' are matched 
+
+2020-09-23 06:45:45 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ActivationPage/input_password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-23 06:45:46 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-23 06:45:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/V2/Commons/ActivationPage/input__passwordRepeat"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-23 06:45:47 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-23 06:45:47 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/ActivationPage/input_termsandconditions")): Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-23 06:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-23 06:45:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ActivationPage/div_Create account")): Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-23 06:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-23 06:45:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 06:45:51 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 06:45:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), 0): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 06:45:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 06:45:51 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 06:45:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-23 06:45:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup' successfully
+
+2020-09-23 06:45:51 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup: Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup
+
+2020-09-23 06:45:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-23 06:45:52 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-23 06:45:52 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 06:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 06:45:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-23 06:45:53 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-23 06:45:53 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-23 06:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-23 06:45:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup' successfully
+
+2020-09-23 06:45:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ActivateNewUser"), ["activationURL":employee_activationURL, "email":employee_email, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-23 06:45:53 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser
+
+2020-09-23 06:45:53 - [TEST_STEP][PASSED] - navigateToUrl(activationURL): Navigate to 'https://meetingmaster.dev02.tt-devs.com/activate?activationKey=bcb14344-0a19-44fd-9b27-7148c1b8ce52&userId=9aba5bff-25c9-8499-3e66-36fd5b6380dc&orgId=78ba5bfe-d9e5-ec1b-6e4d-afe20d0dd45a&email=tractiontools.user001+te5xe2rj@gmail.com&isCreator=0' successfully
+
+2020-09-23 06:45:55 - [MESSAGE][PASSED] - Navigate to 'https://meetingmaster.dev02.tt-devs.com/activate?activationKey=bcb14344-0a19-44fd-9b27-7148c1b8ce52&userId=9aba5bff-25c9-8499-3e66-36fd5b6380dc&orgId=78ba5bfe-d9e5-ec1b-6e4d-afe20d0dd45a&email=tractiontools.user001+te5xe2rj@gmail.com&isCreator=0' successfully
+
+2020-09-23 06:45:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/ActivationPage/input_Email_email"), DefaultTimeout): Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-23 06:45:55 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-23 06:45:55 - [TEST_STEP][PASSED] - actual_email = getAttribute(findTestObject("Object Repository/V2/Commons/ActivationPage/input_Email_email"), "value"): Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+te5xe2rj@gmail.com'
+
+2020-09-23 06:45:56 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+te5xe2rj@gmail.com'
+
+2020-09-23 06:45:56 - [TEST_STEP][PASSED] - verifyMatch(actual_email, email, false): Actual text 'tractiontools.user001+te5xe2rj@gmail.com' and expected text 'tractiontools.user001+te5xe2rj@gmail.com' are matched 
+
+2020-09-23 06:45:56 - [MESSAGE][PASSED] - Actual text 'tractiontools.user001+te5xe2rj@gmail.com' and expected text 'tractiontools.user001+te5xe2rj@gmail.com' are matched 
+
+2020-09-23 06:45:56 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ActivationPage/input_password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-23 06:45:56 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-23 06:45:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/V2/Commons/ActivationPage/input__passwordRepeat"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-23 06:45:57 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-23 06:45:57 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/ActivationPage/input_termsandconditions")): Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-23 06:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-23 06:45:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ActivationPage/div_Create account")): Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-23 06:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-23 06:45:58 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 06:46:01 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 06:46:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), 0): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 06:46:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-23 06:46:02 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-23 06:46:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-23 06:46:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup' successfully
+
+2020-09-23 06:46:02 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup: Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup
+
+2020-09-23 06:46:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-23 06:46:02 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-23 06:46:02 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 06:46:02 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-23 06:46:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-23 06:46:03 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-23 06:46:03 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-23 06:46:03 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-23 06:46:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipPersonalProfileSetup' successfully
+
+2020-09-23 06:46:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers' successfully
+
+2020-09-23 06:46:03 - [TEST_STEP][PASSED] - closeBrowser(CONTINUE_ON_FAILURE): Browser is closed
+
+2020-09-23 06:46:04 - [MESSAGE][PASSED] - Browser is closed
+
+2020-09-23 06:46:04 - [TEST_STEP][PASSED] - path = System.getProperty("user.dir"): null
+
+2020-09-23 06:46:04 - [TEST_STEP][PASSED] - System.setProperty("webdriver.chrome.driver", getChromeDriverPath()): null
+
+2020-09-23 06:46:04 - [TEST_STEP][PASSED] - driver1 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2020-09-23 06:46:07 - [TEST_STEP][PASSED] - changeWebDriver(driver1): null
+
+2020-09-23 06:46:07 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2020-09-23 06:46:10 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 06:46:10 - [TEST_STEP][PASSED] - navigateToUrl(V2Url, CONTINUE_ON_FAILURE): Navigate to 'https://meetingmaster.dev02.tt-devs.com' successfully
+
+2020-09-23 06:46:11 - [MESSAGE][PASSED] - Navigate to 'https://meetingmaster.dev02.tt-devs.com' successfully
+
+2020-09-23 06:46:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication"), ["username":email, "password":password], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication' successfully
+
+2020-09-23 06:46:11 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication: Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication
+
+2020-09-23 06:46:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/LoginPage/input__username"), DefaultTimeout): Object 'Object Repository/V2/Commons/LoginPage/input__username' is visible
+
+2020-09-23 06:46:18 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/LoginPage/input__username' is visible
+
+2020-09-23 06:46:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/LoginPage/input__password"), DefaultTimeout): Object 'Object Repository/V2/Commons/LoginPage/input__password' is visible
+
+2020-09-23 06:46:18 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/LoginPage/input__password' is visible
+
+2020-09-23 06:46:18 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/LoginPage/input__username"), username): Text 'tractiontools.user001+ta5fsp9d@gmail.com' is set on object 'Object Repository/V2/Commons/LoginPage/input__username'
+
+2020-09-23 06:46:18 - [MESSAGE][PASSED] - Text 'tractiontools.user001+ta5fsp9d@gmail.com' is set on object 'Object Repository/V2/Commons/LoginPage/input__username'
+
+2020-09-23 06:46:18 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/LoginPage/input__password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/LoginPage/input__password'
+
+2020-09-23 06:46:18 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/LoginPage/input__password'
+
+2020-09-23 06:46:18 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/LoginPage/div_Login")): Object: 'Object Repository/V2/Commons/LoginPage/div_Login' is clicked on
+
+2020-09-23 06:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/LoginPage/div_Login' is clicked on
+
+2020-09-23 06:46:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 06:46:21 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 06:46:21 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), STOP_ON_FAILURE): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 06:46:21 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 06:46:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication' successfully
+
+2020-09-23 06:46:21 - [TEST_STEP][PASSED] - driver2 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2020-09-23 06:46:25 - [TEST_STEP][PASSED] - changeWebDriver(driver2): null
+
+2020-09-23 06:46:25 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2020-09-23 06:46:27 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 06:46:27 - [TEST_STEP][PASSED] - navigateToUrl(V2Url, CONTINUE_ON_FAILURE): Navigate to 'https://meetingmaster.dev02.tt-devs.com' successfully
+
+2020-09-23 06:46:28 - [MESSAGE][PASSED] - Navigate to 'https://meetingmaster.dev02.tt-devs.com' successfully
+
+2020-09-23 06:46:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication"), ["username":supervisor_email, "password":password], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication' successfully
+
+2020-09-23 06:46:28 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication: Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication
+
+2020-09-23 06:46:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/LoginPage/input__username"), DefaultTimeout): Object 'Object Repository/V2/Commons/LoginPage/input__username' is visible
+
+2020-09-23 06:46:36 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/LoginPage/input__username' is visible
+
+2020-09-23 06:46:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/LoginPage/input__password"), DefaultTimeout): Object 'Object Repository/V2/Commons/LoginPage/input__password' is visible
+
+2020-09-23 06:46:36 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/LoginPage/input__password' is visible
+
+2020-09-23 06:46:36 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/LoginPage/input__username"), username): Text 'tractiontools.user001+ts5184t5@gmail.com' is set on object 'Object Repository/V2/Commons/LoginPage/input__username'
+
+2020-09-23 06:46:37 - [MESSAGE][PASSED] - Text 'tractiontools.user001+ts5184t5@gmail.com' is set on object 'Object Repository/V2/Commons/LoginPage/input__username'
+
+2020-09-23 06:46:37 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/LoginPage/input__password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/LoginPage/input__password'
+
+2020-09-23 06:46:37 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/LoginPage/input__password'
+
+2020-09-23 06:46:37 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/LoginPage/div_Login")): Object: 'Object Repository/V2/Commons/LoginPage/div_Login' is clicked on
+
+2020-09-23 06:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/LoginPage/div_Login' is clicked on
+
+2020-09-23 06:46:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 06:46:42 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 06:46:42 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), STOP_ON_FAILURE): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 06:46:42 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 06:46:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication' successfully
+
+2020-09-23 06:46:42 - [TEST_STEP][PASSED] - driver3 = new org.openqa.selenium.chrome.ChromeDriver(): null
+
+2020-09-23 06:46:45 - [TEST_STEP][PASSED] - changeWebDriver(driver3): null
+
+2020-09-23 06:46:45 - [TEST_STEP][PASSED] - maximizeWindow(CONTINUE_ON_FAILURE): Current window maximized
+
+2020-09-23 06:46:48 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-23 06:46:48 - [TEST_STEP][PASSED] - navigateToUrl(V2Url, CONTINUE_ON_FAILURE): Navigate to 'https://meetingmaster.dev02.tt-devs.com' successfully
+
+2020-09-23 06:46:49 - [MESSAGE][PASSED] - Navigate to 'https://meetingmaster.dev02.tt-devs.com' successfully
+
+2020-09-23 06:46:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication"), ["username":employee_email, "password":password], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication' successfully
+
+2020-09-23 06:46:49 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication: Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication
+
+2020-09-23 06:46:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/LoginPage/input__username"), DefaultTimeout): Object 'Object Repository/V2/Commons/LoginPage/input__username' is visible
+
+2020-09-23 06:46:56 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/LoginPage/input__username' is visible
+
+2020-09-23 06:46:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/LoginPage/input__password"), DefaultTimeout): Object 'Object Repository/V2/Commons/LoginPage/input__password' is visible
+
+2020-09-23 06:46:57 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/LoginPage/input__password' is visible
+
+2020-09-23 06:46:57 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/LoginPage/input__username"), username): Text 'tractiontools.user001+te5xe2rj@gmail.com' is set on object 'Object Repository/V2/Commons/LoginPage/input__username'
+
+2020-09-23 06:46:57 - [MESSAGE][PASSED] - Text 'tractiontools.user001+te5xe2rj@gmail.com' is set on object 'Object Repository/V2/Commons/LoginPage/input__username'
+
+2020-09-23 06:46:57 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/LoginPage/input__password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/LoginPage/input__password'
+
+2020-09-23 06:46:57 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/LoginPage/input__password'
+
+2020-09-23 06:46:57 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/LoginPage/div_Login")): Object: 'Object Repository/V2/Commons/LoginPage/div_Login' is clicked on
+
+2020-09-23 06:46:57 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/LoginPage/div_Login' is clicked on
+
+2020-09-23 06:46:57 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 06:47:00 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 06:47:00 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), STOP_ON_FAILURE): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 06:47:00 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is visible
+
+2020-09-23 06:47:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication' successfully
+
+2020-09-23 06:47:00 - [TEST_STEP][PASSED] - changeWebDriver(driver1): null
+
+2020-09-23 06:47:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_AddMilestone_Rocks"), [:], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_AddMilestone_Rocks' successfully
+
+2020-09-23 06:47:00 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_AddMilestone_Rocks: Test Cases/V2/Test Case/Pre-conditions/PRE_AddMilestone_Rocks
+
+2020-09-23 06:47:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ManageUsersPage/span_Company Settings")): Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-23 06:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ManageUsersPage/span_Company Settings' is clicked on
+
+2020-09-23 06:47:00 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/a_Advance Settings")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Advance Settings' is clicked on
+
+2020-09-23 06:47:00 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/a_Advance Settings' is clicked on
+
+2020-09-23 06:47:00 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/AdvanceSettingsPage/Add_Milestone_Toggle"), DefaultTimeout): Object 'Object Repository/V2/Commons/AdvanceSettingsPage/Add_Milestone_Toggle' is visible
+
+2020-09-23 06:47:01 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/AdvanceSettingsPage/Add_Milestone_Toggle' is visible
+
+2020-09-23 06:47:01 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/AdvanceSettingsPage/Add_Milestone_Toggle")): Object: 'Object Repository/V2/Commons/AdvanceSettingsPage/Add_Milestone_Toggle' is clicked on
+
+2020-09-23 06:47:01 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/AdvanceSettingsPage/Add_Milestone_Toggle' is clicked on
+
+2020-09-23 06:47:01 - [TEST_STEP][PASSED] - A_validateMilestoneChecked = getAttribute(findTestObject("V2/Commons/AdvanceSettingsPage/Verify_Milestone_Toggle"), "checked"): Attribute 'checked' of object 'Object Repository/V2/Commons/AdvanceSettingsPage/Verify_Milestone_Toggle' is: 'true'
+
+2020-09-23 06:47:01 - [MESSAGE][PASSED] - Attribute 'checked' of object 'Object Repository/V2/Commons/AdvanceSettingsPage/Verify_Milestone_Toggle' is: 'true'
+
+2020-09-23 06:47:01 - [TEST_STEP][PASSED] - verifyMatch(A_validateMilestoneChecked, "true", false): Actual text 'true' and expected text 'true' are matched 
+
+2020-09-23 06:47:01 - [MESSAGE][PASSED] - Actual text 'true' and expected text 'true' are matched 
+
+2020-09-23 06:47:01 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/AdvanceSettingsPage/Save_Rules")): Object: 'Object Repository/V2/Commons/AdvanceSettingsPage/Save_Rules' is clicked on
+
+2020-09-23 06:47:01 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/AdvanceSettingsPage/Save_Rules' is clicked on
+
+2020-09-23 06:47:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-09-23 06:47:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-09-23 06:47:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_AddMilestone_Rocks' successfully
+
+2020-09-23 06:47:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_CreateL10Meeting"), ["meetingName":meetingName, "meetingAcronym":meetingAcronym, "meetingType":meetingType, "dropdownOptions_obj":"//div[@id='CREATE_MEETING_L10']//span[text()='%s']/parent::div[@role='option']", ... ], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting' successfully
+
+2020-09-23 06:47:06 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting: Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting
+
+2020-09-23 06:47:06 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:47:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/MeetingListPage/div_Create a meeting")): Object: 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting' is clicked on
+
+2020-09-23 06:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/div_Create a meeting' is clicked on
+
+2020-09-23 06:47:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/MeetingListPage/button_Level 10")): Object: 'Object Repository/V2/Commons/MeetingListPage/button_Level 10' is clicked on
+
+2020-09-23 06:47:07 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/button_Level 10' is clicked on
+
+2020-09-23 06:47:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/CreateL10MeetingDrawer/input__name"), DefaultTimeout): Object 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input__name' is visible
+
+2020-09-23 06:47:07 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input__name' is visible
+
+2020-09-23 06:47:07 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/CreateL10MeetingDrawer/input__name"), meetingName): Text 'Meeting Admin' is set on object 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input__name'
+
+2020-09-23 06:47:07 - [MESSAGE][PASSED] - Text 'Meeting Admin' is set on object 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input__name'
+
+2020-09-23 06:47:07 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/CreateL10MeetingDrawer/input__acronym"), meetingAcronym): Text 'CL10' is set on object 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input__acronym'
+
+2020-09-23 06:47:07 - [MESSAGE][PASSED] - Text 'CL10' is set on object 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input__acronym'
+
+2020-09-23 06:47:07 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/CreateL10MeetingDrawer/input__typeOfMeeting")): Object: 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input__typeOfMeeting' is clicked on
+
+2020-09-23 06:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input__typeOfMeeting' is clicked on
+
+2020-09-23 06:47:08 - [TEST_STEP][PASSED] - meetingTypeOption_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(dropdownOptions_obj, meetingType, "xpath"): Successfully created new dynamic object: //div[@id='CREATE_MEETING_L10']//span[text()='Leadership']/parent::div[@role='option']
+
+2020-09-23 06:47:08 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@id='CREATE_MEETING_L10']//span[text()='Leadership']/parent::div[@role='option']
+
+2020-09-23 06:47:08 - [TEST_STEP][PASSED] - click(meetingTypeOption_Obj): Object: '' is clicked on
+
+2020-09-23 06:47:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:47:08 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/CreateL10MeetingDrawer/div_dayOfMeetingDropdownList")): Object: 'Object Repository/V2/Commons/CreateL10MeetingDrawer/div_dayOfMeetingDropdownList' is clicked on
+
+2020-09-23 06:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/CreateL10MeetingDrawer/div_dayOfMeetingDropdownList' is clicked on
+
+2020-09-23 06:47:08 - [TEST_STEP][PASSED] - dayOfMeetingOption_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(dropdownOptions_obj, dayOfMeeting, "xpath"): Successfully created new dynamic object: //div[@id='CREATE_MEETING_L10']//span[text()='Monday']/parent::div[@role='option']
+
+2020-09-23 06:47:08 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@id='CREATE_MEETING_L10']//span[text()='Monday']/parent::div[@role='option']
+
+2020-09-23 06:47:08 - [TEST_STEP][PASSED] - click(dayOfMeetingOption_Obj): Object: '' is clicked on
+
+2020-09-23 06:47:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:47:08 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/CreateL10MeetingDrawer/input_meetingTime")): Object: 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input_meetingTime' is clicked on
+
+2020-09-23 06:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input_meetingTime' is clicked on
+
+2020-09-23 06:47:08 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/CreateL10MeetingDrawer/input_meetingTime"), meetingTime): Text '12:00' is set on object 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input_meetingTime'
+
+2020-09-23 06:47:08 - [MESSAGE][PASSED] - Text '12:00' is set on object 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input_meetingTime'
+
+2020-09-23 06:47:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("V2/Commons/CreateL10MeetingDrawer/input_meetingTime"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input_meetingTime'
+
+2020-09-23 06:47:08 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/V2/Commons/CreateL10MeetingDrawer/input_meetingTime'
+
+2020-09-23 06:47:08 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/CreateL10MeetingDrawer/div_Create Meeting")): Object: 'Object Repository/V2/Commons/CreateL10MeetingDrawer/div_Create Meeting' is clicked on
+
+2020-09-23 06:47:08 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/CreateL10MeetingDrawer/div_Create Meeting' is clicked on
+
+2020-09-23 06:47:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/V2/Commons/MeetingListPage/div_Ill do this later"), DefaultTimeout): Object 'Object Repository/V2/Commons/MeetingListPage/div_Ill do this later' is visible
+
+2020-09-23 06:47:14 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/div_Ill do this later' is visible
+
+2020-09-23 06:47:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/V2/Commons/MeetingListPage/div_Ill do this later"), STOP_ON_FAILURE): Object 'Object Repository/V2/Commons/MeetingListPage/div_Ill do this later' is visible
+
+2020-09-23 06:47:14 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/div_Ill do this later' is visible
+
+2020-09-23 06:47:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/MeetingListPage/div_Ill do this later")): Object: 'Object Repository/V2/Commons/MeetingListPage/div_Ill do this later' is clicked on
+
+2020-09-23 06:47:14 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/div_Ill do this later' is clicked on
+
+2020-09-23 06:47:14 - [TEST_STEP][NOT_RUN] - meetingRecordObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(meetingRecord_obj, meetingName, "xpath"): NOT_RUN: meetingRecordObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(meetingRecord_obj, meetingName, "xpath")
+
+2020-09-23 06:47:14 - [MESSAGE][NOT_RUN] - NOT_RUN: meetingRecordObj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(meetingRecord_obj, meetingName, "xpath")
+
+2020-09-23 06:47:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("V2/Commons/MeetingListPage/D_meetingRecord_meetingName_h2", ["meetingName":meetingName]), DefaultTimeout): Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_meetingName_h2' is present
+
+2020-09-23 06:47:14 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_meetingName_h2' is present
+
+2020-09-23 06:47:14 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("V2/Commons/MeetingListPage/D_meetingRecord_meetingName_h2", ["meetingName":meetingName]), STOP_ON_FAILURE): Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_meetingName_h2' is visible
+
+2020-09-23 06:47:14 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_meetingName_h2' is visible
+
+2020-09-23 06:47:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_CreateL10Meeting' successfully
+
+2020-09-23 06:47:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_AddAllAttendeesToMeeting"), ["meetingName":meetingName, "firstname":supervisor_fname, "lastname":lastname, "userOptionObj":"//span[text()='%s']/parent::div[@role='option']", ... ], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_AddAllAttendeesToMeeting' successfully
+
+2020-09-23 06:47:15 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_AddAllAttendeesToMeeting: Test Cases/V2/Test Case/Pre-conditions/PRE_AddAllAttendeesToMeeting
+
+2020-09-23 06:47:15 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:47:15 - [TEST_STEP][PASSED] - attendee_fullname = firstname + " " + lastname: null
+
+2020-09-23 06:47:15 - [TEST_STEP][NOT_RUN] - meetingOpt_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(meetingOptions_obj, meetingName, "xpath"): NOT_RUN: meetingOpt_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(meetingOptions_obj, meetingName, "xpath")
+
+2020-09-23 06:47:15 - [MESSAGE][NOT_RUN] - NOT_RUN: meetingOpt_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(meetingOptions_obj, meetingName, "xpath")
+
+2020-09-23 06:47:15 - [TEST_STEP][NOT_RUN] - click(meetingOpt_Obj): NOT_RUN: click(meetingOpt_Obj)
+
+2020-09-23 06:47:15 - [MESSAGE][NOT_RUN] - NOT_RUN: click(meetingOpt_Obj)
+
+2020-09-23 06:47:15 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div", ["meetingName":meetingName]), STOP_ON_FAILURE): Object: 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is clicked on
+
+2020-09-23 06:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is clicked on
+
+2020-09-23 06:47:15 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/MeetingListPage/a_Edit meeting")): Object: 'Object Repository/V2/Commons/MeetingListPage/a_Edit meeting' is clicked on
+
+2020-09-23 06:47:15 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/a_Edit meeting' is clicked on
+
+2020-09-23 06:47:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("V2/Commons/EditMeetingPage/div_Add users"), DefaultTimeout): Object 'Object Repository/V2/Commons/EditMeetingPage/div_Add users' is present
+
+2020-09-23 06:47:16 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/EditMeetingPage/div_Add users' is present
+
+2020-09-23 06:47:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-09-23 06:47:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-09-23 06:47:21 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/EditMeetingPage/div_Add users")): Object: 'Object Repository/V2/Commons/EditMeetingPage/div_Add users' is clicked on
+
+2020-09-23 06:47:21 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/EditMeetingPage/div_Add users' is clicked on
+
+2020-09-23 06:47:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-09-23 06:47:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-09-23 06:47:26 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/EditMeetingPage/AddAttendeeUserDropdown")): Object: 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeUserDropdown' is clicked on
+
+2020-09-23 06:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeUserDropdown' is clicked on
+
+2020-09-23 06:47:26 - [TEST_STEP][PASSED] - attendeeOpt_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(userOptionObj, attendee_fullname, "xpath"): Successfully created new dynamic object: //span[text()='Supervisor User']/parent::div[@role='option']
+
+2020-09-23 06:47:26 - [MESSAGE][PASSED] - Successfully created new dynamic object: //span[text()='Supervisor User']/parent::div[@role='option']
+
+2020-09-23 06:47:26 - [TEST_STEP][PASSED] - attendeeObjCount = tt_CustomKeywords.CustomKeywords.CountElementInWebPageByDynamicElement(userOptionObj, attendee_fullname, "xpath"): Successfully get the element count. 
+Element occurences in Webpage: 2
+
+2020-09-23 06:47:26 - [MESSAGE][PASSED] - Successfully get the element count. 
+Element occurences in Webpage: 2
+
+2020-09-23 06:47:26 - [TEST_STEP][PASSED] - attendeeOptSCount = attendeeObjCount.toString(): null
+
+2020-09-23 06:47:26 - [TEST_STEP][PASSED] - out.println(attendeeOptSCount): null
+
+2020-09-23 06:47:26 - [TEST_STEP][PASSED] - attendeeObj_Xpath = attendeeOpt_Obj.findPropertyValue("xpath"): null
+
+2020-09-23 06:47:26 - [TEST_STEP][PASSED] - newAttendeeOpt = "(" + attendeeObj_Xpath + ")[%s]": null
+
+2020-09-23 06:47:26 - [TEST_STEP][PASSED] - out.println(newAttendeeOpt): null
+
+2020-09-23 06:47:26 - [TEST_STEP][PASSED] - newAttendeeOpt_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(newAttendeeOpt, attendeeOptSCount, "xpath"): Successfully created new dynamic object: (//span[text()='Supervisor User']/parent::div[@role='option'])[2]
+
+2020-09-23 06:47:26 - [MESSAGE][PASSED] - Successfully created new dynamic object: (//span[text()='Supervisor User']/parent::div[@role='option'])[2]
+
+2020-09-23 06:47:26 - [TEST_STEP][PASSED] - click(newAttendeeOpt_Obj): Object: '' is clicked on
+
+2020-09-23 06:47:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:47:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif"), DefaultTimeout): Object 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif' is present
+
+2020-09-23 06:47:27 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif' is present
+
+2020-09-23 06:47:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif"), DefaultTimeout): Object 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif' is present
+
+2020-09-23 06:47:27 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif' is present
+
+2020-09-23 06:47:27 - [TEST_STEP][PASSED] - permissionDrop_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(permissionDropObj, attendee_fullname, "xpath"): Successfully created new dynamic object: //div[@role='alert' and text()='Supervisor User']/ancestor::div[@class='editAttendees__item']//button[contains(@aria-label,'assign')]/parent::div
+
+2020-09-23 06:47:27 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@role='alert' and text()='Supervisor User']/ancestor::div[@class='editAttendees__item']//button[contains(@aria-label,'assign')]/parent::div
+
+2020-09-23 06:47:27 - [TEST_STEP][PASSED] - click(permissionDrop_Obj): Object: '' is clicked on
+
+2020-09-23 06:47:27 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:47:27 - [TEST_STEP][PASSED] - permissionDropOpt_Obj_MA = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(permissionDropOptObj_MA, attendee_fullname, "xpath"): Successfully created new dynamic object: //div[@role='alert' and text()='Supervisor User']/ancestor::div[@class='editAttendees__item']//span[text()='Meeting Admin']/parent::div
+
+2020-09-23 06:47:27 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@role='alert' and text()='Supervisor User']/ancestor::div[@class='editAttendees__item']//span[text()='Meeting Admin']/parent::div
+
+2020-09-23 06:47:27 - [TEST_STEP][PASSED] - permissionDropOpt_Obj_FE = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(permissionDropOptObj_FE, attendee_fullname, "xpath"): Successfully created new dynamic object: //div[@role='alert' and text()='Supervisor User']/ancestor::div[@class='editAttendees__item']//span[text()='Full editor']/parent::div
+
+2020-09-23 06:47:27 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@role='alert' and text()='Supervisor User']/ancestor::div[@class='editAttendees__item']//span[text()='Full editor']/parent::div
+
+2020-09-23 06:47:27 - [TEST_STEP][PASSED] - permissionDropOpt_Obj_BE = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(permissionDropOptObj_BE, attendee_fullname, "xpath"): Successfully created new dynamic object: //div[@role='alert' and text()='Supervisor User']/ancestor::div[@class='editAttendees__item']//span[text()='Basic editor']/parent::div
+
+2020-09-23 06:47:27 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@role='alert' and text()='Supervisor User']/ancestor::div[@class='editAttendees__item']//span[text()='Basic editor']/parent::div
+
+2020-09-23 06:47:27 - [TEST_STEP][PASSED] - if (permission == "Meeting Admin"): null
+
+2020-09-23 06:47:27 - [TEST_STEP][PASSED] - if (permission == "Full editor"): null
+
+2020-09-23 06:47:27 - [TEST_STEP][PASSED] - if (permission == "Basic editor"): null
+
+2020-09-23 06:47:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is present
+
+2020-09-23 06:47:27 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is present
+
+2020-09-23 06:47:27 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:47:27 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif"), DefaultTimeout): Web element with id: 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif' located by 'By.xpath: //h3[text()='New attendee added!']' is not present after '60' second(s)
+
+2020-09-23 06:47:34 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif' located by 'By.xpath: //h3[text()='New attendee added!']' is not present after '60' second(s)
+
+2020-09-23 06:47:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_AddAllAttendeesToMeeting' successfully
+
+2020-09-23 06:47:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_AddAllAttendeesToMeeting"), ["meetingName":meetingName, "firstname":employee_fname, "lastname":lastname, "userOptionObj":"//span[text()='%s']/parent::div[@role='option']", ... ], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_AddAllAttendeesToMeeting' successfully
+
+2020-09-23 06:47:34 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_AddAllAttendeesToMeeting: Test Cases/V2/Test Case/Pre-conditions/PRE_AddAllAttendeesToMeeting
+
+2020-09-23 06:47:34 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:47:34 - [TEST_STEP][PASSED] - attendee_fullname = firstname + " " + lastname: null
+
+2020-09-23 06:47:34 - [TEST_STEP][NOT_RUN] - meetingOpt_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(meetingOptions_obj, meetingName, "xpath"): NOT_RUN: meetingOpt_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(meetingOptions_obj, meetingName, "xpath")
+
+2020-09-23 06:47:34 - [MESSAGE][NOT_RUN] - NOT_RUN: meetingOpt_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(meetingOptions_obj, meetingName, "xpath")
+
+2020-09-23 06:47:34 - [TEST_STEP][NOT_RUN] - click(meetingOpt_Obj): NOT_RUN: click(meetingOpt_Obj)
+
+2020-09-23 06:47:34 - [MESSAGE][NOT_RUN] - NOT_RUN: click(meetingOpt_Obj)
+
+2020-09-23 06:47:34 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div", ["meetingName":meetingName]), STOP_ON_FAILURE): Object: 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is clicked on
+
+2020-09-23 06:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is clicked on
+
+2020-09-23 06:47:34 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/MeetingListPage/a_Edit meeting")): Object: 'Object Repository/V2/Commons/MeetingListPage/a_Edit meeting' is clicked on
+
+2020-09-23 06:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/a_Edit meeting' is clicked on
+
+2020-09-23 06:47:34 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("V2/Commons/EditMeetingPage/div_Add users"), DefaultTimeout): Object 'Object Repository/V2/Commons/EditMeetingPage/div_Add users' is present
+
+2020-09-23 06:47:34 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/EditMeetingPage/div_Add users' is present
+
+2020-09-23 06:47:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-09-23 06:47:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-09-23 06:47:39 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/EditMeetingPage/div_Add users")): Object: 'Object Repository/V2/Commons/EditMeetingPage/div_Add users' is clicked on
+
+2020-09-23 06:47:40 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/EditMeetingPage/div_Add users' is clicked on
+
+2020-09-23 06:47:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-09-23 06:47:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-09-23 06:47:45 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/EditMeetingPage/AddAttendeeUserDropdown")): Object: 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeUserDropdown' is clicked on
+
+2020-09-23 06:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeUserDropdown' is clicked on
+
+2020-09-23 06:47:45 - [TEST_STEP][PASSED] - attendeeOpt_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(userOptionObj, attendee_fullname, "xpath"): Successfully created new dynamic object: //span[text()='Employee User']/parent::div[@role='option']
+
+2020-09-23 06:47:45 - [MESSAGE][PASSED] - Successfully created new dynamic object: //span[text()='Employee User']/parent::div[@role='option']
+
+2020-09-23 06:47:45 - [TEST_STEP][PASSED] - attendeeObjCount = tt_CustomKeywords.CustomKeywords.CountElementInWebPageByDynamicElement(userOptionObj, attendee_fullname, "xpath"): Successfully get the element count. 
+Element occurences in Webpage: 3
+
+2020-09-23 06:47:45 - [MESSAGE][PASSED] - Successfully get the element count. 
+Element occurences in Webpage: 3
+
+2020-09-23 06:47:45 - [TEST_STEP][PASSED] - attendeeOptSCount = attendeeObjCount.toString(): null
+
+2020-09-23 06:47:45 - [TEST_STEP][PASSED] - out.println(attendeeOptSCount): null
+
+2020-09-23 06:47:45 - [TEST_STEP][PASSED] - attendeeObj_Xpath = attendeeOpt_Obj.findPropertyValue("xpath"): null
+
+2020-09-23 06:47:45 - [TEST_STEP][PASSED] - newAttendeeOpt = "(" + attendeeObj_Xpath + ")[%s]": null
+
+2020-09-23 06:47:45 - [TEST_STEP][PASSED] - out.println(newAttendeeOpt): null
+
+2020-09-23 06:47:45 - [TEST_STEP][PASSED] - newAttendeeOpt_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(newAttendeeOpt, attendeeOptSCount, "xpath"): Successfully created new dynamic object: (//span[text()='Employee User']/parent::div[@role='option'])[3]
+
+2020-09-23 06:47:45 - [MESSAGE][PASSED] - Successfully created new dynamic object: (//span[text()='Employee User']/parent::div[@role='option'])[3]
+
+2020-09-23 06:47:45 - [TEST_STEP][PASSED] - click(newAttendeeOpt_Obj): Object: '' is clicked on
+
+2020-09-23 06:47:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:47:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif"), DefaultTimeout): Object 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif' is present
+
+2020-09-23 06:47:46 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif' is present
+
+2020-09-23 06:47:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif"), DefaultTimeout): Object 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif' is present
+
+2020-09-23 06:47:46 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif' is present
+
+2020-09-23 06:47:46 - [TEST_STEP][PASSED] - permissionDrop_Obj = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(permissionDropObj, attendee_fullname, "xpath"): Successfully created new dynamic object: //div[@role='alert' and text()='Employee User']/ancestor::div[@class='editAttendees__item']//button[contains(@aria-label,'assign')]/parent::div
+
+2020-09-23 06:47:46 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@role='alert' and text()='Employee User']/ancestor::div[@class='editAttendees__item']//button[contains(@aria-label,'assign')]/parent::div
+
+2020-09-23 06:47:46 - [TEST_STEP][PASSED] - click(permissionDrop_Obj): Object: '' is clicked on
+
+2020-09-23 06:47:46 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:47:46 - [TEST_STEP][PASSED] - permissionDropOpt_Obj_MA = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(permissionDropOptObj_MA, attendee_fullname, "xpath"): Successfully created new dynamic object: //div[@role='alert' and text()='Employee User']/ancestor::div[@class='editAttendees__item']//span[text()='Meeting Admin']/parent::div
+
+2020-09-23 06:47:46 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@role='alert' and text()='Employee User']/ancestor::div[@class='editAttendees__item']//span[text()='Meeting Admin']/parent::div
+
+2020-09-23 06:47:46 - [TEST_STEP][PASSED] - permissionDropOpt_Obj_FE = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(permissionDropOptObj_FE, attendee_fullname, "xpath"): Successfully created new dynamic object: //div[@role='alert' and text()='Employee User']/ancestor::div[@class='editAttendees__item']//span[text()='Full editor']/parent::div
+
+2020-09-23 06:47:46 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@role='alert' and text()='Employee User']/ancestor::div[@class='editAttendees__item']//span[text()='Full editor']/parent::div
+
+2020-09-23 06:47:46 - [TEST_STEP][PASSED] - permissionDropOpt_Obj_BE = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(permissionDropOptObj_BE, attendee_fullname, "xpath"): Successfully created new dynamic object: //div[@role='alert' and text()='Employee User']/ancestor::div[@class='editAttendees__item']//span[text()='Basic editor']/parent::div
+
+2020-09-23 06:47:46 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@role='alert' and text()='Employee User']/ancestor::div[@class='editAttendees__item']//span[text()='Basic editor']/parent::div
+
+2020-09-23 06:47:46 - [TEST_STEP][PASSED] - if (permission == "Meeting Admin"): null
+
+2020-09-23 06:47:46 - [TEST_STEP][PASSED] - if (permission == "Full editor"): null
+
+2020-09-23 06:47:46 - [TEST_STEP][PASSED] - if (permission == "Basic editor"): null
+
+2020-09-23 06:47:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is present
+
+2020-09-23 06:47:46 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is present
+
+2020-09-23 06:47:46 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:47:46 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:47:46 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif"), DefaultTimeout): Web element with id: 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif' located by 'By.xpath: //h3[text()='New attendee added!']' is not present after '60' second(s)
+
+2020-09-23 06:47:53 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/V2/Commons/EditMeetingPage/AddAttendeeSuccessNotif' located by 'By.xpath: //h3[text()='New attendee added!']' is not present after '60' second(s)
+
+2020-09-23 06:47:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_AddAllAttendeesToMeeting' successfully
+
+2020-09-23 06:47:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Admin/PR_341_2_ArchiveRock_Admin"), ["userName":"jeff+075@mytractiontools.com", "passWord":"Skyline69A*", "meetingRowPosition":"3", "editMeetingMenu_Obj":"//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[%s]/div[3]/button/i", ... ], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Admin/PR_341_2_ArchiveRock_Admin' successfully
+
+2020-09-23 06:47:53 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Admin/PR_341_2_ArchiveRock_Admin: Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Admin/PR_341_2_ArchiveRock_Admin
+
+2020-09-23 06:47:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is visible
+
+2020-09-23 06:47:53 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is visible
+
+2020-09-23 06:47:53 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:47:53 - [TEST_STEP][PASSED] - tt_CustomKeywords.CustomKeywords.WaitForElementVisibleThenClick(findTestObject("V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div", ["meetingName":meetingName]), DefaultTimeout): Successfully verified and clicked the element
+
+2020-09-23 06:47:53 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is visible
+
+2020-09-23 06:47:53 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is visible
+
+2020-09-23 06:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is clicked on
+
+2020-09-23 06:47:53 - [MESSAGE][PASSED] - Successfully verified and clicked the element
+
+2020-09-23 06:47:53 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/MeetingListPage/a_Edit meeting")): Object: 'Object Repository/V2/Commons/MeetingListPage/a_Edit meeting' is clicked on
+
+2020-09-23 06:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/a_Edit meeting' is clicked on
+
+2020-09-23 06:47:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu"), DefaultTimeout): Object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu' is visible
+
+2020-09-23 06:47:53 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu' is visible
+
+2020-09-23 06:47:53 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu' is clicked on
+
+2020-09-23 06:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu' is clicked on
+
+2020-09-23 06:47:54 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/CreateRocksButton")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/CreateRocksButton' is clicked on
+
+2020-09-23 06:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/CreateRocksButton' is clicked on
+
+2020-09-23 06:47:54 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Create_New_Rocks")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Create_New_Rocks' is clicked on
+
+2020-09-23 06:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Create_New_Rocks' is clicked on
+
+2020-09-23 06:47:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title"), DefaultTimeout): Object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title' is visible
+
+2020-09-23 06:47:54 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title' is visible
+
+2020-09-23 06:47:54 - [TEST_STEP][PASSED] - setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title"), rockName): Text 'QA Edit Meeting Automation Rock Test' is set on object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title'
+
+2020-09-23 06:47:54 - [MESSAGE][PASSED] - Text 'QA Edit Meeting Automation Rock Test' is set on object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title'
+
+2020-09-23 06:47:54 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Status_OffTrack_Rock")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Status_OffTrack_Rock' is clicked on
+
+2020-09-23 06:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Status_OffTrack_Rock' is clicked on
+
+2020-09-23 06:47:54 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Accountable_Owner_Field")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Accountable_Owner_Field' is clicked on
+
+2020-09-23 06:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Accountable_Owner_Field' is clicked on
+
+2020-09-23 06:47:54 - [TEST_STEP][PASSED] - accountableOwner = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(owner_Obj, ownerSelected, "xpath"): Successfully created new dynamic object: //div[@data-test-id='createRock']//div[@role='listbox'][@class='visible menu transition']/div[@role='option'][contains(@class,'item')]/span[text()='Admin User']
+
+2020-09-23 06:47:54 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@data-test-id='createRock']//div[@role='listbox'][@class='visible menu transition']/div[@role='option'][contains(@class,'item')]/span[text()='Admin User']
+
+2020-09-23 06:47:54 - [TEST_STEP][PASSED] - click(accountableOwner): Object: '' is clicked on
+
+2020-09-23 06:47:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:47:54 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Field")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Field' is clicked on
+
+2020-09-23 06:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Field' is clicked on
+
+2020-09-23 06:47:54 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Company")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Company' is clicked on
+
+2020-09-23 06:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Company' is clicked on
+
+2020-09-23 06:47:55 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rocks_Due_Date_Field")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Due_Date_Field' is clicked on
+
+2020-09-23 06:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Due_Date_Field' is clicked on
+
+2020-09-23 06:47:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Scorecard/A_Date29"), DefaultTimeout): Object 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is visible
+
+2020-09-23 06:47:55 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is visible
+
+2020-09-23 06:47:55 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Scorecard/A_Date29")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is clicked on
+
+2020-09-23 06:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is clicked on
+
+2020-09-23 06:47:55 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2020-09-23 06:47:55 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2020-09-23 06:47:55 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Verify_Notes_Section")): NOT_RUN: verifyElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Verify_Notes_Section"))
+
+2020-09-23 06:47:55 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Verify_Notes_Section"))
+
+2020-09-23 06:47:55 - [TEST_STEP][NOT_RUN] - setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Notes_Comments"), Notes): NOT_RUN: setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Notes_Comments"), Notes)
+
+2020-09-23 06:47:55 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Notes_Comments"), Notes)
+
+2020-09-23 06:47:55 - [TEST_STEP][PASSED] - sendKeys(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button"), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button'
+
+2020-09-23 06:47:55 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button'
+
+2020-09-23 06:47:55 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button' is clicked on
+
+2020-09-23 06:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button' is clicked on
+
+2020-09-23 06:47:55 - [TEST_STEP][PASSED] - setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Milestone_Text_Field"), milestoneName): Text 'Milestone 1' is set on object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Milestone_Text_Field'
+
+2020-09-23 06:47:55 - [MESSAGE][PASSED] - Text 'Milestone 1' is set on object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Milestone_Text_Field'
+
+2020-09-23 06:47:55 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Milestone_date")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Milestone_date' is clicked on
+
+2020-09-23 06:47:55 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Milestone_date' is clicked on
+
+2020-09-23 06:47:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Scorecard/A_Date29"), DefaultTimeout): Object 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is visible
+
+2020-09-23 06:47:55 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is visible
+
+2020-09-23 06:47:55 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Scorecard/A_Date29")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is clicked on
+
+2020-09-23 06:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is clicked on
+
+2020-09-23 06:47:56 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Save_Button")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Save_Button' is clicked on
+
+2020-09-23 06:47:56 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Save_Button' is clicked on
+
+2020-09-23 06:47:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-09-23 06:48:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-09-23 06:48:06 - [TEST_STEP][PASSED] - verifyRocks = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(verifyRocks_Obj, rockName, "xpath"): Successfully created new dynamic object: //h2[text()='Rocks']/ancestor::div[contains(@class,'CardStyles')]/div[2]//div[@data-test-id='rock.title'][contains(@class,'TextBodyStyles-sc') and text()='QA Edit Meeting Automation Rock Test']
+
+2020-09-23 06:48:06 - [MESSAGE][PASSED] - Successfully created new dynamic object: //h2[text()='Rocks']/ancestor::div[contains(@class,'CardStyles')]/div[2]//div[@data-test-id='rock.title'][contains(@class,'TextBodyStyles-sc') and text()='QA Edit Meeting Automation Rock Test']
+
+2020-09-23 06:48:06 - [TEST_STEP][PASSED] - verifyElementPresent(verifyRocks, DefaultTimeout): Object '' is present
+
+2020-09-23 06:48:06 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 06:48:06 - [TEST_STEP][PASSED] - verifyMilestone = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(verifyMilestone_Obj, milestoneName, "xpath"): Successfully created new dynamic object: //h2[text()='Rocks']/ancestor::div[contains(@class,'CardStyles')]/div[2]//div[contains(@class,'milestoneListItem__name')]/span[text()='Milestone 1']
+
+2020-09-23 06:48:06 - [MESSAGE][PASSED] - Successfully created new dynamic object: //h2[text()='Rocks']/ancestor::div[contains(@class,'CardStyles')]/div[2]//div[contains(@class,'milestoneListItem__name')]/span[text()='Milestone 1']
+
+2020-09-23 06:48:06 - [TEST_STEP][PASSED] - verifyElementPresent(verifyMilestone, DefaultTimeout): Object '' is present
+
+2020-09-23 06:48:06 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 06:48:06 - [TEST_STEP][NOT_RUN] - delay(10): NOT_RUN: delay(10)
+
+2020-09-23 06:48:06 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(10)
+
+2020-09-23 06:48:06 - [TEST_STEP][PASSED] - waitForElementVisible(verifyRocks, DefaultTimeout): Object '' is visible
+
+2020-09-23 06:48:06 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-09-23 06:48:06 - [TEST_STEP][PASSED] - click(verifyRocks): Object: '' is clicked on
+
+2020-09-23 06:48:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:48:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-341/Edit_Meeting/button_Archive"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Edit_Meeting/button_Archive' is visible
+
+2020-09-23 06:48:06 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Edit_Meeting/button_Archive' is visible
+
+2020-09-23 06:48:06 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-341/Edit_Meeting/button_Archive")): Object: 'Object Repository/V2/PR-341/Edit_Meeting/button_Archive' is clicked on
+
+2020-09-23 06:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-341/Edit_Meeting/button_Archive' is clicked on
+
+2020-09-23 06:48:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/PR-341/Edit_Meeting/notifier_RockArchive"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Edit_Meeting/notifier_RockArchive' is present
+
+2020-09-23 06:48:07 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Edit_Meeting/notifier_RockArchive' is present
+
+2020-09-23 06:48:07 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is visible
+
+2020-09-23 06:48:07 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is visible
+
+2020-09-23 06:48:07 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:48:07 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:48:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Admin/PR_341_2_ArchiveRock_Admin' successfully
+
+2020-09-23 06:48:07 - [TEST_STEP][PASSED] - changeWebDriver(driver2): null
+
+2020-09-23 06:48:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Supervisor/PR_341_2_ArchiveRock_Supervisor"), ["userName":"jeff+075@mytractiontools.com", "passWord":"Skyline69A*", "meetingRowPosition":"3", "editMeetingMenu_Obj":"//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[%s]/div[3]/button/i", ... ], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Supervisor/PR_341_2_ArchiveRock_Supervisor' successfully
+
+2020-09-23 06:48:07 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Supervisor/PR_341_2_ArchiveRock_Supervisor: Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Supervisor/PR_341_2_ArchiveRock_Supervisor
+
+2020-09-23 06:48:08 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is visible
+
+2020-09-23 06:48:08 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is visible
+
+2020-09-23 06:48:08 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:48:08 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:48:08 - [TEST_STEP][PASSED] - tt_CustomKeywords.CustomKeywords.WaitForElementVisibleThenClick(findTestObject("V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div", ["meetingName":meetingName]), DefaultTimeout): Successfully verified and clicked the element
+
+2020-09-23 06:48:09 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is visible
+
+2020-09-23 06:48:09 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is visible
+
+2020-09-23 06:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is clicked on
+
+2020-09-23 06:48:09 - [MESSAGE][PASSED] - Successfully verified and clicked the element
+
+2020-09-23 06:48:09 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/MeetingListPage/a_Edit meeting")): Object: 'Object Repository/V2/Commons/MeetingListPage/a_Edit meeting' is clicked on
+
+2020-09-23 06:48:09 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/a_Edit meeting' is clicked on
+
+2020-09-23 06:48:09 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu"), DefaultTimeout): Object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu' is visible
+
+2020-09-23 06:48:12 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu' is visible
+
+2020-09-23 06:48:12 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu' is clicked on
+
+2020-09-23 06:48:12 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu' is clicked on
+
+2020-09-23 06:48:12 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/CreateRocksButton")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/CreateRocksButton' is clicked on
+
+2020-09-23 06:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/CreateRocksButton' is clicked on
+
+2020-09-23 06:48:13 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Create_New_Rocks")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Create_New_Rocks' is clicked on
+
+2020-09-23 06:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Create_New_Rocks' is clicked on
+
+2020-09-23 06:48:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title"), DefaultTimeout): Object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title' is visible
+
+2020-09-23 06:48:13 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title' is visible
+
+2020-09-23 06:48:13 - [TEST_STEP][PASSED] - setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title"), rockName): Text 'QA Edit Meeting Automation Rock Test' is set on object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title'
+
+2020-09-23 06:48:13 - [MESSAGE][PASSED] - Text 'QA Edit Meeting Automation Rock Test' is set on object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title'
+
+2020-09-23 06:48:13 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Status_OffTrack_Rock")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Status_OffTrack_Rock' is clicked on
+
+2020-09-23 06:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Status_OffTrack_Rock' is clicked on
+
+2020-09-23 06:48:13 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Accountable_Owner_Field")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Accountable_Owner_Field' is clicked on
+
+2020-09-23 06:48:13 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Accountable_Owner_Field' is clicked on
+
+2020-09-23 06:48:13 - [TEST_STEP][PASSED] - accountableOwner = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(owner_Obj, ownerSelected, "xpath"): Successfully created new dynamic object: //div[@data-test-id='createRock']//div[@role='listbox'][@class='visible menu transition']/div[@role='option'][contains(@class,'item')]/span[text()='Supervisor User']
+
+2020-09-23 06:48:13 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@data-test-id='createRock']//div[@role='listbox'][@class='visible menu transition']/div[@role='option'][contains(@class,'item')]/span[text()='Supervisor User']
+
+2020-09-23 06:48:13 - [TEST_STEP][PASSED] - click(accountableOwner): Object: '' is clicked on
+
+2020-09-23 06:48:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:48:13 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Field")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Field' is clicked on
+
+2020-09-23 06:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Field' is clicked on
+
+2020-09-23 06:48:14 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Company")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Company' is clicked on
+
+2020-09-23 06:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Company' is clicked on
+
+2020-09-23 06:48:14 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rocks_Due_Date_Field")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Due_Date_Field' is clicked on
+
+2020-09-23 06:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Due_Date_Field' is clicked on
+
+2020-09-23 06:48:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Scorecard/A_Date29"), DefaultTimeout): Object 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is visible
+
+2020-09-23 06:48:14 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is visible
+
+2020-09-23 06:48:14 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Scorecard/A_Date29")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is clicked on
+
+2020-09-23 06:48:14 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is clicked on
+
+2020-09-23 06:48:14 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2020-09-23 06:48:14 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2020-09-23 06:48:14 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Verify_Notes_Section")): NOT_RUN: verifyElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Verify_Notes_Section"))
+
+2020-09-23 06:48:14 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Verify_Notes_Section"))
+
+2020-09-23 06:48:14 - [TEST_STEP][NOT_RUN] - setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Notes_Comments"), Notes): NOT_RUN: setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Notes_Comments"), Notes)
+
+2020-09-23 06:48:14 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Notes_Comments"), Notes)
+
+2020-09-23 06:48:14 - [TEST_STEP][PASSED] - sendKeys(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button"), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button'
+
+2020-09-23 06:48:14 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button'
+
+2020-09-23 06:48:14 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button' is clicked on
+
+2020-09-23 06:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button' is clicked on
+
+2020-09-23 06:48:15 - [TEST_STEP][PASSED] - setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Milestone_Text_Field"), milestoneName): Text 'Milestone 1' is set on object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Milestone_Text_Field'
+
+2020-09-23 06:48:15 - [MESSAGE][PASSED] - Text 'Milestone 1' is set on object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Milestone_Text_Field'
+
+2020-09-23 06:48:15 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Milestone_date")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Milestone_date' is clicked on
+
+2020-09-23 06:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Milestone_date' is clicked on
+
+2020-09-23 06:48:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Scorecard/A_Date29"), DefaultTimeout): Object 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is visible
+
+2020-09-23 06:48:15 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is visible
+
+2020-09-23 06:48:15 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Scorecard/A_Date29")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is clicked on
+
+2020-09-23 06:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is clicked on
+
+2020-09-23 06:48:15 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Save_Button")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Save_Button' is clicked on
+
+2020-09-23 06:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Save_Button' is clicked on
+
+2020-09-23 06:48:15 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-09-23 06:48:25 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-09-23 06:48:25 - [TEST_STEP][PASSED] - verifyRocks = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(verifyRocks_Obj, rockName, "xpath"): Successfully created new dynamic object: //h2[text()='Rocks']/ancestor::div[contains(@class,'CardStyles')]/div[2]//div[@data-test-id='rock.title'][contains(@class,'TextBodyStyles-sc') and text()='QA Edit Meeting Automation Rock Test']
+
+2020-09-23 06:48:25 - [MESSAGE][PASSED] - Successfully created new dynamic object: //h2[text()='Rocks']/ancestor::div[contains(@class,'CardStyles')]/div[2]//div[@data-test-id='rock.title'][contains(@class,'TextBodyStyles-sc') and text()='QA Edit Meeting Automation Rock Test']
+
+2020-09-23 06:48:25 - [TEST_STEP][PASSED] - verifyElementPresent(verifyRocks, DefaultTimeout): Object '' is present
+
+2020-09-23 06:48:25 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 06:48:25 - [TEST_STEP][PASSED] - verifyMilestone = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(verifyMilestone_Obj, milestoneName, "xpath"): Successfully created new dynamic object: //h2[text()='Rocks']/ancestor::div[contains(@class,'CardStyles')]/div[2]//div[contains(@class,'milestoneListItem__name')]/span[text()='Milestone 1']
+
+2020-09-23 06:48:25 - [MESSAGE][PASSED] - Successfully created new dynamic object: //h2[text()='Rocks']/ancestor::div[contains(@class,'CardStyles')]/div[2]//div[contains(@class,'milestoneListItem__name')]/span[text()='Milestone 1']
+
+2020-09-23 06:48:25 - [TEST_STEP][PASSED] - verifyElementPresent(verifyMilestone, DefaultTimeout): Object '' is present
+
+2020-09-23 06:48:25 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 06:48:25 - [TEST_STEP][NOT_RUN] - delay(10): NOT_RUN: delay(10)
+
+2020-09-23 06:48:25 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(10)
+
+2020-09-23 06:48:25 - [TEST_STEP][PASSED] - waitForElementVisible(verifyRocks, DefaultTimeout): Object '' is visible
+
+2020-09-23 06:48:25 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-09-23 06:48:25 - [TEST_STEP][PASSED] - click(verifyRocks): Object: '' is clicked on
+
+2020-09-23 06:48:26 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:48:26 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-341/Edit_Meeting/button_Archive"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Edit_Meeting/button_Archive' is visible
+
+2020-09-23 06:48:26 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Edit_Meeting/button_Archive' is visible
+
+2020-09-23 06:48:26 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-341/Edit_Meeting/button_Archive")): Object: 'Object Repository/V2/PR-341/Edit_Meeting/button_Archive' is clicked on
+
+2020-09-23 06:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-341/Edit_Meeting/button_Archive' is clicked on
+
+2020-09-23 06:48:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/PR-341/Edit_Meeting/notifier_RockArchive"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Edit_Meeting/notifier_RockArchive' is present
+
+2020-09-23 06:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Edit_Meeting/notifier_RockArchive' is present
+
+2020-09-23 06:48:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is visible
+
+2020-09-23 06:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is visible
+
+2020-09-23 06:48:27 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:48:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Supervisor/PR_341_2_ArchiveRock_Supervisor' successfully
+
+2020-09-23 06:48:27 - [TEST_STEP][PASSED] - changeWebDriver(driver3): null
+
+2020-09-23 06:48:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Employee/PR_341_2_ArchiveRock_Employee"), ["userName":"jeff+075@mytractiontools.com", "passWord":"Skyline69A*", "meetingRowPosition":"3", "editMeetingMenu_Obj":"//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[%s]/div[3]/button/i", ... ], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Employee/PR_341_2_ArchiveRock_Employee' successfully
+
+2020-09-23 06:48:27 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Employee/PR_341_2_ArchiveRock_Employee: Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Employee/PR_341_2_ArchiveRock_Employee
+
+2020-09-23 06:48:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is visible
+
+2020-09-23 06:48:27 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is visible
+
+2020-09-23 06:48:27 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:48:27 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:48:27 - [TEST_STEP][PASSED] - tt_CustomKeywords.CustomKeywords.WaitForElementVisibleThenClick(findTestObject("V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div", ["meetingName":meetingName]), DefaultTimeout): Successfully verified and clicked the element
+
+2020-09-23 06:48:28 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is visible
+
+2020-09-23 06:48:28 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is visible
+
+2020-09-23 06:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is clicked on
+
+2020-09-23 06:48:29 - [MESSAGE][PASSED] - Successfully verified and clicked the element
+
+2020-09-23 06:48:29 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/MeetingListPage/a_Edit meeting")): Object: 'Object Repository/V2/Commons/MeetingListPage/a_Edit meeting' is clicked on
+
+2020-09-23 06:48:29 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/a_Edit meeting' is clicked on
+
+2020-09-23 06:48:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu"), DefaultTimeout): Object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu' is visible
+
+2020-09-23 06:48:30 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu' is visible
+
+2020-09-23 06:48:30 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu' is clicked on
+
+2020-09-23 06:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Menu' is clicked on
+
+2020-09-23 06:48:30 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/CreateRocksButton")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/CreateRocksButton' is clicked on
+
+2020-09-23 06:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/CreateRocksButton' is clicked on
+
+2020-09-23 06:48:30 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Create_New_Rocks")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Create_New_Rocks' is clicked on
+
+2020-09-23 06:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Create_New_Rocks' is clicked on
+
+2020-09-23 06:48:30 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title"), DefaultTimeout): Object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title' is visible
+
+2020-09-23 06:48:30 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title' is visible
+
+2020-09-23 06:48:30 - [TEST_STEP][PASSED] - setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title"), rockName): Text 'QA Edit Meeting Automation Rock Test' is set on object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title'
+
+2020-09-23 06:48:31 - [MESSAGE][PASSED] - Text 'QA Edit Meeting Automation Rock Test' is set on object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rock_Name_Title'
+
+2020-09-23 06:48:31 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Status_OffTrack_Rock")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Status_OffTrack_Rock' is clicked on
+
+2020-09-23 06:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Status_OffTrack_Rock' is clicked on
+
+2020-09-23 06:48:31 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Accountable_Owner_Field")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Accountable_Owner_Field' is clicked on
+
+2020-09-23 06:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Accountable_Owner_Field' is clicked on
+
+2020-09-23 06:48:31 - [TEST_STEP][PASSED] - accountableOwner = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(owner_Obj, ownerSelected, "xpath"): Successfully created new dynamic object: //div[@data-test-id='createRock']//div[@role='listbox'][@class='visible menu transition']/div[@role='option'][contains(@class,'item')]/span[text()='Employee User']
+
+2020-09-23 06:48:31 - [MESSAGE][PASSED] - Successfully created new dynamic object: //div[@data-test-id='createRock']//div[@role='listbox'][@class='visible menu transition']/div[@role='option'][contains(@class,'item')]/span[text()='Employee User']
+
+2020-09-23 06:48:31 - [TEST_STEP][PASSED] - click(accountableOwner): Object: '' is clicked on
+
+2020-09-23 06:48:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:48:31 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Field")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Field' is clicked on
+
+2020-09-23 06:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Field' is clicked on
+
+2020-09-23 06:48:31 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Company")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Company' is clicked on
+
+2020-09-23 06:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Visibility_Level_Company' is clicked on
+
+2020-09-23 06:48:31 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Rocks_Due_Date_Field")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Due_Date_Field' is clicked on
+
+2020-09-23 06:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Rocks_Due_Date_Field' is clicked on
+
+2020-09-23 06:48:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Scorecard/A_Date29"), DefaultTimeout): Object 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is visible
+
+2020-09-23 06:48:31 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is visible
+
+2020-09-23 06:48:31 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Scorecard/A_Date29")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is clicked on
+
+2020-09-23 06:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is clicked on
+
+2020-09-23 06:48:31 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2020-09-23 06:48:31 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2020-09-23 06:48:31 - [TEST_STEP][NOT_RUN] - verifyElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Verify_Notes_Section")): NOT_RUN: verifyElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Verify_Notes_Section"))
+
+2020-09-23 06:48:31 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Verify_Notes_Section"))
+
+2020-09-23 06:48:31 - [TEST_STEP][NOT_RUN] - setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Notes_Comments"), Notes): NOT_RUN: setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Notes_Comments"), Notes)
+
+2020-09-23 06:48:31 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Notes_Comments"), Notes)
+
+2020-09-23 06:48:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button"), Keys.chord(PAGE_DOWN)): Keys 'PAGE_DOWN + ' sent to object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button'
+
+2020-09-23 06:48:31 - [MESSAGE][PASSED] - Keys 'PAGE_DOWN + ' sent to object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button'
+
+2020-09-23 06:48:31 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button' is clicked on
+
+2020-09-23 06:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Add_Milestone_Button' is clicked on
+
+2020-09-23 06:48:32 - [TEST_STEP][PASSED] - setText(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Milestone_Text_Field"), milestoneName): Text 'Milestone 1' is set on object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Milestone_Text_Field'
+
+2020-09-23 06:48:32 - [MESSAGE][PASSED] - Text 'Milestone 1' is set on object 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Milestone_Text_Field'
+
+2020-09-23 06:48:32 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Milestone_date")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Milestone_date' is clicked on
+
+2020-09-23 06:48:32 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Milestone_date' is clicked on
+
+2020-09-23 06:48:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-369/Edit_Meeting_Scorecard/A_Date29"), DefaultTimeout): Object 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is visible
+
+2020-09-23 06:48:33 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is visible
+
+2020-09-23 06:48:33 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Scorecard/A_Date29")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is clicked on
+
+2020-09-23 06:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Scorecard/A_Date29' is clicked on
+
+2020-09-23 06:48:33 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-369/Edit_Meeting_Rocks/Save_Button")): Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Save_Button' is clicked on
+
+2020-09-23 06:48:33 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-369/Edit_Meeting_Rocks/Save_Button' is clicked on
+
+2020-09-23 06:48:33 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-09-23 06:48:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-09-23 06:48:43 - [TEST_STEP][PASSED] - verifyRocks = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(verifyRocks_Obj, rockName, "xpath"): Successfully created new dynamic object: //h2[text()='Rocks']/ancestor::div[contains(@class,'CardStyles')]/div[2]//div[@data-test-id='rock.title'][contains(@class,'TextBodyStyles-sc') and text()='QA Edit Meeting Automation Rock Test']
+
+2020-09-23 06:48:43 - [MESSAGE][PASSED] - Successfully created new dynamic object: //h2[text()='Rocks']/ancestor::div[contains(@class,'CardStyles')]/div[2]//div[@data-test-id='rock.title'][contains(@class,'TextBodyStyles-sc') and text()='QA Edit Meeting Automation Rock Test']
+
+2020-09-23 06:48:43 - [TEST_STEP][PASSED] - verifyElementPresent(verifyRocks, DefaultTimeout): Object '' is present
+
+2020-09-23 06:48:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 06:48:43 - [TEST_STEP][PASSED] - verifyMilestone = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(verifyMilestone_Obj, milestoneName, "xpath"): Successfully created new dynamic object: //h2[text()='Rocks']/ancestor::div[contains(@class,'CardStyles')]/div[2]//div[contains(@class,'milestoneListItem__name')]/span[text()='Milestone 1']
+
+2020-09-23 06:48:43 - [MESSAGE][PASSED] - Successfully created new dynamic object: //h2[text()='Rocks']/ancestor::div[contains(@class,'CardStyles')]/div[2]//div[contains(@class,'milestoneListItem__name')]/span[text()='Milestone 1']
+
+2020-09-23 06:48:43 - [TEST_STEP][PASSED] - verifyElementPresent(verifyMilestone, DefaultTimeout): Object '' is present
+
+2020-09-23 06:48:43 - [MESSAGE][PASSED] - Object '' is present
+
+2020-09-23 06:48:43 - [TEST_STEP][NOT_RUN] - delay(10): NOT_RUN: delay(10)
+
+2020-09-23 06:48:43 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(10)
+
+2020-09-23 06:48:43 - [TEST_STEP][PASSED] - waitForElementVisible(verifyRocks, DefaultTimeout): Object '' is visible
+
+2020-09-23 06:48:43 - [MESSAGE][PASSED] - Object '' is visible
+
+2020-09-23 06:48:43 - [TEST_STEP][PASSED] - click(verifyRocks): Object: '' is clicked on
+
+2020-09-23 06:48:43 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2020-09-23 06:48:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-341/Edit_Meeting/button_Archive"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Edit_Meeting/button_Archive' is visible
+
+2020-09-23 06:48:44 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Edit_Meeting/button_Archive' is visible
+
+2020-09-23 06:48:44 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-341/Edit_Meeting/button_Archive")): Object: 'Object Repository/V2/PR-341/Edit_Meeting/button_Archive' is clicked on
+
+2020-09-23 06:48:44 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-341/Edit_Meeting/button_Archive' is clicked on
+
+2020-09-23 06:48:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/PR-341/Edit_Meeting/notifier_RockArchive"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Edit_Meeting/notifier_RockArchive' is present
+
+2020-09-23 06:48:44 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Edit_Meeting/notifier_RockArchive' is present
+
+2020-09-23 06:48:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is visible
+
+2020-09-23 06:48:44 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is visible
+
+2020-09-23 06:48:44 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu")): Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/MeetingsMenu' is clicked on
+
+2020-09-23 06:48:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Employee/PR_341_2_ArchiveRock_Employee' successfully
+
+2020-09-23 06:48:45 - [TEST_STEP][PASSED] - changeWebDriver(driver1): null
+
+2020-09-23 06:48:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Admin/PR_341_2-1_ArchiveRock_Admin"), ["userName":"jeff+075@mytractiontools.com", "passWord":"Skyline69A*", "meetingRowPosition":"3", "editMeetingMenu_Obj":"//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[%s]/div[3]/button/i", ... ], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Admin/PR_341_2-1_ArchiveRock_Admin' successfully
+
+2020-09-23 06:48:45 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Admin/PR_341_2-1_ArchiveRock_Admin: Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Admin/PR_341_2-1_ArchiveRock_Admin
+
+2020-09-23 06:48:45 - [TEST_STEP][PASSED] - tt_CustomKeywords.CustomKeywords.WaitForElementVisibleThenClick(findTestObject("V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div", ["meetingName":meetingName]), DefaultTimeout): Successfully verified and clicked the element
+
+2020-09-23 06:48:45 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is visible
+
+2020-09-23 06:48:45 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is visible
+
+2020-09-23 06:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is clicked on
+
+2020-09-23 06:48:45 - [MESSAGE][PASSED] - Successfully verified and clicked the element
+
+2020-09-23 06:48:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/MeetingListPage/a_Archives"), DefaultTimeout): Object 'Object Repository/V2/Commons/MeetingListPage/a_Archives' is visible
+
+2020-09-23 06:48:45 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/a_Archives' is visible
+
+2020-09-23 06:48:45 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/MeetingListPage/a_Archives")): Object: 'Object Repository/V2/Commons/MeetingListPage/a_Archives' is clicked on
+
+2020-09-23 06:48:45 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/a_Archives' is clicked on
+
+2020-09-23 06:48:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-341/Page_Archives/Rocks"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Page_Archives/Rocks' is visible
+
+2020-09-23 06:48:46 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Page_Archives/Rocks' is visible
+
+2020-09-23 06:48:46 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-341/Page_Archives/Rocks")): Object: 'Object Repository/V2/PR-341/Page_Archives/Rocks' is clicked on
+
+2020-09-23 06:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-341/Page_Archives/Rocks' is clicked on
+
+2020-09-23 06:48:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-341/Page_Archives/Verify_Admin_User"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Page_Archives/Verify_Admin_User' is visible
+
+2020-09-23 06:48:46 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Page_Archives/Verify_Admin_User' is visible
+
+2020-09-23 06:48:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/PR-341/Page_Archives/Verify_Admin_User"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Page_Archives/Verify_Admin_User' is present
+
+2020-09-23 06:48:46 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Page_Archives/Verify_Admin_User' is present
+
+2020-09-23 06:48:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Admin/PR_341_2-1_ArchiveRock_Admin' successfully
+
+2020-09-23 06:48:46 - [TEST_STEP][PASSED] - changeWebDriver(driver2): null
+
+2020-09-23 06:48:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Supervisor/PR_341_2-1_ArchiveRock_Supervisor"), ["userName":"jeff+075@mytractiontools.com", "passWord":"Skyline69A*", "meetingRowPosition":"3", "editMeetingMenu_Obj":"//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[%s]/div[3]/button/i", ... ], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Supervisor/PR_341_2-1_ArchiveRock_Supervisor' successfully
+
+2020-09-23 06:48:46 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Supervisor/PR_341_2-1_ArchiveRock_Supervisor: Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Supervisor/PR_341_2-1_ArchiveRock_Supervisor
+
+2020-09-23 06:48:46 - [TEST_STEP][PASSED] - tt_CustomKeywords.CustomKeywords.WaitForElementVisibleThenClick(findTestObject("V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div", ["meetingName":meetingName]), DefaultTimeout): Successfully verified and clicked the element
+
+2020-09-23 06:48:46 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is visible
+
+2020-09-23 06:48:46 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is visible
+
+2020-09-23 06:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is clicked on
+
+2020-09-23 06:48:46 - [MESSAGE][PASSED] - Successfully verified and clicked the element
+
+2020-09-23 06:48:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/MeetingListPage/a_Archives"), DefaultTimeout): Object 'Object Repository/V2/Commons/MeetingListPage/a_Archives' is visible
+
+2020-09-23 06:48:46 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/a_Archives' is visible
+
+2020-09-23 06:48:46 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/MeetingListPage/a_Archives")): Object: 'Object Repository/V2/Commons/MeetingListPage/a_Archives' is clicked on
+
+2020-09-23 06:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/a_Archives' is clicked on
+
+2020-09-23 06:48:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-341/Page_Archives/Rocks"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Page_Archives/Rocks' is visible
+
+2020-09-23 06:48:47 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Page_Archives/Rocks' is visible
+
+2020-09-23 06:48:47 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-341/Page_Archives/Rocks")): Object: 'Object Repository/V2/PR-341/Page_Archives/Rocks' is clicked on
+
+2020-09-23 06:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-341/Page_Archives/Rocks' is clicked on
+
+2020-09-23 06:48:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-341/Page_Archives/Verify_Supervisor_User"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Page_Archives/Verify_Supervisor_User' is visible
+
+2020-09-23 06:48:47 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Page_Archives/Verify_Supervisor_User' is visible
+
+2020-09-23 06:48:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/PR-341/Page_Archives/Verify_Supervisor_User"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Page_Archives/Verify_Supervisor_User' is present
+
+2020-09-23 06:48:47 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Page_Archives/Verify_Supervisor_User' is present
+
+2020-09-23 06:48:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Supervisor/PR_341_2-1_ArchiveRock_Supervisor' successfully
+
+2020-09-23 06:48:47 - [TEST_STEP][PASSED] - changeWebDriver(driver3): null
+
+2020-09-23 06:48:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Employee/PR_341_2-1_ArchiveRock_Employee"), ["userName":"jeff+075@mytractiontools.com", "passWord":"Skyline69A*", "meetingRowPosition":"3", "editMeetingMenu_Obj":"//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[%s]/div[3]/button/i", ... ], CONTINUE_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Employee/PR_341_2-1_ArchiveRock_Employee' successfully
+
+2020-09-23 06:48:47 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Employee/PR_341_2-1_ArchiveRock_Employee: Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Employee/PR_341_2-1_ArchiveRock_Employee
+
+2020-09-23 06:48:47 - [TEST_STEP][PASSED] - tt_CustomKeywords.CustomKeywords.WaitForElementVisibleThenClick(findTestObject("V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div", ["meetingName":meetingName]), DefaultTimeout): Successfully verified and clicked the element
+
+2020-09-23 06:48:47 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is visible
+
+2020-09-23 06:48:47 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is visible
+
+2020-09-23 06:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/D_meetingRecord_3DotsOption_div' is clicked on
+
+2020-09-23 06:48:47 - [MESSAGE][PASSED] - Successfully verified and clicked the element
+
+2020-09-23 06:48:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/MeetingListPage/a_Archives"), DefaultTimeout): Object 'Object Repository/V2/Commons/MeetingListPage/a_Archives' is visible
+
+2020-09-23 06:48:47 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/MeetingListPage/a_Archives' is visible
+
+2020-09-23 06:48:47 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/MeetingListPage/a_Archives")): Object: 'Object Repository/V2/Commons/MeetingListPage/a_Archives' is clicked on
+
+2020-09-23 06:48:47 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/MeetingListPage/a_Archives' is clicked on
+
+2020-09-23 06:48:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-341/Page_Archives/Rocks"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Page_Archives/Rocks' is visible
+
+2020-09-23 06:48:48 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Page_Archives/Rocks' is visible
+
+2020-09-23 06:48:48 - [TEST_STEP][PASSED] - click(findTestObject("V2/PR-341/Page_Archives/Rocks")): Object: 'Object Repository/V2/PR-341/Page_Archives/Rocks' is clicked on
+
+2020-09-23 06:48:48 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/PR-341/Page_Archives/Rocks' is clicked on
+
+2020-09-23 06:48:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/PR-341/Page_Archives/Verify_Employee_User"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Page_Archives/Verify_Employee_User' is visible
+
+2020-09-23 06:48:48 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Page_Archives/Verify_Employee_User' is visible
+
+2020-09-23 06:48:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/PR-341/Page_Archives/Verify_Employee_User"), DefaultTimeout): Object 'Object Repository/V2/PR-341/Page_Archives/Verify_Employee_User' is present
+
+2020-09-23 06:48:48 - [MESSAGE][PASSED] - Object 'Object Repository/V2/PR-341/Page_Archives/Verify_Employee_User' is present
+
+2020-09-23 06:48:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/Employee/PR_341_2-1_ArchiveRock_Employee' successfully
+
+2020-09-23 06:48:48 - [TEST_STEP][PASSED] - delay(10, CONTINUE_ON_FAILURE): Delayed 10 second(s)
+
+2020-09-23 06:48:58 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-09-23 06:48:58 - [TEST_STEP][PASSED] - tt_CustomKeywords.CustomKeywords.CloseWebDriver(driver3): tt_CustomKeywords.CustomKeywords.CloseWebDriver is PASSED
+
+2020-09-23 06:49:03 - [MESSAGE][PASSED] - tt_CustomKeywords.CustomKeywords.CloseWebDriver is PASSED
+
+2020-09-23 06:49:03 - [TEST_STEP][PASSED] - tt_CustomKeywords.CustomKeywords.CloseWebDriver(driver2): tt_CustomKeywords.CustomKeywords.CloseWebDriver is PASSED
+
+2020-09-23 06:49:08 - [MESSAGE][PASSED] - tt_CustomKeywords.CustomKeywords.CloseWebDriver is PASSED
+
+2020-09-23 06:49:08 - [TEST_STEP][PASSED] - tt_CustomKeywords.CustomKeywords.CloseWebDriver(driver1): tt_CustomKeywords.CustomKeywords.CloseWebDriver is PASSED
+
+2020-09-23 06:49:13 - [MESSAGE][PASSED] - tt_CustomKeywords.CustomKeywords.CloseWebDriver is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-23 06:44:50 - [TEST_SUITE][PASSED] - PR-341_TestSuite: Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_2_ArchiveRock_AllTestCase]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

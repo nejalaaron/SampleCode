@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>IndustryOption1</name>
+   <tag></tag>
+   <elementGuidId>c9d208f0-d550-4b11-bc10-a38b336c54ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;FIRST_INFO_UPDATE_MODAL&quot;]/div[2]/div/div/div/form/div[3]/div[2]/div/div[1]/div/div[2]/div[1]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

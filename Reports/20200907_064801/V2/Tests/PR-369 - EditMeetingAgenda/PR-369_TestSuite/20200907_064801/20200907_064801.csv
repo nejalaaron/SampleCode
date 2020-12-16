@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PR-369_TestSuite,Chrome 85.0.4183.83,,,2020-09-07 06:48:02,2020-09-07 06:54:06,6m - 3.437s,PASSED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/PR-369 - EditMeetingAgenda/Test Cases/Positive/TT_369_3_CreatePeopleHeadline_AllTestCase,Chrome 85.0.4183.83,,,2020-09-07 06:48:03,2020-09-07 06:54:06,6m - 3.139s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 06:48:03,2020-09-07 06:50:10,2m - 6.734s,PASSED
+closeBrowser(),Chrome 85.0.4183.83,,,2020-09-07 06:50:10,2020-09-07 06:50:10,0.671s,PASSED
+"path = System.getProperty(""user.dir"")",Chrome 85.0.4183.83,,,2020-09-07 06:50:10,2020-09-07 06:50:10,0.001s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Users\Aaron-PC\Documents\Traction Tools\Katalon\Katalon_Studio_Windows_64-7.6.2\Katalon_Studio_Windows_64-7.6.2\configuration\resources\drivers\chromedriver_win32\chromedriver.exe"")",Chrome 85.0.4183.83,,,2020-09-07 06:50:10,2020-09-07 06:50:10,0.000s,PASSED
+driver1 = new org.openqa.selenium.chrome.ChromeDriver(),Chrome 85.0.4183.83,,,2020-09-07 06:50:10,2020-09-07 06:50:14,3.317s,PASSED
+changeWebDriver(driver1),Chrome 85.0.4183.83,,,2020-09-07 06:50:14,2020-09-07 06:50:14,0.019s,PASSED
+maximizeWindow(),Chrome 85.0.4183.83,,,2020-09-07 06:50:14,2020-09-07 06:50:16,2.121s,PASSED
+navigateToUrl(V2Url),Chrome 85.0.4183.83,,,2020-09-07 06:50:16,2020-09-07 06:50:17,1.305s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication""), [""username"":email, ""password"":password], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 06:50:17,2020-09-07 06:50:30,12.728s,PASSED
+driver2 = new org.openqa.selenium.chrome.ChromeDriver(),Chrome 85.0.4183.83,,,2020-09-07 06:50:30,2020-09-07 06:50:33,3.358s,PASSED
+changeWebDriver(driver2),Chrome 85.0.4183.83,,,2020-09-07 06:50:33,2020-09-07 06:50:33,0.010s,PASSED
+maximizeWindow(),Chrome 85.0.4183.83,,,2020-09-07 06:50:33,2020-09-07 06:50:35,2.118s,PASSED
+navigateToUrl(V2Url),Chrome 85.0.4183.83,,,2020-09-07 06:50:35,2020-09-07 06:50:37,1.174s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication""), [""username"":supervisor_email, ""password"":password], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 06:50:37,2020-09-07 06:50:48,11.638s,PASSED
+driver3 = new org.openqa.selenium.chrome.ChromeDriver(),Chrome 85.0.4183.83,,,2020-09-07 06:50:48,2020-09-07 06:50:52,3.310s,PASSED
+changeWebDriver(driver3),Chrome 85.0.4183.83,,,2020-09-07 06:50:52,2020-09-07 06:50:52,0.008s,PASSED
+maximizeWindow(),Chrome 85.0.4183.83,,,2020-09-07 06:50:52,2020-09-07 06:50:54,2.115s,PASSED
+navigateToUrl(V2Url),Chrome 85.0.4183.83,,,2020-09-07 06:50:54,2020-09-07 06:50:55,1.489s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication""), [""username"":employee_email, ""password"":password], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 06:50:55,2020-09-07 06:51:08,12.505s,PASSED
+changeWebDriver(driver1),Chrome 85.0.4183.83,,,2020-09-07 06:51:08,2020-09-07 06:51:08,0.008s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_CreateL10Meeting""), [""meetingName"":meetingName, ""meetingAcronym"":meetingAcronym, ""meetingType"":meetingType, ""dropdownOptions_obj"":""//div[@id='CREATE_MEETING_L10']//span[text()='%s']/parent::div[@role='option']"", ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 06:51:08,2020-09-07 06:51:43,35.742s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Tests/PR-369 - EditMeetingAgenda/Test Cases/Positive/Admin/PR_369_8_EditMeetingCreatePeopleHeadlines_Admin""), [""userName"":""jeff+075@mytractiontools.com"", ""passWord"":""Skyline69A*"", ""meetingRowPosition"":""3"", ""editMeetingMenu_Obj"":""//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[%s]/div[3]/button/i"", ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 06:51:43,2020-09-07 06:52:04,20.766s,PASSED
+changeWebDriver(driver2),Chrome 85.0.4183.83,,,2020-09-07 06:52:04,2020-09-07 06:52:04,0.010s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_CreateL10Meeting""), [""meetingName"":meetingNameS, ""meetingAcronym"":meetingAcronym, ""meetingType"":meetingType, ""dropdownOptions_obj"":""//div[@id='CREATE_MEETING_L10']//span[text()='%s']/parent::div[@role='option']"", ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 06:52:04,2020-09-07 06:52:38,33.673s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Tests/PR-369 - EditMeetingAgenda/Test Cases/Positive/Supervisor/PR_369_8_EditMeetingCreatePeopleHeadlines_Supervisor""), [""userName"":""jeff+075@mytractiontools.com"", ""passWord"":""Skyline69A*"", ""meetingRowPosition"":""3"", ""editMeetingMenu_Obj"":""//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[%s]/div[3]/button/i"", ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 06:52:38,2020-09-07 06:52:58,20.053s,PASSED
+changeWebDriver(driver3),Chrome 85.0.4183.83,,,2020-09-07 06:52:58,2020-09-07 06:52:58,0.011s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_CreateL10Meeting""), [""meetingName"":meetingNameE, ""meetingAcronym"":meetingAcronym, ""meetingType"":meetingType, ""dropdownOptions_obj"":""//div[@id='CREATE_MEETING_L10']//span[text()='%s']/parent::div[@role='option']"", ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 06:52:58,2020-09-07 06:53:31,33.221s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Tests/PR-369 - EditMeetingAgenda/Test Cases/Positive/Employee/PR_369_8_EditMeetingCreatePeopleHeadlines_Employee""), [""userName"":""jeff+075@mytractiontools.com"", ""passWord"":""Skyline69A*"", ""meetingRowPosition"":""3"", ""editMeetingMenu_Obj"":""//div[@id='root']/div/div[2]/div/div/div/div[2]/div/div[%s]/div[3]/button/i"", ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 06:53:31,2020-09-07 06:53:51,19.864s,PASSED
+tt_CustomKeywords.CustomKeywords.CloseWebDriver(driver3),Chrome 85.0.4183.83,,,2020-09-07 06:53:51,2020-09-07 06:53:56,4.992s,PASSED
+tt_CustomKeywords.CustomKeywords.CloseWebDriver(driver2),Chrome 85.0.4183.83,,,2020-09-07 06:53:56,2020-09-07 06:54:01,4.939s,PASSED
+tt_CustomKeywords.CustomKeywords.CloseWebDriver(driver1),Chrome 85.0.4183.83,,,2020-09-07 06:54:01,2020-09-07 06:54:06,4.938s,PASSED

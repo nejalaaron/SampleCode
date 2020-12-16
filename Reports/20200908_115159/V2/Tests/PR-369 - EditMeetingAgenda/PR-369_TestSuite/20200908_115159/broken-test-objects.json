@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/Commons/LoginPage/div_Login",
+      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div/form/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027*\u0027])[2]/following::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200908_115159/V2/Tests/PR-369 - EditMeetingAgenda/PR-369_TestSuite/20200908_115159/Object Repository/V2/Commons/LoginPage/div_Login_neighbor.png"
+    }
+  ]
+}

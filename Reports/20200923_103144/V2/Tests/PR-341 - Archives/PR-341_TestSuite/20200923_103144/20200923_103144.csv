@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PR-341_TestSuite,Chrome 85.0.4183.102,,,2020-09-23 10:31:45,2020-09-23 10:36:44,4m - 58.970s,FAILED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_5_ArchiveIssues_AllTestCase,Chrome 85.0.4183.102,,,2020-09-23 10:31:46,2020-09-23 10:36:44,4m - 58.571s,FAILED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-23 10:31:46,2020-09-23 10:33:40,1m - 53.788s,PASSED
+closeBrowser(),Chrome 85.0.4183.102,,,2020-09-23 10:33:40,2020-09-23 10:33:41,0.683s,PASSED
+"path = System.getProperty(""user.dir"")",Chrome 85.0.4183.102,,,2020-09-23 10:33:41,2020-09-23 10:33:41,0.001s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", getChromeDriverPath())",Chrome 85.0.4183.102,,,2020-09-23 10:33:41,2020-09-23 10:33:41,0.001s,PASSED
+driver1 = new org.openqa.selenium.chrome.ChromeDriver(),Chrome 85.0.4183.102,,,2020-09-23 10:33:41,2020-09-23 10:33:44,3.322s,PASSED
+changeWebDriver(driver1),Chrome 85.0.4183.102,,,2020-09-23 10:33:44,2020-09-23 10:33:44,0.012s,PASSED
+maximizeWindow(),Chrome 85.0.4183.102,,,2020-09-23 10:33:44,2020-09-23 10:33:46,2.118s,PASSED
+navigateToUrl(V2Url),Chrome 85.0.4183.102,,,2020-09-23 10:33:46,2020-09-23 10:33:48,1.457s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication""), [""username"":email, ""password"":password], STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-23 10:33:48,2020-09-23 10:34:31,43.109s,PASSED
+driver2 = new org.openqa.selenium.chrome.ChromeDriver(),Chrome 85.0.4183.102,,,2020-09-23 10:34:31,2020-09-23 10:34:34,3.309s,PASSED
+changeWebDriver(driver2),Chrome 85.0.4183.102,,,2020-09-23 10:34:34,2020-09-23 10:34:34,0.008s,PASSED
+maximizeWindow(),Chrome 85.0.4183.102,,,2020-09-23 10:34:34,2020-09-23 10:34:36,2.117s,PASSED
+navigateToUrl(V2Url),Chrome 85.0.4183.102,,,2020-09-23 10:34:36,2020-09-23 10:34:40,3.507s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication""), [""username"":supervisor_email, ""password"":password], STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-23 10:34:40,2020-09-23 10:35:23,43.128s,PASSED
+driver3 = new org.openqa.selenium.chrome.ChromeDriver(),Chrome 85.0.4183.102,,,2020-09-23 10:35:23,2020-09-23 10:35:26,3.308s,PASSED
+changeWebDriver(driver3),Chrome 85.0.4183.102,,,2020-09-23 10:35:26,2020-09-23 10:35:26,0.008s,PASSED
+maximizeWindow(),Chrome 85.0.4183.102,,,2020-09-23 10:35:26,2020-09-23 10:35:28,2.120s,PASSED
+navigateToUrl(V2Url),Chrome 85.0.4183.102,,,2020-09-23 10:35:28,2020-09-23 10:35:30,1.397s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication""), [""username"":employee_email, ""password"":password], STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-23 10:35:30,2020-09-23 10:36:14,43.930s,PASSED
+changeWebDriver(driver1),Chrome 85.0.4183.102,,,2020-09-23 10:36:14,2020-09-23 10:36:14,0.010s,PASSED
+switchToWindowIndex(1),Chrome 85.0.4183.102,,,2020-09-23 10:36:14,2020-09-23 10:36:44,30.833s,FAILED

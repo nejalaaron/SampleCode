@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>This test case is to validate the default value for week start and scorecard column highlight</description>
+   <name>TT_413_6_ValidateDefaults</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6123cf6-79bc-4ddb-9789-303706de6733</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>17040bda-0d2c-4f53-8155-16cc2f3f852a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fa20278f-6c60-4f08-981e-5ac4e06a11a1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

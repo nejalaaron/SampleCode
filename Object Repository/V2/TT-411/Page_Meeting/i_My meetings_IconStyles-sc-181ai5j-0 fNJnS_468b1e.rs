@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_My meetings_IconStyles-sc-181ai5j-0 fNJnS_468b1e</name>
+   <tag></tag>
+   <elementGuidId>118fe962-ae67-4545-8257-e7afce37a22b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/button/div/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>IconStyles-sc-181ai5j-0 fNJnSg icon-filter undefined</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;LayoutWrappper-tp58ga-0 bOckMl&quot;]/div[@class=&quot;layout__container false&quot;]/div[@class=&quot;layout__content&quot;]/div[@class=&quot;MeetingsWrapper-sc-5wv2fa-3 iXSCWL&quot;]/div[1]/div[@class=&quot;_StyledDiv3-zxhscp-3 iuBgIL&quot;]/div[@class=&quot;_StyledDiv4-zxhscp-4 cDFzpR&quot;]/div[@class=&quot;_StyledDiv5-zxhscp-5 fuxclP undefined page__titleBlock&quot;]/div[@class=&quot;page__titleBlock-inner&quot;]/div[@class=&quot;StackStyles-sc-12tx3af-1 iXXrsT stack&quot;]/div[@class=&quot;ItemStyles-sc-12tx3af-0 jpgAxN stack__item _StyledStackItem-sc-12oh29n-0 hyYuqi&quot;]/div[@class=&quot;StackStyles-sc-12tx3af-1 gseNuu stack&quot;]/div[@class=&quot;ItemStyles-sc-12tx3af-0 jpgAxN stack__item _StyledStackItem2-sc-12oh29n-1 gXLBdz&quot;]/button[@class=&quot;BtnIconStyles-k8ghfj-0 gNflgc&quot;]/div[@class=&quot;tooltip_Listener&quot;]/i[@class=&quot;IconStyles-sc-181ai5j-0 fNJnSg icon-filter undefined&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div/div/div/div/div/div/div/div/div[2]/div/div/button/div/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div/div/button/div/i</value>
+   </webElementXpaths>
+</WebElementEntity>

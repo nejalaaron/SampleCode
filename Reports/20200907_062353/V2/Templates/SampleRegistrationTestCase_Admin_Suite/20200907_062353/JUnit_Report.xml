@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SampleRegistrationTestCase_Admin_Suite" time="55.895" tests="1" failures="0" errors="0">
+   <testsuite name="SampleRegistrationTestCase_Admin_Suite" tests="1" failures="0" errors="0" time="55.895" timestamp="2020-09-07 06:23:54" hostname="Aaron-PC - host.docker.internal" id="Test Suites/V2/Templates/SampleRegistrationTestCase_Admin_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Aaron-PC\\git\\TractionTools\\Reports\\20200907_062353\\V2\\Templates\\SampleRegistrationTestCase_Admin_Suite\\20200907_062353"/>
+         <property name="logFiles" value="C:\\Users\\Aaron-PC\\git\\TractionTools\\Reports\\20200907_062353\\V2\\Templates\\SampleRegistrationTestCase_Admin_Suite\\20200907_062353\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Aaron-PC - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Chrome 85.0.4183.83"/>
+         <property name="hostAddress" value="192.168.1.48"/>
+         <property name="sessionId" value="b5611092ca59f4f4aa748ba208a32d6c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/V2/Test Case/Templates/SampleRegistrationTestCase_AdminOnly" time="54.918" classname="Test Cases/V2/Test Case/Templates/SampleRegistrationTestCase_AdminOnly" status="PASSED">
+         <system-out><![CDATA[2020-09-07 06:23:54 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Templates/SampleRegistrationTestCase_AdminOnly: Test Cases/V2/Test Case/Templates/SampleRegistrationTestCase_AdminOnly
+
+2020-09-07 06:23:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_RegisterNewAdminUserViaAPI"), ["email":"", "password":password, "firstname":admin_fname, "lastname":lastname, "phoneNumber":"9999999999", "company":"Traction Tools", ... ], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterNewAdminUserViaAPI' successfully
+
+2020-09-07 06:23:55 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterNewAdminUserViaAPI: Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterNewAdminUserViaAPI
+
+2020-09-07 06:23:55 - [TEST_STEP][PASSED] - email = tt_CustomKeywords.CustomKeywords.GenerateRandomEmailAddress(email_prefix, email_domain, randomTextLength): Successfully generated a random email: tractiontools.user001+ta55dmfs@gmail.com
+
+2020-09-07 06:23:55 - [MESSAGE][PASSED] - Successfully generated a random email: tractiontools.user001+ta55dmfs@gmail.com
+
+2020-09-07 06:23:55 - [TEST_STEP][PASSED] - email = email: null
+
+2020-09-07 06:23:55 - [TEST_STEP][PASSED] - adminDetails = tt_CustomKeywords.CustomKeywords.RegisterUserViaAPIAndGenerateActivateURL(email, firstname, lastname, phoneNumber, company, onboardingInfoValue, settingsValue, password, V2Url): SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://v2dev.traction.tools/activate?activationKey=11812dce-d1e9-4b59-a424-7acfe66765a6&userId=14728b6a-bb6f-4e57-bbbf-4a7cabde0ebe&orgId=f34125a7-9098-49dd-b50f-a381e39223a4&email=tractiontools.user001+ta55dmfs@gmail.com&teamsId=800add7f-125a-4e94-94a1-23b47b444629&meetingsId=ab9a1f4d-fc98-4f89-b092-dc43a2c7bceb&adminsId=696d12c7-fd41-4426-9dce-1a4bf46109ce&usersId=32b9c9ad-9881-485c-938a-851cadb1a4cb&supervisorsId=f112187d-89a6-4699-a0f0-3ae3b5548327&accountabilityChartId=16df7162-9518-46f3-b83c-c3a864979225&isCreator=1
+
+2020-09-07 06:24:15 - [MESSAGE][PASSED] - SUCCESFFULLY registered a new user via API. 
+ Generated Activation Link: 
+https://v2dev.traction.tools/activate?activationKey=11812dce-d1e9-4b59-a424-7acfe66765a6&userId=14728b6a-bb6f-4e57-bbbf-4a7cabde0ebe&orgId=f34125a7-9098-49dd-b50f-a381e39223a4&email=tractiontools.user001+ta55dmfs@gmail.com&teamsId=800add7f-125a-4e94-94a1-23b47b444629&meetingsId=ab9a1f4d-fc98-4f89-b092-dc43a2c7bceb&adminsId=696d12c7-fd41-4426-9dce-1a4bf46109ce&usersId=32b9c9ad-9881-485c-938a-851cadb1a4cb&supervisorsId=f112187d-89a6-4699-a0f0-3ae3b5548327&accountabilityChartId=16df7162-9518-46f3-b83c-c3a864979225&isCreator=1
+
+2020-09-07 06:24:15 - [TEST_STEP][PASSED] - activationURL = adminDetails[0]: null
+
+2020-09-07 06:24:15 - [TEST_STEP][PASSED] - orgID = adminDetails[1]: null
+
+2020-09-07 06:24:15 - [TEST_STEP][PASSED] - out.println("URL: " + activationURL): null
+
+2020-09-07 06:24:15 - [TEST_STEP][PASSED] - out.println("orgID: " + orgID): null
+
+2020-09-07 06:24:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-09-07 06:24:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-09-07 06:24:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-09-07 06:24:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-09-07 06:24:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-09-07 06:24:20 - [MESSAGE][PASSED] - Current window maximized
+
+2020-09-07 06:24:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_ActivateNewUser"), ["activationURL":activationURL, "email":email, "password":password], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-07 06:24:20 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser: Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser
+
+2020-09-07 06:24:21 - [TEST_STEP][PASSED] - navigateToUrl(activationURL): Navigate to 'https://v2dev.traction.tools/activate?activationKey=11812dce-d1e9-4b59-a424-7acfe66765a6&userId=14728b6a-bb6f-4e57-bbbf-4a7cabde0ebe&orgId=f34125a7-9098-49dd-b50f-a381e39223a4&email=tractiontools.user001+ta55dmfs@gmail.com&teamsId=800add7f-125a-4e94-94a1-23b47b444629&meetingsId=ab9a1f4d-fc98-4f89-b092-dc43a2c7bceb&adminsId=696d12c7-fd41-4426-9dce-1a4bf46109ce&usersId=32b9c9ad-9881-485c-938a-851cadb1a4cb&supervisorsId=f112187d-89a6-4699-a0f0-3ae3b5548327&accountabilityChartId=16df7162-9518-46f3-b83c-c3a864979225&isCreator=1' successfully
+
+2020-09-07 06:24:22 - [MESSAGE][PASSED] - Navigate to 'https://v2dev.traction.tools/activate?activationKey=11812dce-d1e9-4b59-a424-7acfe66765a6&userId=14728b6a-bb6f-4e57-bbbf-4a7cabde0ebe&orgId=f34125a7-9098-49dd-b50f-a381e39223a4&email=tractiontools.user001+ta55dmfs@gmail.com&teamsId=800add7f-125a-4e94-94a1-23b47b444629&meetingsId=ab9a1f4d-fc98-4f89-b092-dc43a2c7bceb&adminsId=696d12c7-fd41-4426-9dce-1a4bf46109ce&usersId=32b9c9ad-9881-485c-938a-851cadb1a4cb&supervisorsId=f112187d-89a6-4699-a0f0-3ae3b5548327&accountabilityChartId=16df7162-9518-46f3-b83c-c3a864979225&isCreator=1' successfully
+
+2020-09-07 06:24:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/ActivationPage/input_Email_email"), DefaultTimeout): Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-07 06:24:29 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is visible
+
+2020-09-07 06:24:29 - [TEST_STEP][PASSED] - actual_email = getAttribute(findTestObject("Object Repository/V2/Commons/ActivationPage/input_Email_email"), "value"): Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+ta55dmfs@gmail.com'
+
+2020-09-07 06:24:30 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/V2/Commons/ActivationPage/input_Email_email' is: 'tractiontools.user001+ta55dmfs@gmail.com'
+
+2020-09-07 06:24:30 - [TEST_STEP][PASSED] - verifyMatch(actual_email, email, false): Actual text 'tractiontools.user001+ta55dmfs@gmail.com' and expected text 'tractiontools.user001+ta55dmfs@gmail.com' are matched 
+
+2020-09-07 06:24:30 - [MESSAGE][PASSED] - Actual text 'tractiontools.user001+ta55dmfs@gmail.com' and expected text 'tractiontools.user001+ta55dmfs@gmail.com' are matched 
+
+2020-09-07 06:24:30 - [TEST_STEP][PASSED] - setText(findTestObject("V2/Commons/ActivationPage/input_password"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-07 06:24:30 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input_password'
+
+2020-09-07 06:24:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/V2/Commons/ActivationPage/input__passwordRepeat"), password): Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-07 06:24:31 - [MESSAGE][PASSED] - Text 'Qwer123!' is set on object 'Object Repository/V2/Commons/ActivationPage/input__passwordRepeat'
+
+2020-09-07 06:24:31 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/ActivationPage/input_termsandconditions")): Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-07 06:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/input_termsandconditions' is clicked on
+
+2020-09-07 06:24:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/V2/Commons/ActivationPage/div_Create account")): Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-07 06:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/ActivationPage/div_Create account' is clicked on
+
+2020-09-07 06:24:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), DefaultTimeout): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-07 06:24:45 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-07 06:24:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big"), 0): Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-07 06:24:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-09-07 06:24:46 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/DasboardPage_SidebarMenu/img_Home_logo-big' is present
+
+2020-09-07 06:24:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_ActivateNewUser' successfully
+
+2020-09-07 06:24:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup' successfully
+
+2020-09-07 06:24:46 - [TEST_CASE][PASSED] - Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup: Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup
+
+2020-09-07 06:24:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmCompanyInfoHeader_h1"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmCompanyInfoHeader_h1' is visible
+
+2020-09-07 06:24:46 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmCompanyInfoHeader_h1' is visible
+
+2020-09-07 06:24:46 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-07 06:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-07 06:24:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-07 06:24:47 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmPersonalInfoHeader_h1' is visible
+
+2020-09-07 06:24:47 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-07 06:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/confirmInfoSkip_button' is clicked on
+
+2020-09-07 06:24:48 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button"), DefaultTimeout): Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-07 06:24:49 - [MESSAGE][PASSED] - Object 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is visible
+
+2020-09-07 06:24:49 - [TEST_STEP][PASSED] - click(findTestObject("V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button")): Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-07 06:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/V2/Commons/FirstUpdateCompanyAndPersonalInfoModal/letsGetStarted_button' is clicked on
+
+2020-09-07 06:24:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_SkipCompanyAndPersonalProfileSetup' successfully
+
+2020-09-07 06:24:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/V2/Test Case/Pre-conditions/PRE_RegisterNewAdminUserViaAPI' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-09-07 06:23:54 - [TEST_SUITE][PASSED] - SampleRegistrationTestCase_Admin_Suite: Test Cases/V2/Test Case/Templates/SampleRegistrationTestCase_AdminOnly]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

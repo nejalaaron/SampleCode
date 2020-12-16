@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edit an existing rock record</description>
+   <name>TC009_EditRockRecord</name>
+   <tag>Dashhboard</tag>
+   <comment></comment>
+   <testCaseGuid>e0ab3a9b-af52-44c9-bea8-de97ef99440d</testCaseGuid>
+</TestCaseEntity>

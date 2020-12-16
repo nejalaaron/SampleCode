@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PRE_ChangeUserPermissionViaManageUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>47a0fee1-3d75-45eb-aee3-f28bccb9f31b</testCaseGuid>
+   <variable>
+      <defaultValue>'//div[@class=\'usercard__detail_container\']/div[text()=\'%s\']/ancestor::div[contains(@class,\'usercard__content\')]//button[@aria-label=\'Show Menu Items\']'</defaultValue>
+      <description></description>
+      <id>707082a7-a5fa-4f67-ad5a-03973c5de42a</id>
+      <masked>false</masked>
+      <name>showMenuItemsPath</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42a5eb97-80cc-43b7-944c-0d48fd0f7f72</id>
+      <masked>false</masked>
+      <name>user_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'//span[text()=\'%s\']/parent::div[@role=\'option\']'</defaultValue>
+      <description></description>
+      <id>638ad390-f7d3-4ded-85c8-ef9797946a52</id>
+      <masked>false</masked>
+      <name>roleOption</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>65796638-0fb4-4237-9bca-45efcdd0cb1b</id>
+      <masked>false</masked>
+      <name>permissionValue</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>36c1154b-5ee6-46de-8934-de6de6c57086</id>
+      <masked>false</masked>
+      <name>position_title</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2c82e764-d9da-4688-b341-524dada91f54</id>
+      <masked>false</masked>
+      <name>user_supervisorName</name>
+   </variable>
+</TestCaseEntity>

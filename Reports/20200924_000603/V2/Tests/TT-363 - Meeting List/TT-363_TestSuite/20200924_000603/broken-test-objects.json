@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Aaron Nejal",
+      "brokenLocator": "//*[@id\u003d\"root\"]/div/div[2]/div/div/div[2]/div[2]/div[3]/div[3]/div[2]/div[2]/div[2]/div[1]/div/div/div[2]/div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Basic editor\u0027])[2]/following::div[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200924_000603/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200924_000603/Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Aaron Nejal_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Employee 001",
+      "brokenLocator": "//*[@id\u003d\"root\"]/div/div[2]/div/div/div[2]/div[2]/div[3]/div[3]/div[2]/div[2]/div[3]/div[1]/div/div/div[2]/div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Basic editor\u0027])[3]/following::div[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200924_000603/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200924_000603/Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Employee 001_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/input__meeting title",
+      "brokenLocator": "//input[@id\u003d\u0027name\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200924_000603/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200924_000603/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/input__meeting title_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_GeneralBasic informationVideo conferenc_ee1ae7",
+      "brokenLocator": "//a[@href\u003d\u0027#video-conference\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200924_000603/V2/Tests/TT-363 - Meeting List/TT-363_TestSuite/20200924_000603/Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/div_GeneralBasic informationVideo conferenc_ee1ae7_position.png"
+    }
+  ]
+}

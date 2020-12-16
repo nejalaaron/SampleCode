@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add New Rock Record using Dashboard</description>
+   <name>AddNewRocksUsingDashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f725614-0be0-442b-bfe4-157edb4d4e87</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ea02dba3-4efa-4d93-826c-d33f68e1afe8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4502e183-3a5f-45cc-b077-be18e8894bea</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5477fcfc-b447-427b-9ec5-4833ac29c97f</id>
+      <masked>false</masked>
+      <name>rock_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'Rocks\']/ancestor::div[contains(@class,\'CardStyles\')]/div[2]//div[contains(@class,\'rockListItem__name\') and text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>dec207fe-0b76-4353-9554-45cff3fc0678</id>
+      <masked>false</masked>
+      <name>rockRecordObjectPath</name>
+   </variable>
+</TestCaseEntity>

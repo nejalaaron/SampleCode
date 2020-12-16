@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Activate a new user</description>
+   <name>PRE_ActivateNewUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcd4acd0-541a-4aa0-8414-5b9da8aea647</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e852e2b7-ccb0-407b-a39f-d4a53ae42871</id>
+      <masked>false</masked>
+      <name>activationURL</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eb02a7b4-4d34-4461-b124-5463124f8ff7</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2a2995ac-7cfa-43ba-bda3-45711ea39037</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

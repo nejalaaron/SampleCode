@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TT-363_TestSuite,Chrome 85.0.4183.83,,,2020-09-07 08:37:16,2020-09-07 08:42:00,4m - 44.213s,PASSED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/TT-363 - Meeting List/Positive/TT_363_5_AddRole_AllTestCase,Chrome 85.0.4183.83,,,2020-09-07 08:37:16,2020-09-07 08:42:00,4m - 43.950s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 08:37:17,2020-09-07 08:39:33,2m - 16.234s,PASSED
+closeBrowser(),Chrome 85.0.4183.83,,,2020-09-07 08:39:33,2020-09-07 08:39:34,0.685s,PASSED
+"path = System.getProperty(""user.dir"")",Chrome 85.0.4183.83,,,2020-09-07 08:39:34,2020-09-07 08:39:34,0.001s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", ""C:\Users\Aaron-PC\Documents\Traction Tools\Katalon\Katalon_Studio_Windows_64-7.6.2\Katalon_Studio_Windows_64-7.6.2\configuration\resources\drivers\chromedriver_win32\chromedriver.exe"")",Chrome 85.0.4183.83,,,2020-09-07 08:39:34,2020-09-07 08:39:34,0.000s,PASSED
+driver1 = new org.openqa.selenium.chrome.ChromeDriver(),Chrome 85.0.4183.83,,,2020-09-07 08:39:34,2020-09-07 08:39:37,3.427s,PASSED
+changeWebDriver(driver1),Chrome 85.0.4183.83,,,2020-09-07 08:39:37,2020-09-07 08:39:37,0.017s,PASSED
+maximizeWindow(),Chrome 85.0.4183.83,,,2020-09-07 08:39:37,2020-09-07 08:39:39,2.121s,PASSED
+navigateToUrl(V2Url),Chrome 85.0.4183.83,,,2020-09-07 08:39:39,2020-09-07 08:39:40,1.175s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication""), [""username"":email, ""password"":password], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 08:39:40,2020-09-07 08:39:53,12.412s,PASSED
+driver2 = new org.openqa.selenium.chrome.ChromeDriver(),Chrome 85.0.4183.83,,,2020-09-07 08:39:53,2020-09-07 08:39:56,3.360s,PASSED
+changeWebDriver(driver2),Chrome 85.0.4183.83,,,2020-09-07 08:39:56,2020-09-07 08:39:56,0.010s,PASSED
+maximizeWindow(),Chrome 85.0.4183.83,,,2020-09-07 08:39:56,2020-09-07 08:39:58,2.122s,PASSED
+navigateToUrl(V2Url),Chrome 85.0.4183.83,,,2020-09-07 08:39:58,2020-09-07 08:39:59,1.147s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication""), [""username"":supervisor_email, ""password"":password], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 08:39:59,2020-09-07 08:40:11,11.816s,PASSED
+driver3 = new org.openqa.selenium.chrome.ChromeDriver(),Chrome 85.0.4183.83,,,2020-09-07 08:40:11,2020-09-07 08:40:15,3.467s,PASSED
+changeWebDriver(driver3),Chrome 85.0.4183.83,,,2020-09-07 08:40:15,2020-09-07 08:40:15,0.012s,PASSED
+maximizeWindow(),Chrome 85.0.4183.83,,,2020-09-07 08:40:15,2020-09-07 08:40:17,2.122s,PASSED
+navigateToUrl(V2Url),Chrome 85.0.4183.83,,,2020-09-07 08:40:17,2020-09-07 08:40:18,1.474s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_LoginToTractionToolsApplication""), [""username"":employee_email, ""password"":password], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 08:40:18,2020-09-07 08:40:31,12.287s,PASSED
+changeWebDriver(driver1),Chrome 85.0.4183.83,,,2020-09-07 08:40:31,2020-09-07 08:40:31,0.011s,PASSED
+"callTestCase(findTestCase(""V2/Test Case/Tests/TT-363 - Meeting List/Positive/Admin/TT_363_1-1_CreateL10MeetingforMonday_Admin""), [""username"":"""", ""password"":"""", ""meetingName"":meetingName, ""meetingAcronym"":meetingAcronym, ""meetingDescription"":meetingDescription, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.83,,,2020-09-07 08:40:31,2020-09-07 08:41:12,41.826s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Meeting/button_Go to meeting_BtnIconNakedStyles-sc-_e4abf2""), DefaultTimeout)",Chrome 85.0.4183.83,,,2020-09-07 08:41:12,2020-09-07 08:41:13,0.053s,PASSED
+"click(findTestObject(""Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Meeting/button_Go to meeting_BtnIconNakedStyles-sc-_e4abf2""))",Chrome 85.0.4183.83,,,2020-09-07 08:41:13,2020-09-07 08:41:13,0.070s,PASSED
+"click(findTestObject(""Object Repository/V2/TT-363/Page_Meeting/Edit_Meeting/Page_Meeting/a_Edit meeting""))",Chrome 85.0.4183.83,,,2020-09-07 08:41:13,2020-09-07 08:41:13,0.110s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Add users""), DefaultTimeout)",Chrome 85.0.4183.83,,,2020-09-07 08:41:13,2020-09-07 08:41:14,1.374s,PASSED
+"click(findTestObject(""Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Add users""))",Chrome 85.0.4183.83,,,2020-09-07 08:41:14,2020-09-07 08:41:14,0.114s,PASSED
+"click(findTestObject(""V2/TT-363/Attendees/Page_Edit Meeting/input_Basic editor_addUsers1""))",Chrome 85.0.4183.83,,,2020-09-07 08:41:14,2020-09-07 08:41:14,0.093s,PASSED
+"click(findTestObject(""Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Aaron Nejal""))",Chrome 85.0.4183.83,,,2020-09-07 08:41:14,2020-09-07 08:41:14,0.096s,PASSED
+delay(10),Chrome 85.0.4183.83,,,2020-09-07 08:41:14,2020-09-07 08:41:24,10.002s,PASSED
+"click(findTestObject(""Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Add users""))",Chrome 85.0.4183.83,,,2020-09-07 08:41:24,2020-09-07 08:41:24,0.079s,PASSED
+"click(findTestObject(""V2/TT-363/Attendees/Page_Edit Meeting/input_Basic editor_addUsers2""))",Chrome 85.0.4183.83,,,2020-09-07 08:41:24,2020-09-07 08:41:25,0.068s,PASSED
+"click(findTestObject(""Object Repository/V2/TT-363/Attendees/Page_Edit Meeting/div_Employee 001""))",Chrome 85.0.4183.83,,,2020-09-07 08:41:25,2020-09-07 08:41:25,0.097s,PASSED
+delay(10),Chrome 85.0.4183.83,,,2020-09-07 08:41:25,2020-09-07 08:41:35,10.002s,PASSED
+"click(findTestObject(""V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/FullEditor""))",Chrome 85.0.4183.83,,,2020-09-07 08:41:35,2020-09-07 08:41:35,0.068s,PASSED
+"click(findTestObject(""V2/TT-363/Page_Meeting/Edit_Meeting/Page_Edit Meeting/BasicEditor""))",Chrome 85.0.4183.83,,,2020-09-07 08:41:35,2020-09-07 08:41:35,0.093s,PASSED
+delay(10),Chrome 85.0.4183.83,,,2020-09-07 08:41:35,2020-09-07 08:41:45,10.001s,PASSED
+"verifyElementPresent(findTestObject(""V2/TT-363/Page_Dashboard/span_Meetings""), DefaultTimeout)",Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:45,0.043s,PASSED
+"click(findTestObject(""V2/TT-363/Page_Dashboard/span_Meetings""))",Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:45,0.116s,PASSED
+changeWebDriver(driver2),Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:45,0.010s,PASSED
+"verifyElementPresent(findTestObject(""V2/TT-363/Page_Dashboard/span_Meetings""), DefaultTimeout)",Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:45,0.043s,PASSED
+"click(findTestObject(""V2/TT-363/Page_Dashboard/span_Meetings""))",Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:45,0.089s,PASSED
+changeWebDriver(driver3),Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:45,0.007s,PASSED
+"verifyElementPresent(findTestObject(""V2/TT-363/Page_Dashboard/span_Meetings""), DefaultTimeout)",Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:45,0.048s,PASSED
+"click(findTestObject(""V2/TT-363/Page_Dashboard/span_Meetings""))",Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:45,0.096s,PASSED
+changeWebDriver(driver2),Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:45,0.010s,PASSED
+"createMeetingRecordObjAdminVerifySupervisor = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(""//div[@class=""detailscontainer__block item""]/h4[text()='%s']"", meetingName, ""xpath"")",Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:45,0.001s,PASSED
+"verifyElementPresent(createMeetingRecordObjAdminVerifySupervisor, DefaultTimeout)",Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:45,0.165s,PASSED
+changeWebDriver(driver3),Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:45,0.008s,PASSED
+"createMeetingRecordObjAdminVerifyEmployee = tt_CustomKeywords.CustomKeywords.CreateDynamicElement(""//div[@class=""detailscontainer__block item""]/h4[text()='%s']"", meetingName, ""xpath"")",Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:45,0.001s,PASSED
+"verifyElementPresent(createMeetingRecordObjAdminVerifyEmployee, DefaultTimeout)",Chrome 85.0.4183.83,,,2020-09-07 08:41:45,2020-09-07 08:41:46,0.131s,PASSED
+tt_CustomKeywords.CustomKeywords.CloseWebDriver(driver3),Chrome 85.0.4183.83,,,2020-09-07 08:41:46,2020-09-07 08:41:50,4.943s,PASSED
+tt_CustomKeywords.CustomKeywords.CloseWebDriver(driver2),Chrome 85.0.4183.83,,,2020-09-07 08:41:50,2020-09-07 08:41:55,4.939s,PASSED
+tt_CustomKeywords.CustomKeywords.CloseWebDriver(driver1),Chrome 85.0.4183.83,,,2020-09-07 08:41:55,2020-09-07 08:42:00,4.942s,PASSED

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i__IconStyles-sc-181ai5j-0 fspyWU icon-arro_0a3203</name>
+   <tag></tag>
+   <elementGuidId>18591204-19b8-485b-8bad-964a057c871f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[3]/form/div[4]/div/div/button/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>IconStyles-sc-181ai5j-0 fspyWU icon-arrow-keyboard-down naked__icon</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;LayoutWrappper-tp58ga-0 TjfAP&quot;]/div[@class=&quot;layout__container&quot;]/div[@class=&quot;layout__content&quot;]/div[@class=&quot;EditMeetingWrapper-sc-1lifrg-4 eAODFB&quot;]/div[@class=&quot;editmeeting__content&quot;]/div[@class=&quot;ScrollShadowStyles-jc1fvm-0 lfIJtz editmeeting__right-column&quot;]/div[@class=&quot;CardStyles-sc-101efrr-0 eKBUFq EditBasicInfoWrapper-sc-1qtq3xf-12 joMSAE&quot;]/div[@class=&quot;CardBodyStyles-sc-101efrr-1 gLgRZi card__body _StyledCardBody-sc-1qtq3xf-1 ibgTre&quot;]/form[1]/div[@class=&quot;_StyledDiv5-sc-1qtq3xf-5 cfUMYL editbasic__content&quot;]/div[@class=&quot;FormControlStyles-gjfkdq-0 igyPER&quot;]/div[@class=&quot;SelectInputStyles-izktqx-0 htzNxZ&quot;]/button[@class=&quot;BtnIconNakedStyles-sc-1vxkzkz-0 kiYMlA selectInput__rightBtn beforeHack&quot;]/i[@class=&quot;IconStyles-sc-181ai5j-0 fspyWU icon-arrow-keyboard-down naked__icon&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div/div[2]/div[2]/div/div[3]/form/div[4]/div/div/button/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[4]/div/div/button/i</value>
+   </webElementXpaths>
+</WebElementEntity>

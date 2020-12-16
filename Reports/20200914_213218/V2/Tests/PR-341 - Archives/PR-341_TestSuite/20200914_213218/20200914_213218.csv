@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PR-341_TestSuite,Chrome 85.0.4183.102,,,2020-09-14 21:32:20,2020-09-14 21:32:32,12.380s,FAILED
+,,,,,,,
+Test Cases/V2/Test Case/Tests/PR-341 - Archives/Test Cases/Positive/TT_341_4_CreateTodo_AllTestCase,Chrome 85.0.4183.102,,,2020-09-14 21:32:20,2020-09-14 21:32:32,12.102s,FAILED
+"callTestCase(findTestCase(""V2/Test Case/Pre-conditions/PRE_RegisterAndActivateTTUsers""), [""admin_fname"":admin_fname, ""lastname"":lastname, ""phonenumber"":""9999999999"", ""company"":""Traction Tools"", ""password"":password, ... ], STOP_ON_FAILURE)",Chrome 85.0.4183.102,,,2020-09-14 21:32:20,2020-09-14 21:32:32,11.745s,FAILED

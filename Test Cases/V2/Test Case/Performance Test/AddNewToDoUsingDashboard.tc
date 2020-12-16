@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add New To-do Record using Dashboard</description>
+   <name>AddNewToDoUsingDashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6bdb921e-9f50-4b50-bf5d-db166640b7f9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fc4faae7-058a-40a7-800f-60ad76cd345d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5b03ed05-9228-4dc6-9666-d6e7ab67cbab</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0f98bec3-bd7b-46c0-aaa8-38b70575ea3f</id>
+      <masked>false</masked>
+      <name>todo_name</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'To-Dos\']/ancestor::div[contains(@class,\'CardStyles\')]/div[2]//div[contains(@class,\'todoListItem__name\') and text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>6b7aa3b9-9baa-44a3-8a47-c893a4c93231</id>
+      <masked>false</masked>
+      <name>todoRecordObjectPath</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_408_5_CreateNewPersonalToDo_Supervisor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41ff68f8-e12d-4eb8-ad52-c31e79c66a58</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0116119f-1a63-448e-ba5f-b5a58c2c007f</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>38f2876b-07cc-4374-92dd-1b68a1f778dd</id>
+      <masked>false</masked>
+      <name>passWord</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>51c23ff4-84c7-493d-af83-49381463aced</id>
+      <masked>false</masked>
+      <name>todoName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bd47297a-4e05-4b6b-bf6d-96e4f2aaa246</id>
+      <masked>false</masked>
+      <name>day</name>
+   </variable>
+   <variable>
+      <defaultValue>'//h2[text()=\'To-Dos\']/ancestor::div[contains(@class,\'CardStyles\')]/div[2]//div[contains(@class,\'TextBodyStyles\') and text()=\'%s\']'</defaultValue>
+      <description></description>
+      <id>a135c800-1c0e-480a-af46-7da90a88c6fe</id>
+      <masked>false</masked>
+      <name>todoVerify_Obj</name>
+   </variable>
+   <variable>
+      <defaultValue>'(//*[normalize-space(text()) and normalize-space(.)=\'September 2020\'])[1]/following::div[%s]'</defaultValue>
+      <description></description>
+      <id>2acc44cc-f3bf-4f18-88ef-7065537c4894</id>
+      <masked>false</masked>
+      <name>date_Obj</name>
+   </variable>
+</TestCaseEntity>

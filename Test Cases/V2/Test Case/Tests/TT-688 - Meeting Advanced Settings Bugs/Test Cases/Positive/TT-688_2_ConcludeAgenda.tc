@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate that conclude agenda can't be removed in meeting advanced settings.</description>
+   <name>TT-688_2_ConcludeAgenda</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c35db15-7158-4f5c-9909-20da410e6406</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5d62acbc-5652-4dba-a745-fadca391190d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1a1c02dd-6214-4816-83dd-7585881f6bce</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

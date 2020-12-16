@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login to Traction Tools Application</description>
+   <name>PRE_LoginToTractionToolsApplication</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>30b6c51b-6dea-41b3-8db4-ea1f5213b0de</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4b1169c5-992f-4fcc-810b-528a164ad19b</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>78a6aee9-3477-45e8-87d1-8af498b21501</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

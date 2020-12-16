@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TT_420_2_AddEditDeleteIndependentFunction</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26307e84-2689-4156-854f-c80ff62a095e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6f21592b-ad1e-4bd2-8478-19ddf1597b3f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fa74c223-0d2a-4dfc-9c20-c981290e5f4a</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d3a7a1e0-c863-4acc-97cc-34e6a6bb33e3</id>
+      <masked>false</masked>
+      <name>newSeatName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[contains(@id,\'EDIT_ACCOUNTABILITY_CHART_SEAT_\') and contains(@class,\'Panel\')]//span[text()=\'%s\']/parent::div'</defaultValue>
+      <description></description>
+      <id>94e74a5b-0f8e-49f7-9750-7d49ded80f70</id>
+      <masked>false</masked>
+      <name>editSeatEmpOptionPath</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f687ce8a-13a8-4c20-bb5e-837ba4be7076</id>
+      <masked>false</masked>
+      <name>employeeName</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[text()=\'%s\']/ancestor::*[name()=\'foreignObject\']'</defaultValue>
+      <description></description>
+      <id>ad36530f-c4b7-42ee-83aa-f6d3dd8d44a9</id>
+      <masked>false</masked>
+      <name>newFunctionPath</name>
+   </variable>
+   <variable>
+      <defaultValue>'//div[text()=\'%s\']/ancestor::*[name()=\'foreignObject\']/descendant::button[@aria-label=\'More options\']'</defaultValue>
+      <description></description>
+      <id>580b4a1c-b002-44d6-a007-64e23aa38a5c</id>
+      <masked>false</masked>
+      <name>newFuncMoreOptPath</name>
+   </variable>
+</TestCaseEntity>

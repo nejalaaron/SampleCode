@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>TT_339_1</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ddaa8219-1b5a-4e9f-a594-1a9806e5a788</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>TTBETA testUserFname1 testUserLname1 9999999999 Traction+Tools My+Networking+Group tractiontools.user001%2Btt339_ gmail.com 5</data>
+   <data>TTBETA testUserFname2 testUserLname2 9999999999 Traction+Tools Attended+an+EOS+Conference tractiontools.user001%2Btt339_ gmail.com 5</data>
+   <data>TTBETA testUserFname3 testUserLname3 9999999999 Traction+Tools Searched+Online tractiontools.user001%2Btt339_ gmail.com 5</data>
+   <data>TTBETA testUserFname4 testUserLname4 9999999999 Traction+Tools Facebook tractiontools.user001%2Btt339_ gmail.com 5</data>
+   <data>TTBETA testUserFname5 testUserLname5 9999999999 Traction+Tools LinkedIn tractiontools.user001%2Btt339_ gmail.com 5</data>
+   <data>TTBETA testUserFname6 testUserLname6 9999999999 Traction+Tools One+of+the+Traction+series+books tractiontools.user001%2Btt339_ gmail.com 5</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>inviteCode</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>firstName</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>lastName</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>phoneNumber</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>company</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>howDoYouHearAbtUsOpt_Val</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>emailAddress_prefix</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>emailAddress_domain</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>emailRandomText_Length</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
